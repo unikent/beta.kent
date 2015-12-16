@@ -1,8 +1,8 @@
 {
 	"require": {
 		"unikent/kent-beta-libs": "dev-master",
-		"guzzlehttp/guzzle": "~3.8",
-        "nesbot/carbon": "^1.21"
+		"guzzlehttp/guzzle": "3.8",
+        	"nesbot/carbon": "^1.21"
 	},
 	"repositories": [
 		{
