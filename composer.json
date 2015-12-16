@@ -1,6 +1,8 @@
 {
 	"require": {
-		"unikent/kent-beta-libs": "dev-master"
+		"unikent/kent-beta-libs": "dev-master",
+		"guzzlehttp/guzzle": "~3.8",
+        "nesbot/carbon": "^1.21"
 	},
 	"repositories": [
 		{
@@ -20,5 +22,10 @@
 				}
 			}
 		}
-	]
+	],
+    "autoload": {
+        "psr-4": {
+            "unikent\\libs\\": "vendor/unikent/kent-beta-libs/src"
+        }
+    }
 }

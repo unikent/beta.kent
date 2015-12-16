@@ -36,7 +36,7 @@ KentThemeHelper::header(array(
 
 	<?php
 	// TODO: Don't like doing this in the view, are we going to move to a controller?
-	$api = new unikent\kent_theme\KentApi;
+	$api = new unikent\libs\KentApi;
 	// get webdev blog posts with this tag
 	$posts = $api->getPostsByTag('beta-kent');
 	?>
