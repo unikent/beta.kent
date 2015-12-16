@@ -1,4 +1,7 @@
 {
+	"require": {
+		"unikent/kent-beta-libs": "dev-master"
+	},
 	"repositories": [
 		{
 			"type": "composer",
