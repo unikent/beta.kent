@@ -1,0 +1,21 @@
+{
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "unikent/kent-beta-libs",
+				"type": "package",
+				"version": "master",
+				"source": {
+					"url": "https://github.com/unikent/kent-beta-libs",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		}
+	]
+}
