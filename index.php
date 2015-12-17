@@ -1,5 +1,5 @@
 <?php
-include "lib/bootstrap.php";
+include "bootstrap.php";
 
 use \unikent\kent_theme\kentThemeHelper;
 
