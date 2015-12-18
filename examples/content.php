@@ -156,25 +156,25 @@ KentThemeHelper::breadcrumb(array(
 			<div class="card">
 				<img class="card-img" src="images/promo-1.jpg">
 				<h3 class="card-title">Academic excellence</h3>
-				<p class="card-subtitle">1 September 2015</p>
+				<p class="card-meta">1 September 2015</p>
 				<a href="#" class="card-badge kf-comment">5</a>
 			</div>
 			<div class="card">
 				<img class="card-img" src="images/promo-2.jpg">
 				<h3 class="card-title">Undergraduates</h3>
-				<p class="card-subtitle">28 March 2015</p>
+				<p class="card-meta">28 March 2015</p>
 				<a href="#" class="card-badge kf-comment">7</a>
 			</div>
 			<div class="card">
 				<img class="card-img" src="images/promo-3.jpg">
 				<h3 class="card-title">Postgraduates</h3>
-				<p class="card-subtitle">5 November 2015</p>
+				<p class="card-meta">5 November 2015</p>
 				<a href="#" class="card-badge kf-comment">1</a>
 			</div>
 			<div class="card">
 				<img class="card-img" src="images/promo-4.jpg">
 				<h3 class="card-title">Visit Kent</h3>
-				<p class="card-subtitle">17 May 2015</p>
+				<p class="card-meta">17 May 2015</p>
 				<a href="#" class="card-badge kf-comment">23</a>
 			</div>
 		</div>
