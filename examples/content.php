@@ -67,7 +67,7 @@ KentThemeHelper::breadcrumb(array(
 				A leading consultant in renal medicine is joining the University's Centre for Health Services Studies (CHSS) in a new post as Clinical.
 			</p>
 
-			<p>She argues that ‘While its absolute influence may have diminished as Beijing’s money arrives, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
+			<p>She argues that ‘While its absolute influence <a href="#">may have diminished</a> as Beijing’s money arrives, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
 
 			<blockquote>
 				<img class="img-circle" src="images/profile-academic.jpg">
@@ -99,7 +99,7 @@ KentThemeHelper::breadcrumb(array(
 		<div class="content-container">
 			<h2>Surveys of amphibians and reptiles</h2>
 
-			<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary figurative painting.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
+			<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary <a href="#">figurative painting</a>.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
 			<figure class="figure-right">
 					<div class="media-wrap">
 						<img src="images/story-starfish.jpg">

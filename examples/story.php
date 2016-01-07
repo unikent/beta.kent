@@ -88,7 +88,7 @@
 				A leading consultant in renal medicine is joining the University's Centre for Health Services Studies (CHSS) in a new post as Clinical.
 			</p>
 
-			<p>She argues that ‘While its absolute influence may have diminished as Beijing’s money arrives, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
+			<p>She argues that ‘While its absolute influence may have diminished as <a href="#">Beijing’s money arrives</a>, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
 
 			<blockquote>
 				<img class="img-circle" src="images/profile-academic.jpg">
@@ -102,7 +102,7 @@
 			</blockquote>
 
 			<p>Using statistical models, Professor Griffiths’ team from the School of Anthropology and Conservation determined the combination of survey visits and methods needed to obtain reliable data on population status. This resolved a long-standing debate within the fields of conservation and ecology and has made surveys significantly more cost-effective and reliable.</p>
-			<p>The protocols are being adopted into policy guidance in England, Wales and Scotland and will help to improve the management and conservation of important amphibian and reptile species.</p>
+			<p>The protocols are being adopted <a href="#">into policy guidance</a> in England, Wales and Scotland and will help to improve the management and conservation of important amphibian and reptile species.</p>
 		</div>
 
 		<div class="content-container">
