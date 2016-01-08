@@ -20,8 +20,8 @@
 
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
-					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+					<div class="media-wrap-paralax">
+						<img data-stellar-ratio="0.6" class="card-img-bottom" src="images/sea-turtle.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link card-transparent">
 						<h2 class="card-title">A leading research institution</h2>
@@ -204,6 +204,29 @@
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						<a href="#" class="card-badge kf-comment">23</a>
 					</div>
+				</div>
+			</div>
+
+
+			<div class="card card-overlay">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">With Paralax!</h4>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+					<div class="media-wrap-paralax">
+						<img data-stellar-ratio="0.6" class="card-img-bottom" src="images/sea-turtle.jpg">
+					</div>
+					<div class="card-img-overlay">
+						<h5 class="card-subtitle">A sub title</h5>
+						<p class="card-text">This content is shorter.</p>
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Card link</a>
+					<a href="#" class="chevron-link">Another link</a>
+					<a href="#" class="chevron-link">More linkage</a>
+					<a href="#" class="chevron-link">Another link</a>
 				</div>
 			</div>
 
