@@ -240,6 +240,43 @@
 				</cite>
 			</blockquote>
 
+
+			<div class="card card-overlay">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">A Slider!</h4>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+					<div class="kent-slider">
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
+							</div>
+							<div class="card-img-overlay">
+								<h5 class="card-subtitle">A sub title</h5>
+								<p class="card-text">This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+							</div>
+							<div class="card-img-overlay">
+								<h5 class="card-subtitle">A sub title</h5>
+								<p class="card-text">This content is shorter.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Card link</a>
+					<a href="#" class="chevron-link">Another link</a>
+					<a href="#" class="chevron-link">More linkage</a>
+					<a href="#" class="chevron-link">Another link</a>
+				</div>
+			</div>
+
+
 			<div class="card-panel card-panel-primary-tint">
 				<div class="card-panel-header">
 					<h2 class="card-panel-title">Card Panel (Primary Tint)</h2>
