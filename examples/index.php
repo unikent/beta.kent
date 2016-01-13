@@ -518,6 +518,68 @@
 				</div>
 			</div>
 
+			<div class="card-panel card-panel-contained card-panel-primary-tint">
+				<div class="card-panel-body">
+					<div class="card-panel-full">
+						<div style="background-image:url('images/promo-4.jpg');">
+						</div>
+					</div>
+					<div class="card-panel-grid">
+						<div class="card">
+							<img class="card-img" src="images/promo-2.jpg">
+							<h3 class="card-title">Undergraduates</h3>
+							<p class="card-text">We have a renowned personal teaching style.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-3.jpg">
+							<h3 class="card-title">Postgraduates</h3>
+							<p class="card-text">We'll equip you with essential skills.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-4.jpg">
+							<h3 class="card-title">Visit Kent</h3>
+							<p class="card-text">Learn more why our students love Kent.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-1.jpg">
+							<h3 class="card-title">More stuff</h3>
+							<p class="card-text">We rank amongst the best in the UK.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-panel card-panel-contained card-panel-primary-tint">
+				<div class="card-panel-body">
+					<div class="card-panel-full">
+						<div class="expanded" style="background-image:url('images/promo-4.jpg');">
+						</div>
+					</div>
+					<div class="card-panel-grid">
+						<div class="card">
+							<img class="card-img" src="images/promo-2.jpg">
+							<h3 class="card-title">Undergraduates</h3>
+							<p class="card-text">We have a renowned personal teaching style.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-3.jpg">
+							<h3 class="card-title">Postgraduates</h3>
+							<p class="card-text">We'll equip you with essential skills.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-4.jpg">
+							<h3 class="card-title">Visit Kent</h3>
+							<p class="card-text">Learn more why our students love Kent.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="images/promo-1.jpg">
+							<h3 class="card-title">More stuff</h3>
+							<p class="card-text">We rank amongst the best in the UK.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="card-panel card-panel-tertiary">
 				<div class="card-panel-header">
 					<h2 class="card-panel-title">Card Panel Single + List</h2>
