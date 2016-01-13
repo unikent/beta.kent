@@ -128,6 +128,107 @@
 
 			</section>
 
+			<div class="container">
+				<h2> Tables </h2>
+				<table class="table  ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+							
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-hover ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+							
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table table-striped table-hover ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+							
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+							
+						</tr>
+					</tbody>
+				</table>
+
+
+				
+			</div>
+
+
+
+
 			<section class="container">
 				<h2>Buttons</h2>
 				<button class="btn btn-primary">Primary Button</button>
