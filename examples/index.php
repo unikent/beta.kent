@@ -128,6 +128,25 @@
 
 			</section>
 
+			<div class="card card-overlay editorial editorial-tertiary">
+				<div class="card-body">
+					<div class="card-title-wrap">
+						<h4 class="card-title">An Editorial Feature</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi velit mi, ornare sed fermentum at, congue vel ante. Proin eu neque feugiat, vulputate ante ac, facilisis turpis. Aenean at interdum lacus, et fermentum neque. Nunc risus justo, ultrices id consectetur pretium, tempus id leo. Donec elementum a ante ut fermentum. Phasellus elementum feugiat dui in molestie. Praesent sed mollis lectus. Fusce arcu tortor, convallis eu vestibulum et, vehicula ut elit. Sed vehicula id metus sit amet egestas.</p>
+						<p class="card-text">Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
+					</div>
+					<div class="card-media-wrap">
+						<img class="card-img-bottom" src="images/students.jpg">
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Card link</a>
+					<a href="#" class="chevron-link">Another link</a>
+					<a href="#" class="chevron-link">More linkage</a>
+					<a href="#" class="chevron-link">Another link</a>
+				</div>
+			</div>
+
 			<section class="container">
 				<h2>Buttons</h2>
 				<button class="btn btn-primary">Primary Button</button>
