@@ -147,6 +147,107 @@
 				</div>
 			</div>
 
+			<div class="container">
+				<h2> Tables </h2>
+				<table class="table  ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+
+						</tr>
+					</tbody>
+				</table>
+				<table class="table table-hover ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table table-striped table-hover ">
+					<thead>
+						<tr>
+							<th>Core modules</th>
+							<th>Credits</th>
+							<th>ECTS Credits</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+							<td>6</td>
+							<td>15</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>DK95 - Video game studies</a></td>
+							<td>55</td>
+							<td>43</td>
+
+						</tr>
+						<tr>
+							<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+							<td>8</td>
+							<td>21</td>
+
+						</tr>
+					</tbody>
+				</table>
+
+
+
+			</div>
+
+
+
+
 			<section class="container">
 				<h2>Buttons</h2>
 				<button class="btn btn-primary">Primary Button</button>
@@ -537,32 +638,51 @@
 				</div>
 			</div>
 
-			<div class="card-panel card-panel-contained card-panel-primary-tint">
-				<div class="card-panel-body">
-					<div class="card-panel-full">
-						<div style="background-image:url('images/promo-4.jpg');">
+			<div class="clearfix">
+			    <div class="col-md-6">
+
+					<div class="card-panel card-panel-contained card-panel-primary-tint">
+						<div class="card-panel-body">
+							<div class="card-panel-full">
+								<div style="background-image:url('images/promo-4.jpg');">
+								</div>
+							</div>
+							<div class="card-panel-single">
+								<div class="card">
+									<h2 class="card-title">Half-width Image Feature</h2>
+									<p class="card-text">Use when more text is needed.</p>
+									<p>Text should still be short - combined with the links, text shouldn’t flow beneath the accompanying image.</p>
+									<ul>
+										<li><a href="#">Card link</a></li>
+										<li><a href="#">Another link</a></li>
+										<li><a href="#">More linkage</a></li>
+										<li><a href="#">Another link</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="card-panel-grid">
-						<div class="card">
-							<img class="card-img" src="images/promo-2.jpg">
-							<h3 class="card-title">Undergraduates</h3>
-							<p class="card-text">We have a renowned personal teaching style.</p>
-						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-3.jpg">
-							<h3 class="card-title">Postgraduates</h3>
-							<p class="card-text">We'll equip you with essential skills.</p>
-						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-4.jpg">
-							<h3 class="card-title">Visit Kent</h3>
-							<p class="card-text">Learn more why our students love Kent.</p>
-						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
-							<h3 class="card-title">More stuff</h3>
-							<p class="card-text">We rank amongst the best in the UK.</p>
+				</div>
+				<div class="col-md-6">
+					<div class="card-panel card-panel-contained card-panel-primary-tint">
+						<div class="card-panel-body">
+							<div class="card-panel-full">
+								<div class="expanded video-launcher" style="background-image:url('images/promo-4.jpg');">
+								</div>
+							</div>
+							<div class="card-panel-single">
+								<div class="card">
+									<h2 class="card-title">Half-width Image Feature</h2>
+									<p class="card-text">Use when more text is needed.</p>
+									<p>Text should still be short - combined with the links, text shouldn’t flow beneath the accompanying image.</p>
+									<ul>
+										<li><a href="#">Card link</a></li>
+										<li><a href="#">Another link</a></li>
+										<li><a href="#">More linkage</a></li>
+										<li><a href="#">Another link</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -570,30 +690,43 @@
 
 			<div class="card-panel card-panel-contained card-panel-primary-tint">
 				<div class="card-panel-body">
+					<div class="card-panel-single">
+						<div class="card">
+							<h2 class="card-title">Half-width Image Feature</h2>
+							<p class="card-text">Use when more text is needed.</p>
+							<p>Text should still be short - combined with the links, text shouldn’t flow beneath the accompanying image.</p>
+							<ul>
+								<li><a href="#">Card link</a></li>
+								<li><a href="#">Another link</a></li>
+								<li><a href="#">More linkage</a></li>
+								<li><a href="#">Another link</a></li>
+							</ul>
+						</div>
+					</div>
 					<div class="card-panel-full">
 						<div class="expanded" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
-					<div class="card-panel-grid">
+				</div>
+			</div>
+
+			<div class="card-panel card-panel-contained card-panel-primary-tint">
+				<div class="card-panel-body">
+					<div class="card-panel-single">
 						<div class="card">
-							<img class="card-img" src="images/promo-2.jpg">
-							<h3 class="card-title">Undergraduates</h3>
-							<p class="card-text">We have a renowned personal teaching style.</p>
+							<h2 class="card-title">Half-width Image Feature</h2>
+							<p class="card-text">Use when more text is needed.</p>
+							<p>Text should still be short - combined with the links, text shouldn’t flow beneath the accompanying image.</p>
+							<ul>
+								<li><a href="#">Card link</a></li>
+								<li><a href="#">Another link</a></li>
+								<li><a href="#">More linkage</a></li>
+								<li><a href="#">Another link</a></li>
+							</ul>
 						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-3.jpg">
-							<h3 class="card-title">Postgraduates</h3>
-							<p class="card-text">We'll equip you with essential skills.</p>
-						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-4.jpg">
-							<h3 class="card-title">Visit Kent</h3>
-							<p class="card-text">Learn more why our students love Kent.</p>
-						</div>
-						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
-							<h3 class="card-title">More stuff</h3>
-							<p class="card-text">We rank amongst the best in the UK.</p>
+					</div>
+					<div class="card-panel-full">
+						<div class="video-launcher" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
 				</div>
@@ -737,7 +870,7 @@
 					<div class="card-media-wrap card-media-wrap-video" data-toggle="modal" data-target="#myVideoModal">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 							<video autoplay loop class="embed-responsive-item">
-								<source src="http://pantheon.app.www-dev.kent.ac.uk/jt353/theme-project/video-research-student.mp4">
+								<source src="/video/video-research-student.mp4">
 							</video>
 						</div>
 						<div class="card-img-overlay">
