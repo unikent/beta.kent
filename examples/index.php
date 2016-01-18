@@ -619,7 +619,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="clearfix">
 			    <div class="col-md-6">
 
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
