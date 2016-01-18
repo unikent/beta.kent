@@ -867,10 +867,10 @@
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 
-					<div class="card-media-wrap card-media-wrap-video" data-toggle="modal" data-target="#myVideoModal">
+					<div class="card-media-wrap" data-toggle="modal" data-target="#myVideoModal">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 							<video autoplay loop class="embed-responsive-item">
-								<source src="/video/video-research-student.mp4">
+								<source src="video/video-research-student.mp4">
 							</video>
 						</div>
 						<div class="card-img-overlay">
