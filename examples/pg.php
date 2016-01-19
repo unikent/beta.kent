@@ -50,7 +50,7 @@
 											  <h4 class="card-title">World Leading research</h4>
 											  <p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
 									  </div>
-									   <div class="card-media-wrap card-media-wrap-video" data-toggle="modal" data-target="#myVideoModal">
+									   <div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
 											  <img class="card-img-bottom" src="images/feature-professor-2-1.jpg">
 
 											  <div class="card-img-overlay text-right">

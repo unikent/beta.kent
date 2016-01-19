@@ -583,7 +583,7 @@
 						<h4 class="card-title">A video launcher</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="card-media-wrap card-media-wrap-video" data-toggle="modal" data-target="#myVideoModal">
+					<div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
@@ -638,12 +638,45 @@
 				</div>
 			</div>
 
+
+			<div class="card-panel">
+				<div class="card-panel-body">
+					<div class="card-panel-full">
+						<div class="card">
+							<img class="card-img" src="images/promo-3.jpg">
+							<div class="card-img-overlay-bottom">
+								<h3 class="card-title">More stuff</h3>
+								<p class="card-text">We rank amongst the best in the UK.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-panel-grid">
+						<div class="card">
+							<h2 class="card-title">Stuff A</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff B</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff C</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff D</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="clearfix">
 			    <div class="col-md-6">
 
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
-							<div class="card-panel-full">
+							<div class="card-panel-full fixed">
 								<div style="background-image:url('images/promo-4.jpg');">
 								</div>
 							</div>
@@ -666,7 +699,7 @@
 				<div class="col-md-6">
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
-							<div class="card-panel-full">
+							<div class="card-panel-full fixed">
 								<div class="expanded video-launcher" style="background-image:url('images/promo-4.jpg');">
 								</div>
 							</div>
@@ -703,7 +736,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="card-panel-full">
+					<div class="card-panel-full fixed">
 						<div class="expanded" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
@@ -725,7 +758,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="card-panel-full">
+					<div class="card-panel-full fixed">
 						<div class="video-launcher" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
