@@ -267,6 +267,8 @@
 					</cite>
 				</footer>
 			</blockquote>
+
+
 			<div class="card card-overlay">
 				<div class="card-body card-inverse">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
@@ -289,7 +291,28 @@
 				</div>
 			</div>
 
-
+			<div class="card-panel card-panel-tertiary nav-links-panel">
+				<div class="card-panel-body">
+					<nav role="menu">
+						<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
+							<span class="nav-link-title">Inspiring teaching</span>
+							<span class="nav-link-desc">Excellent teaching with individual attention</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
+							<span class="nav-link-title">Undergraduate</span>
+							<span class="nav-link-desc">Courses to prepare you for a successful future</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
+							<span class="nav-link-title">Postgraduate</span>
+							<span class="nav-link-desc">Programmes supported by a stimulating support culture</span>
+						</a>
+						<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
+							<span class="nav-link-title">International</span>
+							<span class="nav-link-desc">World-wide links in a supportive, cosmopolitan community</span>
+						</a>
+					</nav>
+				</div>
+			</div>
 
 			<div class="card-panel">
 				<div class="card-panel-header">
@@ -583,7 +606,7 @@
 						<h4 class="card-title">A video launcher</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="card-media-wrap card-media-wrap-video video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
+					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
@@ -638,12 +661,45 @@
 				</div>
 			</div>
 
+
+			<div class="card-panel">
+				<div class="card-panel-body">
+					<div class="card-panel-full">
+						<div class="card">
+							<img class="card-img" src="images/promo-3.jpg">
+							<div class="card-img-overlay-bottom">
+								<h3 class="card-title">More stuff</h3>
+								<p class="card-text">We rank amongst the best in the UK.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-panel-grid">
+						<div class="card">
+							<h2 class="card-title">Stuff A</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff B</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff C</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+						<div class="card">
+							<h2 class="card-title">Stuff D</h2>
+							<p class="card-text">Use when more text is needed.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="clearfix">
 			    <div class="col-md-6">
 
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
-							<div class="card-panel-full">
+							<div class="card-panel-full fixed">
 								<div style="background-image:url('images/promo-4.jpg');">
 								</div>
 							</div>
@@ -666,7 +722,7 @@
 				<div class="col-md-6">
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
-							<div class="card-panel-full">
+							<div class="card-panel-full fixed">
 								<div class="expanded video-launcher" style="background-image:url('images/promo-4.jpg');">
 								</div>
 							</div>
@@ -703,7 +759,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="card-panel-full">
+					<div class="card-panel-full fixed">
 						<div class="expanded" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
@@ -725,7 +781,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="card-panel-full">
+					<div class="card-panel-full fixed">
 						<div class="video-launcher" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
