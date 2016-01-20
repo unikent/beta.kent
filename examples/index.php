@@ -267,6 +267,8 @@
 					</cite>
 				</footer>
 			</blockquote>
+
+
 			<div class="card card-overlay">
 				<div class="card-body card-inverse">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
@@ -289,7 +291,28 @@
 				</div>
 			</div>
 
-
+			<div class="card-panel card-panel-tertiary nav-links-panel">
+				<div class="card-panel-body">
+					<nav role="menu">
+						<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
+							<span class="nav-link-title">Inspiring teaching</span>
+							<span class="nav-link-desc">Excellent teaching with individual attention</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
+							<span class="nav-link-title">Undergraduate</span>
+							<span class="nav-link-desc">Courses to prepare you for a successful future</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
+							<span class="nav-link-title">Postgraduate</span>
+							<span class="nav-link-desc">Programmes supported by a stimulating support culture</span>
+						</a>
+						<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
+							<span class="nav-link-title">International</span>
+							<span class="nav-link-desc">World-wide links in a supportive, cosmopolitan community</span>
+						</a>
+					</nav>
+				</div>
+			</div>
 
 			<div class="card-panel">
 				<div class="card-panel-header">
@@ -583,7 +606,7 @@
 						<h4 class="card-title">A video launcher</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
+					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 

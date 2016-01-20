@@ -69,6 +69,30 @@
 							   </div>
 					   </div>
 
+
+						<div class="card-panel card-panel-tertiary nav-links-panel">
+							<div class="card-panel-body">
+								<nav role="menu">
+									<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
+										<span class="nav-link-title">Inspiring teaching</span>
+										<span class="nav-link-desc">Excellent teaching with individual attention</span>
+									</a>
+									<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
+										<span class="nav-link-title">Undergraduate</span>
+										<span class="nav-link-desc">Courses to prepare you for a successful future</span>
+									</a>
+									<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
+										<span class="nav-link-title">Postgraduate</span>
+										<span class="nav-link-desc">Programmes supported by a stimulating support culture</span>
+									</a>
+									<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
+										<span class="nav-link-title">International</span>
+										<span class="nav-link-desc">World-wide links in a supportive, cosmopolitan community</span>
+									</a>
+								</nav>
+							</div>
+						</div>
+
 					   <div class="card-panel">
 
 							   <div class="card-panel-body">
