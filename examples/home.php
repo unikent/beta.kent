@@ -22,7 +22,7 @@
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
-						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/30492/320008/GqNhylktkPikX0l/world-4x3.jpg">
+						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="images/world-4x3.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link card-transparent">
 						<h2 class="card-title">A leading research institution</h2>
