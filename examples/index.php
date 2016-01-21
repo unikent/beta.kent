@@ -429,23 +429,37 @@
 						<h4 class="card-title">A Slider!</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="kent-slider">
+					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
 								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs ">
+								<h5 class="card-subtitle">A sub title</h5>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+							</div>
+							<div class="card-img-overlay card-overlay-inline-xs">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-primary">
 								<h5 class="card-subtitle">A sub title</h5>
-								<p class="card-text">This content is shorter.</p>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
 						</div>
 					</div>
