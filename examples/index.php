@@ -645,12 +645,12 @@
 						<h4 class="card-title">A video launcher</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
+					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay text-xs-right">
-						<h5 class="card-meta">A sub title</h5>
+						<h5 class="card-meta card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -659,6 +659,21 @@
 					<a href="#" class="chevron-link">Another link</a>
 					<a href="#" class="chevron-link">More linkage</a>
 					<a href="#" class="chevron-link">Another link</a>
+				</div>
+			</div>
+
+			<div class="card card-overlay">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">An inline video</h4>
+					</div>
+					<div class="card-media-wrap video-launcher"  data-src="video/video-research-student.mp4" data-mode="inline" data-controls="false" data-transcript="">
+						<img class="card-img-bottom" src="images/students.jpg">
+					</div>
+
+					<div class="card-img-overlay text-xs-right">
+						<p class="card-text">It will however launch a modal if first played in mobile view (xs).</p>
+					</div>
 				</div>
 			</div>
 
@@ -762,7 +777,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher" style="background-image:url('images/promo-4.jpg');">
+								<div class="expanded video-launcher"  data-src="video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/promo-4.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -821,7 +836,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher" style="background-image:url('images/promo-4.jpg');">
+						<div class="video-launcher"  data-src="video/video-research-student.mp4" data-controls="false" style="background-image:url('images/promo-4.jpg');">
 						</div>
 					</div>
 				</div>
