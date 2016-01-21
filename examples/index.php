@@ -23,7 +23,7 @@
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="images/sea-turtle.jpg">
 					</div>
-					<div class="card-title-wrap card-title-wrap-link card-transparent">
+					<div class="card-title-wrap card-title-wrap-link">
 						<h2 class="card-title">A leading research institution</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
@@ -350,6 +350,45 @@
 				</div>
 			</div>
 
+			<div class="card card-overlay">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">Video + Slider</h4>
+						<p class="card-text">Not happy with just a video or a slider? now you can have both!!!</p>
+					</div>
+					<div class="card-split">
+						<div class="card-half">
+							<div class="media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
+								<img class="card-img-bottom" src="images/sea-turtle.jpg">
+							</div>
+
+						</div>
+						<div class="card-half">
+							<div class="kent-slider">
+								<div class="kent-slide">
+									<div class="media-wrap">
+										<img class="card-img-bottom" src="images/world-4x3.jpg">
+									</div>
+								</div>
+								<div class="kent-slide">
+									<div class="media-wrap">
+										<img class="card-img-bottom" src="images/ping-pong-4x3.jpg">
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="card-img-overlay card-overlay-inline-sm">
+						<h5 class="card-subtitle">A sub title</h5>
+						<p class="card-text">This content is shorter.</p>
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Card link</a>
+					<a href="#" class="chevron-link">Another link</a>
+					<a href="#" class="chevron-link">More linkage</a>
+					<a href="#" class="chevron-link">Another link</a>
+				</div>
+			</div>
 
 			<div class="card card-overlay">
 				<div class="card-body card-inverse">
@@ -918,7 +957,7 @@
 
 			<div class="card card-overlay">
 				<div class="card-body card-inverse">
-					<div class="card-title-wrap card-title-wrap-link card-transparent pull-right">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h4 class="card-title">Goodbye</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>

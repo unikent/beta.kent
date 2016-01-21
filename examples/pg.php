@@ -22,7 +22,7 @@
 									<div class="card-media-wrap">
 										<img src="images/engineering-student-16-9.jpg" class="card-img-bottom">
 									</div>
-									<div class="card-img-overlay card-overlay-inline-xs">
+									<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-nopad">
 											<form class="quickspot-container" >
 												 <div class="form-group">
 													 <label for="search" class="sr-only">Search</label>
