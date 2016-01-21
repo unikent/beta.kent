@@ -932,7 +932,7 @@
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
-					<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+					<div class="card-embed-wrap embed-responsive embed-responsive-16by9 click-to-interact">
 						<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39932.327605613886!2d1.08385085!3d51.2785439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1447262198975" allowfullscreen></iframe>
 					</div>
 				</div>
