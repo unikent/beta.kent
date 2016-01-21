@@ -377,10 +377,10 @@
 								</div>
 						</div>
 					</div>
-					<div class="card-img-overlay card-overlay-inline-sm">
+					<a href="#" class="card-img-overlay card-overlay-inline-sm">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
-					</div>
+					</a>
 				</div>
 				<div class="card-footer">
 					<a href="#" class="chevron-link">Card link</a>
