@@ -681,7 +681,7 @@
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h4 class="card-title">An inline video</h4>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="video/video-research-student.mp4" data-mode="inline" data-controls="false" data-transcript="">
+					<div class="card-media-wrap video-launcher"  data-src="video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
