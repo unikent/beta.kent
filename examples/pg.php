@@ -33,7 +33,8 @@
 														</span>
 													</div>
 												</div>
-												<div id="quickspot-results-container"></div>
+												<div id="quickspot-results-container" class="quickspot-contained">								
+												</div>
 											</form>
 									</div>
 

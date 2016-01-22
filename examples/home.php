@@ -19,7 +19,7 @@
 		);
 ?>
 
-			<div class="card card-overlay header-card-overlay">
+			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
 						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="images/world-4x3.jpg">
@@ -31,8 +31,53 @@
 
 				</div>
 			</div>
+			<div class="panel panel-tertiary">
+				<div class="container-padded ">
+					<form class="quickspot-container">
 
+						<h3 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h3>
 
+						 <div class="form-group">
+							 <label for="search" class="sr-only">Search</label>
+							 <div class="input-group input-group-lg">
+								<input type="search" class="form-control" id="course-search" placeholder="Search for postgraduate courses..." autocomplete="off">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
+								</span>
+							</div>
+						</div>
+						<div id="quickspot-results-container">
+							
+						</div>
+						<div class="inline-links text-xs-right">
+							<a href="#" >Courses A-Z</a>
+							<a href="#" >Order a prospectus</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="card-panel card-panel-tertiary nav-links-panel ">
+				<div class="card-panel-body">
+					<nav role="menu">
+						<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
+							<span class="nav-link-title">Inspiring teaching</span>
+							<span class="nav-link-desc">Excellent teaching with individual attention</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
+							<span class="nav-link-title">Undergraduate</span>
+							<span class="nav-link-desc">Courses to prepare you for a successful future</span>
+						</a>
+						<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
+							<span class="nav-link-title">Postgraduate</span>
+							<span class="nav-link-desc">Programmes supported by a stimulating support culture</span>
+						</a>
+						<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
+							<span class="nav-link-title">International</span>
+							<span class="nav-link-desc">World-wide links in a supportive, cosmopolitan community</span>
+						</a>
+					</nav>
+				</div>
+			</div>
 		
 
 			
@@ -72,7 +117,44 @@
 				</div>
 			</div>
 
+ 			<script src='<?php KentThemeHelper::getThemeWebRoot(); ?>assets/js/quickspot.min.js'></script>
+			<script>
 
+					var qs = quickspot.attach({
+						// Basic
+						"url": "https://webtools-test.kent.ac.uk/programmes/api/current/undergraduate/programmes",
+						"target":"course-search",
+						"search_on": ["name", "award", "subject", "main_school", "ucas_code", "search_keywords"],
+						"disable_occurrence_weighting": true,
+						"screenreader": true,
+						"results_container": "quickspot-results-container",
+						"prevent_headers": true,
+
+						// Extend
+						"click_handler":function(itm){
+						  
+						  //Send em to page
+						  document.location = '/courses/postgraduate/'+itm.id+'/'+itm.slug;
+						},
+						"display_handler": function(itm,qs){
+							var locs = [itm.campus];
+							if(itm.additional_locations!=="") {
+									locs = locs.concat(itm.additional_locations.split(', '));
+							}
+							locs = (locs.length > 1)?[locs.slice(0, -1).join(', '), locs.slice(-1)[0]].join(' and '):locs[0];
+								// Highlight searched word
+							return (itm.name+' - '+itm.award+' <br> <span>' + locs + '</span>').replace(RegExp('('+qs.lastValue+')', 'i'), '<strong>$1</strong>'); //Do somthing useful like showing award once we have it.
+						},
+						"no_results": function (qs, val){
+						  return "<a class='quickspot-result selected'>Press enter to search...</a>";
+						},
+						"no_results_click": function (value, qs){
+							var url = "https://www.kent.ac.uk/search/courses?q=" + value;
+							window.location.href = url;
+						},
+						
+					});
+			   </script>
 
 		<?php KentThemeHelper::footer(); ?>
 
