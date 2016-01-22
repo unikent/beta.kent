@@ -375,6 +375,7 @@
 										<img class="card-img-bottom" src="images/ping-pong-4x3.jpg">
 									</div>
 								</div>
+							</div>
 						</div>
 					</div>
 					<div class="card-img-overlay card-overlay-inline-sm">
@@ -1042,6 +1043,91 @@
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-panel-profiles card-panel-flush cards-flip">
+				<a class="card card-double card-backed-tertiary">
+					<h3 class="card-title">Staff Profiles</h3>
+					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
+				</a>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-1.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Mona Lott</h3>
+							<p class="card-subtitle">Lecturer in Advanced Complaining</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Some say Mona can be a little negative but she means well, and her students seem to really pick up the techniques after working with here for even a short time!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-2.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Hugh Jass</h3>
+							<p class="card-subtitle">Certified know-it-all</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Expert on all things, great for a pub quiz. Mildly insufferable and not as reliable as Wikipedia but he tries!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-3.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Sue Render</h3>
+							<p class="card-subtitle">Senior Lecturer in Negotiation Tactics</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Your opponents will cave and give in to your demands after mastering Sue's class.</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-4.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Prof Will Power</h3>
+							<p class="card-subtitle">Senior Lecturer in Telekinesis</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Will's Lectures are quite literally moving! Physical labour will be a thing of the past if you can master your mind powers!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-5.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Nicholas Tater</h3>
+							<p class="card-subtitle">Lecturer in Democratic Studies</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Some say Dick is in the wrong profession and should be running a country or something but he seems content to teach about ideals he doesn't believe in.</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/pingpong-1x1.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Ping Pong</h3>
+							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
+						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
 			</div>
