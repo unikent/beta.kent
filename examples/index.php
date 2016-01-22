@@ -51,6 +51,10 @@
 				<h6>Heading 6</h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et massa nec mauris convallis ullamcorper ut vel arcu. Nullam lectus tortor, luctus id turpis at, rutrum tempor felis. Morbi velit mi, ornare sed fermentum at, congue vel ante. Proin eu neque feugiat, vulputate ante ac, facilisis turpis. Aenean at interdum lacus, et fermentum neque. Nunc risus justo, ultrices id consectetur pretium, tempus id leo. Donec elementum a ante ut fermentum. Phasellus elementum feugiat dui in molestie. Praesent sed mollis lectus. Fusce arcu tortor, convallis eu vestibulum et, vehicula ut elit. Sed vehicula id metus sit amet egestas. Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
 
+				<blockquote class="pull-quote pull-quote-accent">
+					<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
+				</blockquote>
+
 				<p>Maecenas quis suscipit justo, <strong>bibendum semper magna.</strong> Pellentesque rutrum erat ante, <em>vel feugiat nisl placerat sit</em> amet. Nulla pharetra elit congue, sagittis augue quis, lacinia enim. Sed eget orci in lorem vehicula <strong><em>condimentum. Vivamus at ex nec</em></strong> orci ultrices facilisis at nec lectus. Phasellus et purus in leo mattis semper vitae at ante. Etiam molestie sit amet ex eget tincidunt. Proin efficitur tortor nec dui pharetra condimentum. Vestibulum dignissim erat purus, nec malesuada elit sagittis in. Nulla rutrum, dolor ac lobortis consectetur, elit nisl bibendum dolor, vel iaculis turpis lorem vitae neque. Duis mattis augue et pretium sodales. Sed vitae sodales nibh. Phasellus justo eros, aliquet ut mi non, feugiat interdum sem. Suspendisse nec arcu quis est interdum volutpat.</p>
 
 				<ul>
@@ -375,6 +379,7 @@
 										<img class="card-img-bottom" src="images/ping-pong-4x3.jpg">
 									</div>
 								</div>
+							</div>
 						</div>
 					</div>
 					<a href="#" class="card-img-overlay card-overlay-inline-sm">
@@ -946,7 +951,7 @@
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
-					<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+					<div class="card-embed-wrap embed-responsive embed-responsive-16by9 click-to-interact">
 						<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39932.327605613886!2d1.08385085!3d51.2785439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1447262198975" allowfullscreen></iframe>
 					</div>
 				</div>
@@ -1056,6 +1061,91 @@
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-panel-profiles card-panel-flush cards-flip">
+				<a class="card card-double card-backed-tertiary">
+					<h3 class="card-title">Staff Profiles</h3>
+					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
+				</a>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-1.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Mona Lott</h3>
+							<p class="card-subtitle">Lecturer in Advanced Complaining</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Some say Mona can be a little negative but she means well, and her students seem to really pick up the techniques after working with here for even a short time!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-2.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Hugh Jass</h3>
+							<p class="card-subtitle">Certified know-it-all</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Expert on all things, great for a pub quiz. Mildly insufferable and not as reliable as Wikipedia but he tries!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-3.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Sue Render</h3>
+							<p class="card-subtitle">Senior Lecturer in Negotiation Tactics</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Your opponents will cave and give in to your demands after mastering Sue's class.</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-4.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Prof Will Power</h3>
+							<p class="card-subtitle">Senior Lecturer in Telekinesis</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Will's Lectures are quite literally moving! Physical labour will be a thing of the past if you can master your mind powers!</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/profile-5.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Nicholas Tater</h3>
+							<p class="card-subtitle">Lecturer in Democratic Studies</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Some say Dick is in the wrong profession and should be running a country or something but he seems content to teach about ideals he doesn't believe in.</p>
+						<p><a href="#">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="images/pingpong-1x1.jpg">
+						<div class="card-img-overlay-bottom">
+							<h3 class="card-title">Dr Ping Pong</h3>
+							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
+						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
 			</div>
