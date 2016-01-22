@@ -26,11 +26,12 @@ KentThemeHelper::breadcrumb(array(
 <article class="content-page" itemscope itemtype="http://schema.org/Article">
 	<header class="content-header">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
-		<nav class="content-social content-social-head">
-			<a title="twitter" href="#" class="kf-twitter"></a>
-			<a title="facebook" href="#" class="kf-facebook"></a>
-			<a title="instagram" href="#" class="kf-instagram"></a>
-			<a title="pinterest" href="#" class="kf-pinterest"></a>
+		<nav class="content-social content-social-head content-social-share">
+			<a title="twitter" href="#" class="kf-twitter twitter"></a>
+			<a title="facebook" href="#" class="kf-facebook facebook" ></a>
+			<a title="linkedin" href="#" class="kf-linkedin linkedin" ></a>
+			<a title="google" href="#" class="kf-google-plus plusone" ></a>
+
 		</nav>
 	</header>
 	<section class="content-body">
@@ -136,12 +137,12 @@ KentThemeHelper::breadcrumb(array(
 		</div>
 	</section>
 	<footer class="content-footer">
-		<div class="content-container">
-			<nav class="content-social content-social-colored">
-				<a title="twitter" href="#" class="kf-twitter"></a>
-				<a title="facebook" href="#" class="kf-facebook"></a>
-				<a title="instagram" href="#" class="kf-instagram"></a>
-				<a title="pinterest" href="#" class="kf-pinterest"></a>
+		<div class="content-container ">
+			<nav class="content-social content-social-colored content-social-share">
+				<a title="twitter" href="#" class="kf-twitter twitter"></a>
+				<a title="facebook" href="#" class="kf-facebook facebook" ></a>
+				<a title="linkedin" href="#" class="kf-linkedin linkedin" ></a>
+				<a title="google" href="#" class="kf-google-plus plusone" ></a>
 			</nav>
 		</div>
 

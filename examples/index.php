@@ -51,6 +51,10 @@
 				<h6>Heading 6</h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et massa nec mauris convallis ullamcorper ut vel arcu. Nullam lectus tortor, luctus id turpis at, rutrum tempor felis. Morbi velit mi, ornare sed fermentum at, congue vel ante. Proin eu neque feugiat, vulputate ante ac, facilisis turpis. Aenean at interdum lacus, et fermentum neque. Nunc risus justo, ultrices id consectetur pretium, tempus id leo. Donec elementum a ante ut fermentum. Phasellus elementum feugiat dui in molestie. Praesent sed mollis lectus. Fusce arcu tortor, convallis eu vestibulum et, vehicula ut elit. Sed vehicula id metus sit amet egestas. Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
 
+				<blockquote class="pull-quote pull-quote-accent">
+					<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
+				</blockquote>
+
 				<p>Maecenas quis suscipit justo, <strong>bibendum semper magna.</strong> Pellentesque rutrum erat ante, <em>vel feugiat nisl placerat sit</em> amet. Nulla pharetra elit congue, sagittis augue quis, lacinia enim. Sed eget orci in lorem vehicula <strong><em>condimentum. Vivamus at ex nec</em></strong> orci ultrices facilisis at nec lectus. Phasellus et purus in leo mattis semper vitae at ante. Etiam molestie sit amet ex eget tincidunt. Proin efficitur tortor nec dui pharetra condimentum. Vestibulum dignissim erat purus, nec malesuada elit sagittis in. Nulla rutrum, dolor ac lobortis consectetur, elit nisl bibendum dolor, vel iaculis turpis lorem vitae neque. Duis mattis augue et pretium sodales. Sed vitae sodales nibh. Phasellus justo eros, aliquet ut mi non, feugiat interdum sem. Suspendisse nec arcu quis est interdum volutpat.</p>
 
 				<ul>
@@ -378,10 +382,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-img-overlay card-overlay-inline-sm">
+					<a href="#" class="card-img-overlay card-overlay-inline-sm">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
-					</div>
+					</a>
 				</div>
 				<div class="card-footer">
 					<a href="#" class="chevron-link">Card link</a>
@@ -430,23 +434,37 @@
 						<h4 class="card-title">A Slider!</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="kent-slider">
+					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
 								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs ">
+								<h5 class="card-subtitle">A sub title</h5>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+							</div>
+							<div class="card-img-overlay card-overlay-inline-xs">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-primary">
 								<h5 class="card-subtitle">A sub title</h5>
-								<p class="card-text">This content is shorter.</p>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
 						</div>
 					</div>
@@ -668,7 +686,7 @@
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h4 class="card-title">An inline video</h4>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="video/video-research-student.mp4" data-mode="inline" data-controls="false" data-transcript="">
+					<div class="card-media-wrap video-launcher"  data-src="video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
@@ -755,7 +773,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div style="background-image:url('images/promo-4.jpg');">
+								<div style="background-image:url('images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -778,7 +796,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher"  data-src="video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/promo-4.jpg');">
+								<div class="expanded video-launcher"  data-src="video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -815,7 +833,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="expanded" style="background-image:url('images/promo-4.jpg');">
+						<div class="expanded" style="background-image:url('images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -837,7 +855,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher"  data-src="video/video-research-student.mp4" data-controls="false" style="background-image:url('images/promo-4.jpg');">
+						<div class="video-launcher"  data-src="video/video-research-student.mp4" data-controls="false" style="background-image:url('images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -933,7 +951,7 @@
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
-					<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+					<div class="card-embed-wrap embed-responsive embed-responsive-16by9 click-to-interact">
 						<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39932.327605613886!2d1.08385085!3d51.2785439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1447262198975" allowfullscreen></iframe>
 					</div>
 				</div>
@@ -1131,6 +1149,27 @@
 					</div>
 				</div>
 			</div>
+
+			<blockquote class="social-quote social-quote-twitter">
+	<a href="https://twitter.com/UniKentNews/status/676708137903214592">
+		<button></button>
+		<p>Prof Michael Smith talks to Dominic King on BBC Radio Kent about Tim Peake's landmark space mission.</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">@unikentnews</a>
+	</cite>
+</blockquote>
+
+
+<blockquote class="social-quote social-quote-facebook">
+	<a href="https://facebook.com">
+		<button></button>
+		<p>Something happened on facebook. Oh no!</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">unikent</a>
+	</cite>
+</blockquote>
 
 		<?php KentThemeHelper::footer(); ?>
 
