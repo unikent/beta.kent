@@ -381,10 +381,10 @@
 								</div>
 						</div>
 					</div>
-					<div class="card-img-overlay card-overlay-inline-sm">
+					<a href="#" class="card-img-overlay card-overlay-inline-sm">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
-					</div>
+					</a>
 				</div>
 				<div class="card-footer">
 					<a href="#" class="chevron-link">Card link</a>
@@ -433,23 +433,37 @@
 						<h4 class="card-title">A Slider!</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="kent-slider">
+					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
 								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs ">
+								<h5 class="card-subtitle">A sub title</h5>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+							</div>
+							<div class="card-img-overlay card-overlay-inline-xs">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay">
+							<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-primary">
 								<h5 class="card-subtitle">A sub title</h5>
-								<p class="card-text">This content is shorter.</p>
+								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
 						</div>
 					</div>
@@ -1049,6 +1063,27 @@
 					</div>
 				</div>
 			</div>
+
+			<blockquote class="social-quote social-quote-twitter">
+	<a href="https://twitter.com/UniKentNews/status/676708137903214592">
+		<button></button>
+		<p>Prof Michael Smith talks to Dominic King on BBC Radio Kent about Tim Peake's landmark space mission.</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">@unikentnews</a>
+	</cite>
+</blockquote>
+
+
+<blockquote class="social-quote social-quote-facebook">
+	<a href="https://facebook.com">
+		<button></button>
+		<p>Something happened on facebook. Oh no!</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">unikent</a>
+	</cite>
+</blockquote>
 
 		<?php KentThemeHelper::footer(); ?>
 
