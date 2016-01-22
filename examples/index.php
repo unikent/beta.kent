@@ -1060,6 +1060,27 @@
 				</div>
 			</div>
 
+			<blockquote class="social-quote social-quote-twitter">
+	<a href="https://twitter.com/UniKentNews/status/676708137903214592">
+		<button></button>
+		<p>Prof Michael Smith talks to Dominic King on BBC Radio Kent about Tim Peake's landmark space mission.</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">@unikentnews</a>
+	</cite>
+</blockquote>
+
+
+<blockquote class="social-quote social-quote-facebook">
+	<a href="https://facebook.com">
+		<button></button>
+		<p>Something happened on facebook. Oh no!</p>
+	</a>
+	<cite>
+		<a href="https://twitter.com/unikentnews">unikent</a>
+	</cite>
+</blockquote>
+
 		<?php KentThemeHelper::footer(); ?>
 
 
