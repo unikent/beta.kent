@@ -51,6 +51,10 @@
 				<h6>Heading 6</h6>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et massa nec mauris convallis ullamcorper ut vel arcu. Nullam lectus tortor, luctus id turpis at, rutrum tempor felis. Morbi velit mi, ornare sed fermentum at, congue vel ante. Proin eu neque feugiat, vulputate ante ac, facilisis turpis. Aenean at interdum lacus, et fermentum neque. Nunc risus justo, ultrices id consectetur pretium, tempus id leo. Donec elementum a ante ut fermentum. Phasellus elementum feugiat dui in molestie. Praesent sed mollis lectus. Fusce arcu tortor, convallis eu vestibulum et, vehicula ut elit. Sed vehicula id metus sit amet egestas. Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
 
+				<blockquote class="pull-quote pull-quote-accent">
+					<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
+				</blockquote>
+
 				<p>Maecenas quis suscipit justo, <strong>bibendum semper magna.</strong> Pellentesque rutrum erat ante, <em>vel feugiat nisl placerat sit</em> amet. Nulla pharetra elit congue, sagittis augue quis, lacinia enim. Sed eget orci in lorem vehicula <strong><em>condimentum. Vivamus at ex nec</em></strong> orci ultrices facilisis at nec lectus. Phasellus et purus in leo mattis semper vitae at ante. Etiam molestie sit amet ex eget tincidunt. Proin efficitur tortor nec dui pharetra condimentum. Vestibulum dignissim erat purus, nec malesuada elit sagittis in. Nulla rutrum, dolor ac lobortis consectetur, elit nisl bibendum dolor, vel iaculis turpis lorem vitae neque. Duis mattis augue et pretium sodales. Sed vitae sodales nibh. Phasellus justo eros, aliquet ut mi non, feugiat interdum sem. Suspendisse nec arcu quis est interdum volutpat.</p>
 
 				<ul>
