@@ -40,7 +40,7 @@
 						 <div class="form-group">
 							 <label for="search" class="sr-only">Search</label>
 							 <div class="input-group input-group-lg">
-								<input type="search" class="form-control" id="course-search" placeholder="Search for undergraduate courses..." autocomplete="off" data-quickspot-config="ug_courses">
+								<input type="search" class="form-control" id="course-search" placeholder="Search for undergraduate courses..." autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container">
 								<span class="input-group-btn">
 									<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
 								</span>
