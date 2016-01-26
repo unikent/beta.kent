@@ -1074,12 +1074,12 @@
 					<div class="front">
 						<img class="card-img" src="images/profile-1.jpg">
 						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Mona Lott</h3>
-							<p class="card-subtitle">Lecturer in Advanced Complaining</p>
+							<h3 class="card-title">Dr Ursular Fish</h3>
+							<p class="card-subtitle">Lecturer in Marine Biology</p>
 						</div>
 					</div>
 					<div class="back">
-						<p class="card-text">Some say Mona can be a little negative but she means well, and her students seem to really pick up the techniques after working with here for even a short time!</p>
+						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
 						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
@@ -1087,12 +1087,12 @@
 					<div class="front">
 						<img class="card-img" src="images/profile-2.jpg">
 						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Hugh Jass</h3>
-							<p class="card-subtitle">Certified know-it-all</p>
+							<h3 class="card-title">Dr Victor Crow</h3>
+							<p class="card-subtitle">Lecturer in Human Flight</p>
 						</div>
 					</div>
 					<div class="back">
-						<p class="card-text">Expert on all things, great for a pub quiz. Mildly insufferable and not as reliable as Wikipedia but he tries!</p>
+						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
 						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
@@ -1100,12 +1100,12 @@
 					<div class="front">
 						<img class="card-img" src="images/profile-3.jpg">
 						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Sue Render</h3>
-							<p class="card-subtitle">Senior Lecturer in Negotiation Tactics</p>
+							<h3 class="card-title">Dr Veronica Ferret</h3>
+							<p class="card-subtitle">Senior Lecturer in Espionage</p>
 						</div>
 					</div>
 					<div class="back">
-						<p class="card-text">Your opponents will cave and give in to your demands after mastering Sue's class.</p>
+						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
 						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
@@ -1113,12 +1113,12 @@
 					<div class="front">
 						<img class="card-img" src="images/profile-4.jpg">
 						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Prof Will Power</h3>
-							<p class="card-subtitle">Senior Lecturer in Telekinesis</p>
+							<h3 class="card-title">Prof Mark Porpoise</h3>
+							<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
 						</div>
 					</div>
 					<div class="back">
-						<p class="card-text">Will's Lectures are quite literally moving! Physical labour will be a thing of the past if you can master your mind powers!</p>
+						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
 						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
@@ -1126,12 +1126,12 @@
 					<div class="front">
 						<img class="card-img" src="images/profile-5.jpg">
 						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Nicholas Tater</h3>
-							<p class="card-subtitle">Lecturer in Democratic Studies</p>
+							<h3 class="card-title">Dr Nicholas Badger</h3>
+							<p class="card-subtitle">Lecturer in Forestry</p>
 						</div>
 					</div>
 					<div class="back">
-						<p class="card-text">Some say Dick is in the wrong profession and should be running a country or something but he seems content to teach about ideals he doesn't believe in.</p>
+						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
 						<p><a href="#">View Profile</a></p>
 					</div>
 				</div>
