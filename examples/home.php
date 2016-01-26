@@ -169,15 +169,12 @@
 						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
 					</div>
 					<div style="position:relative;">
-					<div data-stellar-offset-parent="true" class="media-wrap-paralax" style="min-height: 623.438px;">
-						<img src="images/tree-frog.jpg" class="card-img-bottom" data-stellar-ratio="0.8" style="left: 0px; top: 0px; transform: translate3d(0px, -41.2351px, 0px);">
+					<div class="card-media-wrap">
+						<img src="images/tree-frog.jpg" class="card-img-bottom">
+						<div class="card-img-overlay text-xs-right hidden-xs-down">
+							<img width="120" src="images/ref-logo.png">
+						</div>
 					</div>
-					
-
-					<div class="card-img-overlay text-xs-right">
-							<h5 class="card-subtitle">Float</h5>
-					</div>
-
 					<div class="card-img-overlay-bottom text-xs-right">
 						<a href="#">
 							<h5 class="card-subtitle">Conservation research</h5>
