@@ -103,7 +103,7 @@
 							</div>
 
 						</div>
-					<a class="card-img-overlay card-overlay-inline-sm" href="#">
+					<a class="card-img-overlay-bottom card-overlay-inline-sm" href="#">
 						<h5 class="card-subtitle">Life at Kent</h5>
 						<p class="card-text">Find out more from our students.</p>
 					</a>
@@ -175,12 +175,8 @@
 					
 
 					<div class="card-img-overlay text-xs-right">
-						
 							<h5 class="card-subtitle">Float</h5>
-				
-						
 					</div>
-
 
 					<div class="card-img-overlay-bottom text-xs-right">
 						<a href="#">
@@ -229,7 +225,7 @@
 						<img src="images/thinkkent-16x9.jpg" class="card-img-bottom">
 					</div>
 
-					<div class="card-img-overlay">
+					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">Dr Stephen Lowry</h5>
 						<p class="card-text">Comet imaging during the Rosetta mission</p>
 					</div>
@@ -240,9 +236,6 @@
 					<a href="#" class="chevron-link">Free lectures</a>
 				</div>
 			</div>
-
-
- 			<script src='<?php KentThemeHelper::getThemeWebRoot(); ?>assets/js/quickspot.min.js'></script>
 			<script>
 
 					var qs = quickspot.attach({
@@ -259,7 +252,7 @@
 						"click_handler":function(itm){
 						  
 						  //Send em to page
-						  document.location = '/courses/postgraduate/'+itm.id+'/'+itm.slug;
+						  document.location = '/courses/undergraduate/'+itm.id+'/'+itm.slug;
 						},
 						"display_handler": function(itm,qs){
 							var locs = [itm.campus];

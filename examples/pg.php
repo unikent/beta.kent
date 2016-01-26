@@ -22,7 +22,7 @@
 									<div class="card-media-wrap">
 										<img src="images/engineering-student-16-9.jpg" class="card-img-bottom">
 									</div>
-									<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-nopad">
+									<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-nopad">
 											<form class="quickspot-container" >
 												 <div class="form-group">
 													 <label for="search" class="sr-only">Search</label>
@@ -46,7 +46,7 @@
 					   </aside>
 
 					   <div class="card card-overlay">
-							   <div class="card-x body card-inverse">
+							   <div class="card-body card-inverse">
 									  <div class="card-title-wrap card-title-wrap-link pull-right">
 											  <h4 class="card-title">World Leading research</h4>
 											  <p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
@@ -54,7 +54,7 @@
 									   <div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
 											  <img class="card-img-bottom" src="images/feature-professor-2-1.jpg">
 
-											  <div class="card-img-overlay text-right">
+											  <div class="card-img-overlay-bottom text-right">
 													 <h5 class="card-subtitle">Prof. David Welch</h5>
 													 <p class="card-text">Professor of Modern History</p>
 											  </div>
@@ -143,7 +143,7 @@
 									  <div class="card-media-wrap">
 											  <img src="images/promo-park-16-9.jpg" class="card-img-bottom" alt="Sport" />
 
-											  <a class="card-img-overlay text-right" href="#">
+											  <a class="card-img-overlay-bottom text-right" href="#">
 													 <h5 class="card-subtitle">Canterbury</h5>
 													 <p class="card-text">Historical, friendly &amp; cosmopolitan.</p>
 											  </a>
@@ -192,10 +192,6 @@
 
 			   </main>
 
-
-	   
-
-			   <script src='<?php KentThemeHelper::getThemeWebRoot(); ?>assets/js/quickspot.min.js'></script>
 			   <script>
 
 

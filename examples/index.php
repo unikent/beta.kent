@@ -282,7 +282,7 @@
 					<div class="card-media-wrap">
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
-					<div class="card-img-overlay">
+					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</div>
@@ -382,7 +382,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="#" class="card-img-overlay card-overlay-inline-sm">
+					<a href="#" class="card-img-overlay-bottom card-overlay-inline-sm">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</a>
@@ -404,7 +404,7 @@
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="images/sea-turtle.jpg">
 					</div>
-					<div class="card-img-overlay">
+					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</div>
@@ -439,7 +439,7 @@
 							<div class="card-media-wrap">
 								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay card-overlay-inline-xs ">
+							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
@@ -448,7 +448,7 @@
 							<div class="card-media-wrap ">
 								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
 							</div>
-							<div class="card-img-overlay card-overlay-inline-xs">
+							<div class="card-img-overlay-bottom card-overlay-inline-xs">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter.</p>
 							</div>
@@ -457,7 +457,7 @@
 							<div class="card-media-wrap">
 								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
 							</div>
-							<div class="card-img-overlay card-overlay-inline-xs card-overlay-inline-primary">
+							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
 								<h5 class="card-subtitle">A sub title</h5>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
@@ -668,7 +668,7 @@
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
-					<div class="card-img-overlay text-xs-right">
+					<div class="card-img-overlay-bottom text-xs-right">
 						<h5 class="card-meta card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</div>
@@ -690,7 +690,7 @@
 						<img class="card-img-bottom" src="images/students.jpg">
 					</div>
 
-					<div class="card-img-overlay text-xs-right">
+					<div class="card-img-overlay-bottom text-xs-right">
 						<p class="card-text">It will however launch a modal if first played in mobile view (xs).</p>
 					</div>
 				</div>
@@ -740,7 +740,7 @@
 					<div class="card-panel-full">
 						<div class="card">
 							<img class="card-img" src="images/promo-3.jpg">
-							<div class="card-img-overlay-bottom">
+							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">More stuff</h3>
 								<p class="card-text">We rank amongst the best in the UK.</p>
 							</div>
@@ -938,7 +938,7 @@
 							</video>
 						</div>
 					</div>
-					<div class="card-img-overlay">
+					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">A sub title</h5>
 						<p class="card-text">This content is shorter.</p>
 					</div>
@@ -965,7 +965,7 @@
 				<div class="card-media-wrap">
 					<img class="card-img-bottom" src="images/students.jpg">
 				</div>
-				<div class="card-img-overlay">
+				<div class="card-img-overlay-bottom">
 					<form >
 						<div class="form-group">
 							<label for="search" class="sr-only">Search</label>
@@ -1002,11 +1002,11 @@
 								<source src="video/video-research-student.mp4">
 							</video>
 						</div>
-						<div class="card-img-overlay">
+						<div class="card-img-overlay-bottom">
 							<h5 class="card-subtitle">On the Left</h5>
 							<p class="card-text">This content is shorter.</p>
 						</div>
-						<div class="card-img-overlay text-xs-right">
+						<div class="card-img-overlay-bottom text-xs-right">
 							<h5 class="card-subtitle">On the right</h5>
 							<p class="card-text">This content is shorter.</p>
 						</div>
@@ -1073,7 +1073,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/profile-1.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Mona Lott</h3>
 							<p class="card-subtitle">Lecturer in Advanced Complaining</p>
 						</div>
@@ -1086,7 +1086,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/profile-2.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Hugh Jass</h3>
 							<p class="card-subtitle">Certified know-it-all</p>
 						</div>
@@ -1099,7 +1099,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/profile-3.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Sue Render</h3>
 							<p class="card-subtitle">Senior Lecturer in Negotiation Tactics</p>
 						</div>
@@ -1112,7 +1112,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/profile-4.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Prof Will Power</h3>
 							<p class="card-subtitle">Senior Lecturer in Telekinesis</p>
 						</div>
@@ -1125,7 +1125,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/profile-5.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Nicholas Tater</h3>
 							<p class="card-subtitle">Lecturer in Democratic Studies</p>
 						</div>
@@ -1138,7 +1138,7 @@
 				<div class="card card-backed-primary">
 					<div class="front">
 						<img class="card-img" src="images/pingpong-1x1.jpg">
-						<div class="card-img-overlay-bottom">
+						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Ping Pong</h3>
 							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
 						</div>
