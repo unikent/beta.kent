@@ -194,42 +194,43 @@
 
 			   <script>
 
+				   jQuery(document).ready(function($) {
 
+					   var qs = quickspot.attach({
+						   // Basic
+						   "url":                          "https://webtools-test.kent.ac.uk/programmes/api/2016/postgraduate/programmes",
+						   "target":                       "course-search",
+						   "search_on":                    ["name", "award", "subject", "main_school", "ucas_code", "search_keywords"],
+						   "disable_occurrence_weighting": true,
+						   "screenreader":                 true,
+						   "results_container":            "quickspot-results-container",
+						   "prevent_headers":              true,
 
-					var qs = quickspot.attach({
-						// Basic
-						"url": "https://webtools-test.kent.ac.uk/programmes/api/2016/postgraduate/programmes",
-						"target":"course-search",
-						"search_on": ["name", "award", "subject", "main_school", "ucas_code", "search_keywords"],
-						"disable_occurrence_weighting": true,
-						"screenreader": true,
-						"results_container": "quickspot-results-container",
-						"prevent_headers": true,
+						   // Extend
+						   "click_handler":    function (itm) {
 
-						// Extend
-						"click_handler":function(itm){
-						  
-						  //Send em to page
-						  document.location = '/courses/postgraduate/'+itm.id+'/'+itm.slug;
-						},
-						"display_handler": function(itm,qs){
-							var locs = [itm.campus];
-							if(itm.additional_locations!=="") {
-									locs = locs.concat(itm.additional_locations.split(', '));
-							}
-							locs = (locs.length > 1)?[locs.slice(0, -1).join(', '), locs.slice(-1)[0]].join(' and '):locs[0];
-								// Highlight searched word
-							return (itm.name+' - '+itm.award+' <br> <span>' + locs + '</span>').replace(RegExp('('+qs.lastValue+')', 'i'), '<strong>$1</strong>'); //Do somthing useful like showing award once we have it.
-						},
-						"no_results": function (qs, val){
-						  return "<a class='quickspot-result selected'>Press enter to search...</a>";
-						},
-						"no_results_click": function (value, qs){
-							var url = "https://www.kent.ac.uk/search/courses?q=" + value;
-							window.location.href = url;
-						},
-						
-					});
+							   //Send em to page
+							   document.location = '/courses/postgraduate/' + itm.id + '/' + itm.slug;
+						   },
+						   "display_handler":  function (itm, qs) {
+							   var locs = [itm.campus];
+							   if (itm.additional_locations !== "") {
+								   locs = locs.concat(itm.additional_locations.split(', '));
+							   }
+							   locs = (locs.length > 1) ? [locs.slice(0, -1).join(', '), locs.slice(-1)[0]].join(' and ') : locs[0];
+							   // Highlight searched word
+							   return (itm.name + ' - ' + itm.award + ' <br> <span>' + locs + '</span>').replace(RegExp('(' + qs.lastValue + ')', 'i'), '<strong>$1</strong>'); //Do somthing useful like showing award once we have it.
+						   },
+						   "no_results":       function (qs, val) {
+							   return "<a class='quickspot-result selected'>Press enter to search...</a>";
+						   },
+						   "no_results_click": function (value, qs) {
+							   var url = "https://www.kent.ac.uk/search/courses?q=" + value;
+							   window.location.href = url;
+						   }
+
+					   });
+				   });
 			   </script>
 			   <?php KentThemeHelper::footer(); ?>
 
