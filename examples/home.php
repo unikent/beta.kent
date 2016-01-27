@@ -49,7 +49,7 @@
 						<div id="quickspot-results-container">
 							
 						</div>
-						<div class="inline-links text-xs-right">
+						<div class="inline-links text-xs-center text-sm-right">
 							<a href="#" >Courses A-Z</a>
 							<a href="#" >Order a prospectus</a>
 						</div>
