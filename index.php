@@ -92,7 +92,7 @@
 					</div>
 					<div class="card-split">
 						<div class="card-half">
-							<div data-transcript="#" data-src="video/art-school-video.mp4" class="media-wrap video-launcher">
+							<div data-transcript="#" data-src="media/video/art-school-video.mp4" class="media-wrap video-launcher">
 								<img src="media/images/student-ex-video.jpg" class="card-img-bottom">
 							</div>
 
