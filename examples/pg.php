@@ -13,7 +13,10 @@
 									  'description'=>'Postrgaduate home',
 									  'title'=>"Postgraduate Home - Kent Theme Beta"
 							   ),
-							   'theme'=>'postgraduate'
+							   'theme'=>'postgraduate',
+								'beta_bar' => array(
+									'about_url' => '/about-beta'
+								)
 					   )
 			   );
 ?>
