@@ -21,7 +21,7 @@
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
-						<img data-stellar-ratio="0.7" class="card-img-bottom" src="images/sea-turtle.jpg">
+						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link">
 						<h2 class="card-title">A leading research institution</h2>
@@ -140,7 +140,7 @@
 						<p class="card-text">Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
 					</div>
 					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="images/students.jpg">
+						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 				</div>
 				<div class="card-footer">
@@ -262,7 +262,7 @@
 
 
 			<blockquote>
-				<img class="img-circle" src="images/profile-academic.jpg">
+				<img class="img-circle" src="../media/images/profile-academic.jpg">
 				<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
 				<footer>
 					<cite>
@@ -280,7 +280,7 @@
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="images/students.jpg">
+						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">A sub title</h5>
@@ -324,28 +324,28 @@
 				</div>
 				<div class="card-panel-body">
 					<div class="card">
-						<img class="card-img" src="images/promo-1.jpg">
+						<img class="card-img" src="../media/images/promo-1.jpg">
 						<h3 class="card-title">Academic excellence</h3>
 						<p class="card-meta">1st September 2015</p>
 						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 						<a href="#" class="card-badge kf-comment">5</a>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-2.jpg">
+						<img class="card-img" src="../media/images/promo-2.jpg">
 						<h3 class="card-title">Undergraduates</h3>
 						<p class="card-meta">28th March 2015</p>
 						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 						<a href="#" class="card-badge kf-comment">7</a>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-3.jpg">
+						<img class="card-img" src="../media/images/promo-3.jpg">
 						<h3 class="card-title">Postgraduates</h3>
 						<p class="card-meta">5th November 2015</p>
 						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						<a href="#" class="card-badge kf-comment">1</a>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-4.jpg">
+						<img class="card-img" src="../media/images/promo-4.jpg">
 						<h3 class="card-title">Visit Kent</h3>
 						<p class="card-meta">17th May 2015</p>
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
@@ -363,7 +363,7 @@
 					<div class="card-split">
 						<div class="card-half">
 							<div class="media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
-								<img class="card-img-bottom" src="images/sea-turtle.jpg">
+								<img class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 							</div>
 
 						</div>
@@ -371,12 +371,12 @@
 							<div class="kent-slider">
 								<div class="kent-slide">
 									<div class="media-wrap">
-										<img class="card-img-bottom" src="images/world-4x3.jpg">
+										<img class="card-img-bottom" src="../media/images/world-4x3.jpg">
 									</div>
 								</div>
 								<div class="kent-slide">
 									<div class="media-wrap">
-										<img class="card-img-bottom" src="images/ping-pong-4x3.jpg">
+										<img class="card-img-bottom" src="../media/images/ping-pong-4x3.jpg">
 									</div>
 								</div>
 							</div>
@@ -402,7 +402,7 @@
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
-						<img data-stellar-ratio="0.7" class="card-img-bottom" src="images/sea-turtle.jpg">
+						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
 						<h5 class="card-subtitle">A sub title</h5>
@@ -437,7 +437,7 @@
 					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
+								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
 								<h5 class="card-subtitle">A sub title</h5>
@@ -446,7 +446,7 @@
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap ">
-								<img class="card-img-bottom" src="images/hero-painting-16-9.jpg">
+								<img class="card-img-bottom" src="../media/images/hero-painting-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs">
 								<h5 class="card-subtitle">A sub title</h5>
@@ -455,7 +455,7 @@
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
+								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
 								<h5 class="card-subtitle">A sub title</h5>
@@ -464,7 +464,7 @@
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="images/sunrise-16-9.jpg">
+								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
 							</div>
 						</div>
 					</div>
@@ -500,26 +500,26 @@
 				</div>
 				<div class="card-panel-body">
 					<div class="card">
-						<img class="card-img" src="images/promo-1.jpg">
+						<img class="card-img" src="../media/images/promo-1.jpg">
 						<h3 class="card-title">Academic excellence</h3>
 						<p class="card-meta">1st September 2015</p>
 						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Jim Groombridge
 						</a>
 
 						<p class="card-text"><a href="#">Tag1</a>, <a href="#">Tag2</a>, <a href="#">Another Tag</a></p>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-2.jpg">
+						<img class="card-img" src="../media/images/promo-2.jpg">
 						<h3 class="card-title">Undergraduates</h3>
 						<p class="card-meta">28th March 2015</p>
 						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr David Hume
 						</a>
 
@@ -531,23 +531,23 @@
 						</ul>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-3.jpg">
+						<img class="card-img" src="../media/images/promo-3.jpg">
 						<h3 class="card-title">Postgraduates</h3>
 						<p class="card-meta">5th November 2015</p>
 						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Jim Groombridge
 						</a>
 
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-4.jpg">
+						<img class="card-img" src="../media/images/promo-4.jpg">
 						<h3 class="card-title">Visit Kent</h3>
 						<p class="card-meta">17th May 2015</p>
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Bob Smithington
 						</a>
 					</div>
@@ -565,14 +565,14 @@
 				</div>
 				<div class="card-panel-body">
 					<div class="card">
-						<img class="card-img" src="images/promo-1.jpg">
+						<img class="card-img" src="../media/images/promo-1.jpg">
 						<h3 class="card-title">Academic excellence</h3>
 						<p class="card-meta">1st September 2015</p>
 						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 						<p class="card-text"><a href="#">Tag1</a>, <a href="#">Tag2</a>, <a href="#">Another Tag</a></p>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-2.jpg">
+						<img class="card-img" src="../media/images/promo-2.jpg">
 						<h3 class="card-title">Undergraduates</h3>
 						<p class="card-meta">28th March 2015</p>
 						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
@@ -584,13 +584,13 @@
 						</ul>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-3.jpg">
+						<img class="card-img" src="../media/images/promo-3.jpg">
 						<h3 class="card-title">Postgraduates</h3>
 						<p class="card-meta">5th November 2015</p>
 						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-4.jpg">
+						<img class="card-img" src="../media/images/promo-4.jpg">
 						<h3 class="card-title">Visit Kent</h3>
 						<p class="card-meta">17th May 2015</p>
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
@@ -604,26 +604,26 @@
 				</div>
 				<div class="card-panel-body">
 					<div class="card">
-						<img class="card-img" src="images/promo-1.jpg">
+						<img class="card-img" src="../media/images/promo-1.jpg">
 						<h3 class="card-title">Academic excellence</h3>
 						<p class="card-meta">1st September 2015</p>
 						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Jim Groombridge
 						</a>
 
 						<p class="card-text"><a href="#">Tag1</a>, <a href="#">Tag2</a>, <a href="#">Another Tag</a></p>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-2.jpg">
+						<img class="card-img" src="../media/images/promo-2.jpg">
 						<h3 class="card-title">Undergraduates</h3>
 						<p class="card-meta">28th March 2015</p>
 						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr David Hume
 						</a>
 
@@ -635,23 +635,23 @@
 						</ul>
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-3.jpg">
+						<img class="card-img" src="../media/images/promo-3.jpg">
 						<h3 class="card-title">Postgraduates</h3>
 						<p class="card-meta">5th November 2015</p>
 						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Jim Groombridge
 						</a>
 
 					</div>
 					<div class="card">
-						<img class="card-img" src="images/promo-4.jpg">
+						<img class="card-img" src="../media/images/promo-4.jpg">
 						<h3 class="card-title">Visit Kent</h3>
 						<p class="card-meta">17th May 2015</p>
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						<a class="card-author card-bordered-item" href='#'>
-							<img src="images/profile-academic.jpg">
+							<img src="../media/images/profile-academic.jpg">
 							Dr Bob Smithington
 						</a>
 					</div>
@@ -665,7 +665,7 @@
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4">
-						<img class="card-img-bottom" src="images/students.jpg">
+						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
@@ -687,7 +687,7 @@
 						<h4 class="card-title">An inline video</h4>
 					</div>
 					<div class="card-media-wrap video-launcher"  data-src="video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
-						<img class="card-img-bottom" src="images/students.jpg">
+						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
@@ -703,7 +703,7 @@
 				<div class="card-panel-body">
 					<div class="card-panel-single">
 						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
+							<img class="card-img" src="../media/images/promo-1.jpg">
 							<h3 class="card-title">Academic excellence</h3>
 							<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 							<p class="card-text"><a href="#">Tag1</a>, <a href="#">Tag2</a>, <a href="#">Another Tag</a></p>
@@ -711,22 +711,22 @@
 					</div>
 					<div class="card-panel-grid">
 						<div class="card">
-							<img class="card-img" src="images/promo-2.jpg">
+							<img class="card-img" src="../media/images/promo-2.jpg">
 							<h3 class="card-title">Undergraduates</h3>
 							<p class="card-text">We have a renowned personal teaching style.</p>
 						</div>
 						<div class="card">
-							<img class="card-img" src="images/promo-3.jpg">
+							<img class="card-img" src="../media/images/promo-3.jpg">
 							<h3 class="card-title">Postgraduates</h3>
 							<p class="card-text">We'll equip you with essential skills.</p>
 						</div>
 						<div class="card">
-							<img class="card-img" src="images/promo-4.jpg">
+							<img class="card-img" src="../media/images/promo-4.jpg">
 							<h3 class="card-title">Visit Kent</h3>
 							<p class="card-text">Learn more why our students love Kent.</p>
 						</div>
 						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
+							<img class="card-img" src="../media/images/promo-1.jpg">
 							<h3 class="card-title">More stuff</h3>
 							<p class="card-text">We rank amongst the best in the UK.</p>
 						</div>
@@ -739,7 +739,7 @@
 				<div class="card-panel-body">
 					<div class="card-panel-full">
 						<div class="card">
-							<img class="card-img" src="images/promo-3.jpg">
+							<img class="card-img" src="../media/images/promo-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">More stuff</h3>
 								<p class="card-text">We rank amongst the best in the UK.</p>
@@ -868,7 +868,7 @@
 				<div class="card-panel-body">
 					<div class="card-panel-single">
 						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
+							<img class="card-img" src="../media/images/promo-1.jpg">
 							<h3 class="card-title">Academic excellence</h3>
 							<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
 							<p class="card-text"><a href="#">Tag1</a>, <a href="#">Tag2</a>, <a href="#">Another Tag</a></p>
@@ -876,17 +876,17 @@
 					</div>
 					<div class="card-panel-list">
 						<div class="card">
-							<img class="card-img" src="images/promo-2.jpg">
+							<img class="card-img" src="../media/images/promo-2.jpg">
 							<h3 class="card-title">Undergraduates</h3>
 							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 						</div>
 						<div class="card">
-							<img class="card-img" src="images/promo-3.jpg">
+							<img class="card-img" src="../media/images/promo-3.jpg">
 							<h3 class="card-title">Postgraduates</h3>
 							<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						</div>
 						<div class="card">
-							<img class="card-img" src="images/promo-4.jpg">
+							<img class="card-img" src="../media/images/promo-4.jpg">
 							<h3 class="card-title">Visit Kent</h3>
 							<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						</div>
@@ -901,7 +901,7 @@
 				<div class="card-panel-body">
 					<div class="card-panel-single">
 						<div class="card">
-							<img class="card-img" src="images/promo-1.jpg">
+							<img class="card-img" src="../media/images/promo-1.jpg">
 							<h3 class="card-title">Academic excellence</h3>
 							<p class="card-meta">1st September 2015</p>
 							<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
@@ -910,7 +910,7 @@
 					</div>
 					<div class="card-panel-single">
 						<div class="card">
-							<img class="card-img" src="images/promo-2.jpg">
+							<img class="card-img" src="../media/images/promo-2.jpg">
 							<h3 class="card-title">Undergraduates</h3>
 							<p class="card-meta">28th March 2015</p>
 							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
@@ -963,7 +963,7 @@
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
-					<img class="card-img-bottom" src="images/students.jpg">
+					<img class="card-img-bottom" src="../media/images/students.jpg">
 				</div>
 				<div class="card-img-overlay-bottom">
 					<form >
@@ -1036,28 +1036,28 @@
 				<div class="card-panel-body">
 					<div class="card">
 						<header class="card-header">
-							<img class="card-img img-circle" src="images/profile-academic.jpg">
+							<img class="card-img img-circle" src="../media/images/profile-academic.jpg">
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
 					</div>
 					<div class="card card-header-split">
 						<header class="card-header">
-							<img class="card-img img-circle" src="images/profile-academic.jpg">
+							<img class="card-img img-circle" src="../media/images/profile-academic.jpg">
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
 					</div>
 					<div class="card">
 						<header class="card-header">
-							<img class="card-img img-circle" src="images/profile-academic.jpg">
+							<img class="card-img img-circle" src="../media/images/profile-academic.jpg">
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
 					</div>
 					<div class="card">
 						<header class="card-header">
-							<img class="card-img img-circle" src="images/profile-academic.jpg">
+							<img class="card-img img-circle" src="../media/images/profile-academic.jpg">
 						</header>
 						<h3 class="card-title">Dr Test Test</h3>
 						<p class="card-subtitle">Senior Lecture in Classical literature</p>
@@ -1072,7 +1072,7 @@
 				</a>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/profile-1.jpg">
+						<img class="card-img" src="../media/images/profile-1.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Ursular Fish</h3>
 							<p class="card-subtitle">Lecturer in Marine Biology</p>
@@ -1085,7 +1085,7 @@
 				</div>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/profile-2.jpg">
+						<img class="card-img" src="../media/images/profile-2.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Victor Crow</h3>
 							<p class="card-subtitle">Lecturer in Human Flight</p>
@@ -1098,7 +1098,7 @@
 				</div>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/profile-3.jpg">
+						<img class="card-img" src="../media/images/profile-3.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Veronica Ferret</h3>
 							<p class="card-subtitle">Senior Lecturer in Espionage</p>
@@ -1111,7 +1111,7 @@
 				</div>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/profile-4.jpg">
+						<img class="card-img" src="../media/images/profile-4.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Prof Mark Porpoise</h3>
 							<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
@@ -1124,7 +1124,7 @@
 				</div>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/profile-5.jpg">
+						<img class="card-img" src="../media/images/profile-5.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Nicholas Badger</h3>
 							<p class="card-subtitle">Lecturer in Forestry</p>
@@ -1137,7 +1137,7 @@
 				</div>
 				<div class="card card-backed-primary">
 					<div class="front">
-						<img class="card-img" src="images/pingpong-1x1.jpg">
+						<img class="card-img" src="../media/images/pingpong-1x1.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Dr Ping Pong</h3>
 							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
