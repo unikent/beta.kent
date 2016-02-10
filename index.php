@@ -1,76 +1,238 @@
 <?php
-include "bootstrap.php";
+	include dirname(__FILE__)."/bootstrap.php";
+	use \unikent\kent_theme\kentThemeHelper;
 
-use \unikent\kent_theme\kentThemeHelper;
-
-KentThemeHelper::header(array(
-	"title" => "Beta",
-	'menu' => array(
-		'Home' => '#',
-		'About' => '#',
-		'Blog' => '//blogs.kent.ac.uk/webdev/category/beta/#'
-		),
-	'meta' => array(
-		'description' => 'Beta home',
-		'title' => "Kent Beta - Kent Theme Beta"
-		)
-	)
-);
+		KentThemeHelper::header(
+			array(
+				'title' => "Kent Theme Demo",
+				'menu' => array(
+					'Home' => '#',
+					'Culture' => '#',
+					'Environment' => '#',
+					'Science' => '#',
+					'Society' => '#',
+					'Kent Life' => '#'
+				),
+				'meta' => array('title'=>'Demo Page - Kent Theme Beta'),
+				'home_page' => true
+			)
+		);
 ?>
-<div class="card card-overlay header-card-overlay">
-	<div class="card-body">
-		<div class="card-media-wrap">
-			<img src="examples/images/sunrise-16-9.jpg" class="card-img-bottom" alt="">
-		</div>
-		<a href="//blogs.kent.ac.uk/webdev/category/beta/" class="card-title-wrap card-title-wrap-link card-transparent">
-			<h2 class="card-title">We're testing out new designs</h2>
-			<p class="card-text">Find out more about our beta, a site for experimenting and getting feedback</p>
-		</a>
-	</div><!-- /.card-body -->
-</div><!-- /.card -->
 
-<div class="card-panel card-panel-primary-tint recent-news">
-	<div class="card-panel-header">
-		<h2 class="card-panel-title">Updates</h2>
-	</div>
+			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
+				<div class="card-body">
+					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
+						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="examples/images/world-4x3.jpg">
+					</div>
+					<div class="card-title-wrap card-title-wrap-link card-transparent">
+						<h2 class="card-title">Strong international outlook</h2>
+						<p class="card-text">Kent is among top 100 most international universities.</p>
+					</div>
 
-	<?php
-	// TODO: Don't like doing this in the view, are we going to move to a controller?
-	$api = new unikent\libs\KentApi;
-	// get webdev blog posts with this tag
-	$posts = $api->getPostsByTag('beta-kent');
-	?>
-	<div class="card-panel-body">
-		<?php
-		for ($i = 0; $i < min(4, count($posts)); ++$i):
-			$post = $posts[$i];
-			$thumbnail = $post->getImage('post-thumbnail');
-		?>
-		<a href="<?php echo $post->getPermalink() ?>" class="card">
-			<img
-			class="card-img"
-			src="<?php echo $thumbnail['url'] ?>"
-			alt="<?php echo $thumbnail['alt'] ?>"
-			title="<?php echo $thumbnail['title'] ?>"
-			>
-			<h3 class="card-title"><?php echo $post->getTitle() ?></h3>
-			<p><?php echo $post->getDate() ?></p>
-		</a>
-		<?php endfor; ?>
-	</div><!-- /.card-panel-body -->
-</div><!-- /.card-panel -->
+				</div>
+			</div>
+			<div class="panel panel-tertiary">
+				<div class="container-padded ">
+					<form class="quickspot-container">
 
-<div class='container'>
-	<h2>New Content</h2>
-	<ul>
-		<li><a href='/news'>News centre</a></li>
-	</ul>
+						<h4 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h4>
 
-	<h4>Planned</h4>
-	<ul>
-		<li>Homepage (early 2016)</li>
-		<li>Course details pages (early 2016)</li>
-	</ul>
-</div><!-- /.container -->
+						 <div class="form-group">
+							 <label for="search" class="sr-only">Search</label>
+							 <div class="input-group input-group-lg">
+								<input type="search" class="form-control" id="course-search" placeholder="Search for undergraduate courses..." autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
+								</span>
+							</div>
+						</div>
+						<div id="quickspot-results-container">
+							
+						</div>
+						<div class="inline-links text-xs-center text-sm-right">
+							<a href="#" >Courses A-Z</a>
+							<a href="#" >Order a prospectus</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="card-panel  card-panel-tertiary nav-links-panel p-b-3 m-b-0">
+				<div class="card-panel-body">
+					<nav role="menu">
+						<a role="menuitem" href="//www.kent.ac.uk/about/">
+							<span class="nav-link-title">Top 20 in the UK </span>
+							<span class="nav-link-desc">We rank amongst the best in the UK.</span>
+						</a>
+						<a role="menuitem" href="//www.kent.ac.uk/courses/undergraduate/">
+							<span class="nav-link-title">Undergraduate</span>
+							<span class="nav-link-desc">Quality teaching with word-leading academics.</span>
+						</a>
+						<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/">
+							<span class="nav-link-title">Postgraduate</span>
+							<span class="nav-link-desc">Affordable programmes with leading researchers.</span>
+						</a>
+						<a role="menuitem" href="//www.kent.ac.uk/internationalstudent/study-in-kent/">
+							<span class="nav-link-title">Visit Kent</span>
+							<span class="nav-link-desc">Stunning locations and safe, comfortable accommodation.</span>
+						</a>
+					</nav>
+				</div>
+			</div>
 
-<?php KentThemeHelper::footer(); ?>
+
+		
+
+
+
+			<div class="card card-overlay m-t-0">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">Superb student experience</h4>
+						<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
+					</div>
+					<div class="card-split">
+						<div class="card-half">
+							<div data-transcript="#" data-src="video/art-school-video.mp4" class="media-wrap video-launcher">
+								<img src="examples/images/student-ex-video.jpg" class="card-img-bottom">
+							</div>
+
+						</div>
+						<div class="card-half">
+							<div class="media-wrap ">
+								<img src="examples/images/student-ex-holi.jpg" class="card-img-bottom">
+							</div>
+
+						</div>
+					<a class="card-img-overlay-bottom card-overlay-inline-sm" href="#">
+						<h5 class="card-subtitle">Life at Kent</h5>
+						<p class="card-text">Find out more from our students.</p>
+					</a>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Superb student experience</a>
+					<a href="#" class="chevron-link">Locations</a>
+					<a href="#" class="chevron-link">Accommodation and facilities</a>
+					<a href="#" class="chevron-link">Culture, sports and societies</a>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+			</div>
+
+
+
+
+
+			<div class="card-panel p-b-3">
+				<div class="card-panel-body">
+					<a  href="#" class="card">
+						<img class="card-img" src="examples/images/locations-3x2.jpg">
+						<h3 class="card-title">Stunning locations</h3>
+						<p class="card-text">UK campuses close to London and European centres in Paris, Brussels, Rome and Athens.</p>
+					</a>
+					<a class="card">
+						<img class="card-img" src="examples/images/templeman-3x2.jpg">
+						<h3 class="card-title">Investing in our facilities</h3>
+						<p class="card-text">Our new library, accommodation, sports centre provide world-class facilities.</p>
+					</a>
+					<a class="card">
+						<img class="card-img" src="examples/images/accommodation-3x2.jpg">
+						<h3 class="card-title">Living on campus</h3>
+						<p class="card-text">Safe and comfortable accomoodation to make the best of your studies and student life.</p>
+					</a>
+					
+					<a class="card">
+						<img class="card-img" src="examples/images/study-abroad-3x2.jpg">
+						<h3 class="card-title">Experience the world</h3>
+						<p class="card-text">As a Kent student a world of study abroad and work placement opportunities are available to you.</p>
+
+					</a>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<div class="card card-overlay">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-left">
+						<h4 class="card-title">World-leading research</h4>
+						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
+					</div>
+					<div style="position:relative;">
+					<div class="card-media-wrap">
+						<img src="examples/images/tree-frog.jpg" class="card-img-bottom">
+						<div class="card-img-overlay text-xs-right hidden-xs-down">
+							<img width="120" src="examples/images/ref-logo.png">
+						</div>
+					</div>
+					<div class="card-img-overlay-bottom text-xs-right">
+						<a href="#">
+							<h5 class="card-subtitle">Conservation research</h5>
+							<p class="card-text ">Innovative survey of amphibians and reptiles helps conservation.</p>
+						</a>
+					</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Research impact</a>
+					<a href="#" class="chevron-link">Academic profiles</a>
+					<a href="#" class="chevron-link">Research degrees</a>
+					<a href="#" class="chevron-link">ThinkKent lectures</a>
+				</div>
+			</div>
+
+
+
+			<blockquote>
+				<img src="examples/images/staff-profile.jpg" class="img-circle">
+				<p>The collaborative and interdisciplinary community at Kent helps strengthen innovative research.</p>
+				<footer>
+					<cite>
+						Dr David Hume,
+						<span>School of Biosciences</span>
+
+						<span><a class="chevron-link" href="#">Learn more about our community</a></span>
+					</cite>
+				</footer>
+			</blockquote>
+
+
+
+
+
+
+
+			<div class="card card-overlay p-b-3">
+				<div class="card-body card-inverse">
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<h4 class="card-title">Thinkers with global impact</h4>
+						<p class="card-text">ThinkKent is a series of short, inspiring lectures showing our world-changing research.</p>
+					</div>
+					<div data-src="video/thinkkent.mp4" class="card-media-wrap video-launcher">
+						<img src="examples/images/thinkkent-16x9.jpg" class="card-img-bottom">
+					</div>
+
+					<div class="card-img-overlay-bottom">
+						<h5 class="card-subtitle">Dr Stephen Lowry</h5>
+						<p class="card-text">Comet imaging during the Rosetta mission</p>
+					</div>
+				</div>
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Community impact</a>
+					<a href="#" class="chevron-link">ThinkKent lectures</a>
+					<a href="#" class="chevron-link">Free lectures</a>
+				</div>
+			</div>
+		<?php KentThemeHelper::footer(); ?>
+
+
