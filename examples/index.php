@@ -362,7 +362,7 @@
 					</div>
 					<div class="card-split">
 						<div class="card-half">
-							<div class="media-wrap video-launcher" data-src="video/video-research-student.mp4" data-transcript="#">
+							<div class="media-wrap video-launcher" data-src="../media/video/video-research-student.mp4" data-transcript="#">
 								<img class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 							</div>
 
@@ -664,7 +664,7 @@
 						<h4 class="card-title">A video launcher</h4>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="card-media-wrap video-launcher" data-src="video/video-research-student.mp4">
+					<div class="card-media-wrap video-launcher" data-src="../media/video/video-research-student.mp4">
 						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 
@@ -686,7 +686,7 @@
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h4 class="card-title">An inline video</h4>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
+					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
 						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 
@@ -796,7 +796,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher"  data-src="video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/sea-turtle.jpg');">
+								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -855,7 +855,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher"  data-src="video/video-research-student.mp4" data-controls="false" style="background-image:url('images/sea-turtle.jpg');">
+						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -934,7 +934,7 @@
 					<div class="card-media-wrap">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 							<video autoplay loop class="embed-responsive-item">
-								<source src="video/research2.mp4">
+								<source src="../media/video/research2.mp4">
 							</video>
 						</div>
 					</div>
@@ -999,7 +999,7 @@
 					<div class="card-media-wrap" data-toggle="modal" data-target="#myVideoModal">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 							<video autoplay loop class="embed-responsive-item">
-								<source src="video/video-research-student.mp4">
+								<source src="../media/video/video-research-student.mp4">
 							</video>
 						</div>
 						<div class="card-img-overlay-bottom">
