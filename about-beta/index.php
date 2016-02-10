@@ -13,6 +13,9 @@ KentThemeHelper::header(array(
 	'meta' => array(
 		'description' => 'Beta home',
 		'title' => "Kent Beta - Kent Theme Beta"
+		),
+		'beta_bar' => array(
+			'about_url' => '/about-beta'
 		)
 	)
 );

@@ -13,7 +13,10 @@
 					'Society' => '#',
 					'Kent Life' => '#'
 				),
-				'meta' => array('title'=>'Demo Page - Kent Theme Beta')
+				'meta' => array('title'=>'Demo Page - Kent Theme Beta'),
+				'beta_bar' => array(
+					'about_url' => '/about-beta'
+				)
 			)
 		);
 ?>

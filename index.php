@@ -14,7 +14,10 @@
 					'Kent Life' => '#'
 				),
 				'meta' => array('title'=>'Demo Page - Kent Theme Beta'),
-				'home_page' => true
+				'home_page' => true,
+				'beta_bar' => array(
+					'about_url' => '/about-beta'
+				)
 			)
 		);
 ?>
