@@ -22,7 +22,7 @@
 			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
-						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="examples/images/world-4x3.jpg">
+						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="media/images/world-4x3.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link card-transparent">
 						<h2 class="card-title">Strong international outlook</h2>
@@ -93,13 +93,13 @@
 					<div class="card-split">
 						<div class="card-half">
 							<div data-transcript="#" data-src="video/art-school-video.mp4" class="media-wrap video-launcher">
-								<img src="examples/images/student-ex-video.jpg" class="card-img-bottom">
+								<img src="media/images/student-ex-video.jpg" class="card-img-bottom">
 							</div>
 
 						</div>
 						<div class="card-half">
 							<div class="media-wrap ">
-								<img src="examples/images/student-ex-holi.jpg" class="card-img-bottom">
+								<img src="media/images/student-ex-holi.jpg" class="card-img-bottom">
 							</div>
 
 						</div>
