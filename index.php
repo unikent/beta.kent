@@ -135,23 +135,23 @@
 			<div class="card-panel p-b-3">
 				<div class="card-panel-body">
 					<a  href="#" class="card">
-						<img class="card-img" src="examples/images/locations-3x2.jpg">
+						<img class="card-img" src="media/images/locations-3x2.jpg">
 						<h3 class="card-title">Stunning locations</h3>
 						<p class="card-text">UK campuses close to London and European centres in Paris, Brussels, Rome and Athens.</p>
 					</a>
 					<a class="card">
-						<img class="card-img" src="examples/images/templeman-3x2.jpg">
+						<img class="card-img" src="media/images/templeman-3x2.jpg">
 						<h3 class="card-title">Investing in our facilities</h3>
 						<p class="card-text">Our new library, accommodation, sports centre provide world-class facilities.</p>
 					</a>
 					<a class="card">
-						<img class="card-img" src="examples/images/accommodation-3x2.jpg">
+						<img class="card-img" src="media/images/accommodation-3x2.jpg">
 						<h3 class="card-title">Living on campus</h3>
 						<p class="card-text">Safe and comfortable accomoodation to make the best of your studies and student life.</p>
 					</a>
 					
 					<a class="card">
-						<img class="card-img" src="examples/images/study-abroad-3x2.jpg">
+						<img class="card-img" src="media/images/study-abroad-3x2.jpg">
 						<h3 class="card-title">Experience the world</h3>
 						<p class="card-text">As a Kent student a world of study abroad and work placement opportunities are available to you.</p>
 
@@ -173,9 +173,9 @@
 					</div>
 					<div style="position:relative;">
 					<div class="card-media-wrap">
-						<img src="examples/images/tree-frog.jpg" class="card-img-bottom">
+						<img src="media/images/tree-frog.jpg" class="card-img-bottom">
 						<div class="card-img-overlay text-xs-right hidden-xs-down">
-							<img width="120" src="examples/images/ref-logo.png">
+							<img width="120" src="media/images/ref-logo.png">
 						</div>
 					</div>
 					<div class="card-img-overlay-bottom text-xs-right">
@@ -197,7 +197,7 @@
 
 
 			<blockquote>
-				<img src="examples/images/staff-profile.jpg" class="img-circle">
+				<img src="media/images/staff-profile.jpg" class="img-circle">
 				<p>The collaborative and interdisciplinary community at Kent helps strengthen innovative research.</p>
 				<footer>
 					<cite>
@@ -222,7 +222,7 @@
 						<p class="card-text">ThinkKent is a series of short, inspiring lectures showing our world-changing research.</p>
 					</div>
 					<div data-src="video/thinkkent.mp4" class="card-media-wrap video-launcher">
-						<img src="examples/images/thinkkent-16x9.jpg" class="card-img-bottom">
+						<img src="media/images/thinkkent-16x9.jpg" class="card-img-bottom">
 					</div>
 
 					<div class="card-img-overlay-bottom">
