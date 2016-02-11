@@ -1065,87 +1065,89 @@
 				</div>
 			</div>
 
-			<div class="card-panel-profiles card-panel-flush cards-flip">
-				<a class="card card-double card-backed-tertiary">
+			<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
+				<a class="card card-double">
 					<h3 class="card-title">Staff Profiles</h3>
 					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
 				</a>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/profile-1.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Ursular Fish</h3>
-							<p class="card-subtitle">Lecturer in Marine Biology</p>
+				<div class="kent-slider" data-slider-config="profile_feature">
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/profile-1.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Ursular Fish</h3>
+								<p class="card-subtitle">Lecturer in Marine Biology</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/profile-2.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Victor Crow</h3>
-							<p class="card-subtitle">Lecturer in Human Flight</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/profile-2.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Victor Crow</h3>
+								<p class="card-subtitle">Lecturer in Human Flight</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/profile-3.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Veronica Ferret</h3>
-							<p class="card-subtitle">Senior Lecturer in Espionage</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/profile-3.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Veronica Ferret</h3>
+								<p class="card-subtitle">Senior Lecturer in Espionage</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/profile-4.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Prof Mark Porpoise</h3>
-							<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/profile-4.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Prof Mark Porpoise</h3>
+								<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/profile-5.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Nicholas Badger</h3>
-							<p class="card-subtitle">Lecturer in Forestry</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/profile-5.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Nicholas Badger</h3>
+								<p class="card-subtitle">Lecturer in Forestry</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="images/pingpong-1x1.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Ping Pong</h3>
-							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="images/pingpong-1x1.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Ping Pong</h3>
+								<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+							</div>
 						</div>
-					</div>
-					<div class="back">
-						<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
-						<p><a href="#">View Profile</a></p>
+						<div class="back">
+							<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
+							<p><a href="#">View Profile</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
