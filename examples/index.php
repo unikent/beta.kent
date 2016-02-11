@@ -776,7 +776,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div style="background-image:url('images/sea-turtle.jpg');">
+								<div style="background-image:url('../media/images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -799,7 +799,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/sea-turtle.jpg');">
+								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('../media/images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -836,7 +836,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="expanded" style="background-image:url('images/sea-turtle.jpg');">
+						<div class="expanded" style="background-image:url('../media/images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -858,7 +858,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('images/sea-turtle.jpg');">
+						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('../media/images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
