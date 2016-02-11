@@ -13,14 +13,17 @@
 									  'description'=>'Postrgaduate home',
 									  'title'=>"Postgraduate Home - Kent Theme Beta"
 							   ),
-							   'theme'=>'postgraduate'
+							   'theme'=>'postgraduate',
+								'beta_bar' => array(
+									'about_url' => '/about-beta'
+								)
 					   )
 			   );
 ?>
 					   <div class="card card-overlay header-card-overlay">
 							   <div class="card-body">
 									<div class="card-media-wrap">
-										<img src="images/engineering-student-16-9.jpg" class="card-img-bottom">
+										<img src="../media/images/engineering-student-16-9.jpg" class="card-img-bottom">
 									</div>
 									<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-nopad">
 											<form class="quickspot-container" >
@@ -52,7 +55,7 @@
 											  <p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
 									  </div>
 									   <div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
-											  <img class="card-img-bottom" src="images/feature-professor-2-1.jpg">
+											  <img class="card-img-bottom" src="../media/images/feature-professor-2-1.jpg">
 
 											  <div class="card-img-overlay-bottom text-right">
 													 <h5 class="card-subtitle">Prof. David Welch</h5>
@@ -98,22 +101,22 @@
 
 							   <div class="card-panel-body">
 									  <a class="card" href="#">
-											  <img class="card-img" src="images/promo-world.jpg">
+											  <img class="card-img" src="../media/images/promo-world.jpg">
 											  <h3 class="card-title">Global Opportunities</h3>
 											  <p class="card-text">Findo out how our programmes can help you launch your career and employability.</p>
 									  </a>
 									  <a class="card" href="#">
-											  <img class="card-img" src="images/promo-graduates.jpg">
+											  <img class="card-img" src="../media/images/promo-graduates.jpg">
 											  <h3 class="card-title">Scholarships &amp; Funding</h3>
 											  <p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 									  </a>
 									  <a class="card" href="#">
-											  <img class="card-img" src="images/promo-3.jpg">
+											  <img class="card-img" src="../media/images/promo-3.jpg">
 											  <h3 class="card-title">How to apply</h3>
 											  <p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 									  </a>
 									  <a class="card" href="#">
-											  <img class="card-img" src="images/promo-innovation.jpg">
+											  <img class="card-img" src="../media/images/promo-innovation.jpg">
 											  <h3 class="card-title">Innovation and enterprise</h3>
 											  <p class="card-text">Find more about the exciting project we're working on with with partners and businesses.</p>
 											  </a>
@@ -121,7 +124,7 @@
 					   </div>
 
 					   <blockquote>
-							   <img class="img-circle" src="images/profile-academic.jpg">
+							   <img class="img-circle" src="../media/images/profile-academic.jpg">
 							   <p>It's the academic community that creates a supportive enviroment to help you excel</p>
 							   <footer>
 									   <cite>
@@ -141,7 +144,7 @@
 											  <p class="card-text">We have 6 exceptional Postgraduate locations with UK Campuses close to London and centres in Paris, Brussels Rome and Athens.</p>
 									  </div>
 									  <div class="card-media-wrap">
-											  <img src="images/promo-park-16-9.jpg" class="card-img-bottom" alt="Sport" />
+											  <img src="../media/images/promo-park-16-9.jpg" class="card-img-bottom" alt="Sport" />
 
 											  <a class="card-img-overlay-bottom text-right" href="#">
 													 <h5 class="card-subtitle">Canterbury</h5>
@@ -162,7 +165,7 @@
 							   <div class="card-panel-body">
 									  <div class="card">
 											  <a href="#">
-													 <img class="card-img" src="images/promo-blog.jpg">
+													 <img class="card-img" src="../media/images/promo-blog.jpg">
 													 <h3 class="card-title">Student Blogs</h3>
 											  </a>
 											  <p class="card-text">Our students tell it like it is.</p>
@@ -172,17 +175,17 @@
 											  </ul>
 									  </div>
 									  <a class="card short-text" href=''>
-											  <img class="card-img" src="images/promo-visit.jpg">
+											  <img class="card-img" src="../media/images/promo-visit.jpg">
 											  <h3 class="card-title">Visit Us</h3>
 											  <p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 									  </a>
 									  <a class="card" href=''>
-											  <img class="card-img" src="images/international.jpg">
+											  <img class="card-img" src="../media/images/international.jpg">
 											  <h3 class="card-title">International students</h3>
 											  <p class="card-text">From visa advice to arrival, we'll support you through the whole process.</p>
 									  </a>
 									  <a class="card" href=''>
-											  <img class="card-img" src="images/promo-4.jpg">
+											  <img class="card-img" src="../media/images/promo-4.jpg">
 											  <h3 class="card-title">Kent Union</h3>
 											  <p class="card-text">Get involved in the hundreds of societies on campus.</p>
 

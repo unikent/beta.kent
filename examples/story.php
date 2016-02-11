@@ -16,13 +16,16 @@
 			'meta' => array('title'=>'Story Demo Page - Kent Theme Beta'),
 			'slim'=>true,
 			'breadcrumb'=> false,
-			'main_class' =>'content-page'
+			'main_class' =>'content-page',
+			'beta_bar' => array(
+				'about_url' => '/about-beta'
+			)
 		)
 	);
 ?>
 <figure class="featured-image">
 	<div class="media-wrap-letterbox">
-		<img src="images/story-ping-pong.jpg">
+		<img src="../media/images/story-ping-pong.jpg">
 		<div class="attribution">
 			<i class="kf-camera"></i>
 			<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
@@ -41,7 +44,7 @@
 	<header class="content-header">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
 		<div class="byline">
-			<img class="author-avatar" src="images/story-author.jpg">
+			<img class="author-avatar" src="../media/images/story-author.jpg">
 			<address class="article-author">By <a rel="author" href="#">Wendy Raeside</a></address>
 			<time class="article-published pubdate" pubdate datetime="2015-12-1T12:01:01">12 December 2015</time>
 		</div>
@@ -91,7 +94,7 @@
 			<p>She argues that ‘While its absolute influence may have diminished as <a href="#">Beijing’s money arrives</a>, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
 
 			<blockquote>
-				<img class="img-circle" src="images/profile-academic.jpg">
+				<img class="img-circle" src="../media/images/profile-academic.jpg">
 				<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
 				<footer>
 					<cite>
@@ -111,7 +114,7 @@
 			<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary figurative painting.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
 			<figure class="figure-right">
 					<div class="media-wrap">
-						<img src="images/story-starfish.jpg">
+						<img src="../media/images/story-starfish.jpg">
 						<div class="attribution">
 							<i class="kf-camera"></i>
 							<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
@@ -131,7 +134,7 @@
 		</div>
 		<figure>
 			<div class="media-wrap-letterbox">
-				<img src="images/story-swimmers.jpg">
+				<img src="../media/images/story-swimmers.jpg">
 				<div class="attribution">
 					<i class="kf-camera"></i>
 					<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
@@ -174,25 +177,25 @@
 		</div>
 		<div class="card-panel-body">
 			<div class="card">
-				<img class="card-img" src="images/promo-1.jpg">
+				<img class="card-img" src="../media/images/promo-1.jpg">
 				<h3 class="card-title">Academic excellence</h3>
 				<p class="card-meta">1 September 2015</p>
 				<a href="#" class="card-badge kf-comment">5</a>
 			</div>
 			<div class="card">
-				<img class="card-img" src="images/promo-2.jpg">
+				<img class="card-img" src="../media/images/promo-2.jpg">
 				<h3 class="card-title">Undergraduates</h3>
 				<p class="card-meta">28 March 2015</p>
 				<a href="#" class="card-badge kf-comment">7</a>
 			</div>
 			<div class="card">
-				<img class="card-img" src="images/promo-3.jpg">
+				<img class="card-img" src="../media/images/promo-3.jpg">
 				<h3 class="card-title">Postgraduates</h3>
 				<p class="card-meta">5 November 2015</p>
 				<a href="#" class="card-badge kf-comment">1</a>
 			</div>
 			<div class="card">
-				<img class="card-img" src="images/promo-4.jpg">
+				<img class="card-img" src="../media/images/promo-4.jpg">
 				<h3 class="card-title">Visit Kent</h3>
 				<p class="card-meta">17 May 2015</p>
 				<a href="#" class="card-badge kf-comment">23</a>
