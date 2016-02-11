@@ -1076,7 +1076,7 @@
 				<div class="kent-slider" data-slider-config="profile_feature">
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/profile-1.jpg">
+							<img class="card-img" src="../media/images/profile-1.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Dr Ursular Fish</h3>
 								<p class="card-subtitle">Lecturer in Marine Biology</p>
@@ -1089,7 +1089,7 @@
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/profile-2.jpg">
+							<img class="card-img" src="../media/images/profile-2.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Dr Victor Crow</h3>
 								<p class="card-subtitle">Lecturer in Human Flight</p>
@@ -1102,7 +1102,7 @@
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/profile-3.jpg">
+							<img class="card-img" src="../media/images/profile-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Dr Veronica Ferret</h3>
 								<p class="card-subtitle">Senior Lecturer in Espionage</p>
@@ -1115,7 +1115,7 @@
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/profile-4.jpg">
+							<img class="card-img" src="../media/images/profile-4.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Prof Mark Porpoise</h3>
 								<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
@@ -1128,7 +1128,7 @@
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/profile-5.jpg">
+							<img class="card-img" src="../media/images/profile-5.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Dr Nicholas Badger</h3>
 								<p class="card-subtitle">Lecturer in Forestry</p>
@@ -1141,7 +1141,7 @@
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="images/pingpong-1x1.jpg">
+							<img class="card-img" src="../media/images/pingpong-1x1.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Dr Ping Pong</h3>
 								<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
