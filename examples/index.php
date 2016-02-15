@@ -267,12 +267,10 @@
 			<blockquote>
 				<img class="img-circle" src="../media/images/profile-academic.jpg">
 				<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
-				<footer>
-					<cite>
-						Dr David Hume,
-						<span>School of Astrofrench and Other stuff</span>
-					</cite>
-				</footer>
+				<cite>
+					Dr David Hume,
+					<span>School of Astrofrench and Other stuff</span>
+				</cite>
 			</blockquote>
 
 

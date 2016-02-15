@@ -199,14 +199,12 @@
 			<blockquote>
 				<img src="media/images/staff-profile.jpg" class="img-circle">
 				<p>The collaborative and interdisciplinary community at Kent helps strengthen innovative research.</p>
-				<footer>
-					<cite>
-						Dr David Hume,
-						<span>School of Biosciences</span>
+				<cite>
+					Dr David Hume,
+					<span>School of Biosciences</span>
 
-						<span><a class="chevron-link" href="#">Learn more about our community</a></span>
-					</cite>
-				</footer>
+					<span><a class="chevron-link" href="#">Learn more about our community</a></span>
+				</cite>
 			</blockquote>
 
 
