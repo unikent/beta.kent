@@ -113,9 +113,10 @@
 								<img src="media/images/student-ex-holi.jpg" class="card-img-bottom">
 							</div>
 						</div>
-					<div class="card-img-overlay-bottom card-overlay-inline-sm" >
-						<h5 class="card-subtitle">Life at Kent</h5>
-						<p class="card-text">Find out more from our students.</p>
+						<div class="card-img-overlay-bottom card-overlay-inline-sm" >
+							<h5 class="card-subtitle">Life at Kent</h5>
+							<p class="card-text">Find out more from our students.</p>
+						</div>
 					</div>
 				</div>
 				<div class="card-footer">
@@ -125,16 +126,6 @@
 					<a href="http://www.kent.ac.uk/student/experience/living-leisure.html" class="chevron-link">Culture, sports and societies</a>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
-			</div>
-
 
 
 
@@ -170,45 +161,6 @@
 
 
 
-
-
-			<!--
-
-
-			<div class="card card-overlay">
-				<div class="card-body card-inverse">
-					<a  href="http://www.kent.ac.uk/research/" class="card-title-wrap card-title-wrap-link pull-left">
-						<h4 class="card-title">World-leading research</h4>
-						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
-					</a>
-					<div style="position:relative;">
-					<div class="card-media-wrap">
-						<img src="media/images/tree-frog.jpg" class="card-img-bottom">
-						<div class="card-img-overlay text-xs-right hidden-xs-down">
-							<a href="https://www.kent.ac.uk/research/ref2014/"><img width="120" src="media/images/ref-logo.png"></a>
-						</div>
-					</div>
-					<div class="card-img-overlay-bottom text-xs-right">
-						<a href="http://www.kent.ac.uk/news/environment/4598/research-impact-surveys-of-amphibians-and-reptiles">
-							<h5 class="card-subtitle chevron-link">Conservation research</h5>
-							<p class="card-text ">Innovative survey of amphibians and reptiles helps conservation.</p>
-						</a>
-					</div>
-					</div>
-				</div>
-				<div class="card-footer">
-					<a href="http://www.kent.ac.uk/research/impact/" class="chevron-link">Research impact</a>
-					<a href="https://www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic successes</a>
-					<a href="http://www.kent.ac.uk/courses/postgraduate/types/research.html#!degrees" class="chevron-link">Research degrees</a>
-				
-				</div>
-			</div>
- -->
-
-
-
-
-
 			<div class="card card-overlay">
 				<div class="card-body card-inverse">
 
@@ -218,9 +170,8 @@
 					</a>
 
 
-					<div style="position:relative;">
-					<div class="card-media-wrap">
 
+					<div class="card-media-wrap">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 							<video autoplay="" loop="" class="embed-responsive-item">
 								<source src="media/video/nature.mp4">
@@ -230,19 +181,18 @@
 						<div class="card-img-overlay text-xs-right hidden-xs-down">
 							<a href="https://www.kent.ac.uk/research/ref2014/"><img width="120" src="media/images/ref-logo.png"></a>
 						</div>
-
 					</div>
+
 					<a href="http://www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-img-overlay-bottom text-xs-right">
 						<h5 class="card-subtitle chevron-link">Designing nature reserve networks</h5>
 						<p class="card-text ">Research into balancing conservation with local people.</p>
 					</a>
-				</div>
+
 				</div>
 				<div class="card-footer">
 					<a href="http://www.kent.ac.uk/research/impact/" class="chevron-link">Research impact</a>
 					<a href="https://www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic successes</a>
 					<a href="http://www.kent.ac.uk/courses/postgraduate/types/research.html#!degrees" class="chevron-link">Research degrees</a>
-				
 				</div>
 			</div>
 
@@ -254,11 +204,10 @@
 			<blockquote class="m-b-5 m-t-2">
 				<img src="media/images/staff-profile.jpg" class="img-circle">
 				<p>Because of Kent, I have much greater academic and geographic possibilities. The experience has been priceless.</p>
-				<cite style="font-style: normal">
-					<strong>Dara Blumenthal</strong>,
+				<cite>
+					Dara Blumenthal,
 					<span>PhD Sociology</span>
-					<br />
-					<span><a class="chevron-link" href="http://www.kent.ac.uk/courses/postgraduate/profiles/sociology.html">View Dara's profile</a></span>
+					<a class="chevron-link" href="http://www.kent.ac.uk/courses/postgraduate/profiles/sociology.html">View Dara's profile</a>
 				</cite>
 			</blockquote>
 
