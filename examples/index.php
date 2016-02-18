@@ -248,8 +248,59 @@
 					</tbody>
 				</table>
 
+				<strong>Responsive Table (will be side scrollable on phones)</strong>
+				<p>See <a href="http://v4-alpha.getbootstrap.com/content/tables/#responsive-tables">bootstrap documention</a> for more details.</p>
+				<div class="table-responsive">
+					<table class="table ">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Credits</th>
+								<th>Other</th>
+								<th>Stuff</th>
+								<th>More stuff</th>
+								<th>A number</th>
+								<th>Something else</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+								<td>6</td>
+								<td>Burger</td>
+
+								<td>Bacon</td>
+								<td>Cheese</td>
+								<td>2</td>
+								<td>Cupcakes</td>
+
+							</tr>
+							<tr>
+								<td><a href='#'>DK95 - Video game studies</a></td>
+								<td>55</td>
+								<td>Lunch</td>
+
+								<td>Ham</td>
+								<td>Egg</td>
+								<td>21</td>
+								<td>Waffles</td>
+
+							</tr>
+							<tr>
+								<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+								<td>8</td>
+								<td>Desert</td>
+
+								<td>Custard</td>
+								<td>Chocolate</td>
+								<td>2</td>
+								<td>Llamas</td>
 
 
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 
 
