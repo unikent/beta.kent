@@ -44,7 +44,7 @@
 				<div class="container-padded ">
 					<form class="quickspot-container m-t-3">
 
-						<h4 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h4>
+						<h2 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h2>
 
 						 <div class="form-group">
 							 <label for="search" class="sr-only">Search</label>
