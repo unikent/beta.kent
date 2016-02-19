@@ -543,7 +543,7 @@
 
 						<input placeholder="Filter">
 					</div>
-					<nav class="card-panel-social ">
+					<nav class="content-social">
 						<a title="twitter" href="#" class="kf-twitter"></a>
 						<a title="facebook" href="#" class="kf-facebook"></a>
 						<a title="instagram" href="#" class="kf-instagram"></a>
@@ -1224,6 +1224,26 @@
 		<a href="https://twitter.com/unikentnews">unikent</a>
 	</cite>
 </blockquote>
+
+<div class="" style="
+    background: #fff; //#f7f2e1;
+    padding: 2rem;
+">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="card card-backed card-backed-tertiary card-header-split card-centered">
+					<div class="card-header">
+						<img class="card-img img-circle" src="../media/images/profile-1.jpg">
+					</div>
+					<h3 class="card-title">Dr Ursular Fish</h3>
+					<p class="card-subtitle">Lecturer in Marine Biology</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 		<?php KentThemeHelper::footer(); ?>
 
