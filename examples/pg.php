@@ -126,13 +126,13 @@
 					   <blockquote>
 							   <img class="img-circle" src="../media/images/profile-academic.jpg">
 							   <p>It's the academic community that creates a supportive enviroment to help you excel</p>
-							   <footer>
-									   <cite>
-											  Dr David Hume,
-											  <span>PhD. Particle physics</span>
-											  <span><a href="#" class="chevron-link">Learn more about our community</a></span>
-									  </cite>
-							   </footer>
+
+							   <cite>
+									  Dr David Hume,
+									  <span>PhD. Particle physics</span>
+									  <span><a href="#" class="chevron-link">Learn more about our community</a></span>
+							   </cite>
+
 					   </blockquote>
 
 

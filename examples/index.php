@@ -248,8 +248,59 @@
 					</tbody>
 				</table>
 
+				<strong>Responsive Table (will be side scrollable on phones)</strong>
+				<p>See <a href="http://v4-alpha.getbootstrap.com/content/tables/#responsive-tables">bootstrap documention</a> for more details.</p>
+				<div class="table-responsive">
+					<table class="table ">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Credits</th>
+								<th>Other</th>
+								<th>Stuff</th>
+								<th>More stuff</th>
+								<th>A number</th>
+								<th>Something else</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href='#'>CL850 - Bacon studies with algebraic-french</a></td>
+								<td>6</td>
+								<td>Burger</td>
+
+								<td>Bacon</td>
+								<td>Cheese</td>
+								<td>2</td>
+								<td>Cupcakes</td>
+
+							</tr>
+							<tr>
+								<td><a href='#'>DK95 - Video game studies</a></td>
+								<td>55</td>
+								<td>Lunch</td>
+
+								<td>Ham</td>
+								<td>Egg</td>
+								<td>21</td>
+								<td>Waffles</td>
+
+							</tr>
+							<tr>
+								<td><a href='#'>FA7 - Hamburger eating with a specialism in double bacon</a></td>
+								<td>8</td>
+								<td>Desert</td>
+
+								<td>Custard</td>
+								<td>Chocolate</td>
+								<td>2</td>
+								<td>Llamas</td>
 
 
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 
 
@@ -267,12 +318,10 @@
 			<blockquote>
 				<img class="img-circle" src="../media/images/profile-academic.jpg">
 				<p>It was I who ate all the pies! And I would have gotten away with it too, if it weren't for you meddling kids.</p>
-				<footer>
-					<cite>
-						Dr David Hume,
-						<span>School of Astrofrench and Other stuff</span>
-					</cite>
-				</footer>
+				<cite>
+					Dr David Hume,
+					<span>School of Astrofrench and Other stuff</span>
+				</cite>
 			</blockquote>
 
 
@@ -494,7 +543,7 @@
 
 						<input placeholder="Filter">
 					</div>
-					<nav class="card-panel-social ">
+					<nav class="content-social">
 						<a title="twitter" href="#" class="kf-twitter"></a>
 						<a title="facebook" href="#" class="kf-facebook"></a>
 						<a title="instagram" href="#" class="kf-instagram"></a>
@@ -776,7 +825,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div style="background-image:url('images/sea-turtle.jpg');">
+								<div style="background-image:url('../media/images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -799,7 +848,7 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('images/sea-turtle.jpg');">
+								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('../media/images/sea-turtle.jpg');">
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -836,7 +885,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="expanded" style="background-image:url('images/sea-turtle.jpg');">
+						<div class="expanded" style="background-image:url('../media/images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -858,7 +907,7 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('images/sea-turtle.jpg');">
+						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('../media/images/sea-turtle.jpg');">
 						</div>
 					</div>
 				</div>
@@ -1068,87 +1117,89 @@
 				</div>
 			</div>
 
-			<div class="card-panel-profiles card-panel-flush cards-flip">
-				<a class="card card-double card-backed-tertiary">
+			<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
+				<a class="card card-double">
 					<h3 class="card-title">Staff Profiles</h3>
 					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
 				</a>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/profile-1.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Ursular Fish</h3>
-							<p class="card-subtitle">Lecturer in Marine Biology</p>
+				<div class="kent-slider" data-slider-config="profile_feature">
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/profile-1.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Ursular Fish</h3>
+								<p class="card-subtitle">Lecturer in Marine Biology</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/profile-2.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Victor Crow</h3>
-							<p class="card-subtitle">Lecturer in Human Flight</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/profile-2.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Victor Crow</h3>
+								<p class="card-subtitle">Lecturer in Human Flight</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/profile-3.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Veronica Ferret</h3>
-							<p class="card-subtitle">Senior Lecturer in Espionage</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/profile-3.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Veronica Ferret</h3>
+								<p class="card-subtitle">Senior Lecturer in Espionage</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/profile-4.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Prof Mark Porpoise</h3>
-							<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/profile-4.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Prof Mark Porpoise</h3>
+								<p class="card-subtitle">Senior Lecturer in Pseudo Science</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/profile-5.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Nicholas Badger</h3>
-							<p class="card-subtitle">Lecturer in Forestry</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/profile-5.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Nicholas Badger</h3>
+								<p class="card-subtitle">Lecturer in Forestry</p>
+							</div>
+						</div>
+						<div class="back">
+							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+							<p><a href="#">View Profile</a></p>
 						</div>
 					</div>
-					<div class="back">
-						<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-						<p><a href="#">View Profile</a></p>
-					</div>
-				</div>
-				<div class="card card-backed-primary">
-					<div class="front">
-						<img class="card-img" src="../media/images/pingpong-1x1.jpg">
-						<div class="card-img-overlay-bottom-shaded">
-							<h3 class="card-title">Dr Ping Pong</h3>
-							<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+					<div class="card card-backed-primary">
+						<div class="front">
+							<img class="card-img" src="../media/images/pingpong-1x1.jpg">
+							<div class="card-img-overlay-bottom-shaded">
+								<h3 class="card-title">Dr Ping Pong</h3>
+								<p class="card-subtitle">Senior Lecturer in Astrofrench</p>
+							</div>
 						</div>
-					</div>
-					<div class="back">
-						<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
-						<p><a href="#">View Profile</a></p>
+						<div class="back">
+							<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
+							<p><a href="#">View Profile</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -1173,6 +1224,26 @@
 		<a href="https://twitter.com/unikentnews">unikent</a>
 	</cite>
 </blockquote>
+
+<div class="" style="
+    background: #fff; //#f7f2e1;
+    padding: 2rem;
+">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="card card-backed card-backed-tertiary card-header-split card-centered">
+					<div class="card-header">
+						<img class="card-img img-circle" src="../media/images/profile-1.jpg">
+					</div>
+					<h3 class="card-title">Dr Ursular Fish</h3>
+					<p class="card-subtitle">Lecturer in Marine Biology</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 		<?php KentThemeHelper::footer(); ?>
 
