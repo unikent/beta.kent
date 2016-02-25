@@ -1,5 +1,5 @@
-/media
-lib/config.php
 vendor/
 .idea
+/media
+/lib
 bootstrap.php
