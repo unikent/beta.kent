@@ -794,7 +794,7 @@
 							<img class="card-img" src="../media/images/promo-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">More stuff</h3>
-								<p class="card-text">We rank amongst the best in the UK.</p>
+								<p class="card-subtitle">We rank amongst the best in the UK.</p>
 							</div>
 						</div>
 					</div>
@@ -1225,26 +1225,6 @@
 	</cite>
 </blockquote>
 
-<div class="" style="
-    background: #fff; //#f7f2e1;
-    padding: 2rem;
-">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="card card-backed card-backed-tertiary card-header-split card-centered">
-					<div class="card-header">
-						<img class="card-img img-circle" src="../media/images/profile-1.jpg">
-					</div>
-					<h3 class="card-title">Dr Ursular Fish</h3>
-					<p class="card-subtitle">Lecturer in Marine Biology</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-		<?php KentThemeHelper::footer(); ?>
+<?php KentThemeHelper::footer(); ?>
 
 
