@@ -23,7 +23,7 @@ KentThemeHelper::header(array(
 <div class="card card-overlay header-card-overlay">
 	<div class="card-body">
 		<div class="card-media-wrap">
-			<img src="../examples/images/sunrise-16-9.jpg" class="card-img-bottom" alt="">
+			<img src="../examples/images/sunrise-16-9.jpg" class="card-img" alt="">
 		</div>
 		<a href="//blogs.kent.ac.uk/webdev/category/beta/" class="card-title-wrap card-title-wrap-link card-transparent">
 			<h2 class="card-title">We're testing out new designs</h2>

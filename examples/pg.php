@@ -49,13 +49,13 @@
 					   </aside>
 
 					   <div class="card card-overlay">
-							   <div class="card-body card-inverse">
+							   <div class="card-body">
 									  <div class="card-title-wrap card-title-wrap-link pull-right">
 											  <h4 class="card-title">World Leading research</h4>
 											  <p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
 									  </div>
 									   <div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
-											  <img class="card-img-bottom" src="../media/images/feature-professor-2-1.jpg">
+											  <img class="card-img" src="../media/images/feature-professor-2-1.jpg">
 
 											  <div class="card-img-overlay-bottom text-right">
 													 <h5 class="card-subtitle">Prof. David Welch</h5>
@@ -138,7 +138,7 @@
 
 
 <div class="card card-overlay">
-							   <div class="card-body card-inverse">
+							   <div class="card-body">
 									  <div class="card-title-wrap card-title-wrap-link">
 											  <h4 class="card-title">Life at Kent</h4>
 											  <p class="card-text">We have 6 exceptional Postgraduate locations with UK Campuses close to London and centres in Paris, Brussels Rome and Athens.</p>
