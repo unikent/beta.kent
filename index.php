@@ -97,7 +97,7 @@
 				<div class="card-body">
 					<a href="http://www.kent.ac.uk/student/experience/">
 						<div class="card-title-wrap card-title-wrap-link pull-right">
-							<h4 class="card-title">Superb student experience</h4>
+							<h2 class="card-title">Superb student experience</h2>
 							<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
 						</div>
 					</a>
@@ -114,7 +114,7 @@
 							</div>
 						</div>
 						<div class="card-img-overlay-bottom card-overlay-inline-sm" >
-							<h5 class="card-subtitle">Life at Kent</h5>
+							<h3 class="card-subtitle">Life at Kent</h3>
 							<p class="card-text">Find out more from our students.</p>
 						</div>
 					</div>
@@ -165,7 +165,7 @@
 				<div class="card-body">
 
 					<a  href="http://www.kent.ac.uk/research/" class="card-title-wrap card-title-wrap-link pull-left" >
-						<h4 class="card-title">World-leading research</h4>
+						<h2 class="card-title">World-leading research</h2>
 						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
 					</a>
 
@@ -184,7 +184,7 @@
 					</div>
 
 					<a href="http://www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-img-overlay-bottom text-xs-right">
-						<h5 class="card-subtitle chevron-link">Designing nature reserve networks</h5>
+						<h3 class="card-subtitle chevron-link">Designing nature reserve networks</h3>
 						<p class="card-text ">Research into balancing conservation with local people.</p>
 					</a>
 
@@ -218,7 +218,7 @@
 			<div class="card card-overlay p-b-3">
 				<div class="card-body">
 					<a href="http://www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Thinkers with global impact</h4>
+						<h2 class="card-title">Thinkers with global impact</h2>
 						<p class="card-text">Think Kent is a series of short, inspiring lectures showing our world-changing research.</p>
 					</a>
 					<div data-src="media/video/thinkkent.mp4" class="card-media-wrap video-launcher">
@@ -226,7 +226,7 @@
 					</div>
 
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">Dr Stephen Lowry</h5>
+						<h3 class="card-subtitle">Dr Stephen Lowry</h3>
 						<p class="card-text">Comet imaging during the Rosetta mission</p>
 					</div>
 				</div>

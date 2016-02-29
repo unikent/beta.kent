@@ -356,14 +356,14 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A bold title</h4>
+						<h2  class="card-title">A bold title</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap">
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -437,7 +437,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Video + Slider</h4>
+						<h2 class="card-title">Video + Slider</h2>
 						<p class="card-text">Not happy with just a video or a slider? now you can have both!!!</p>
 					</div>
 					<div class="card-split">
@@ -463,7 +463,7 @@
 						</div>
 					</div>
 					<a href="#" class="card-img-overlay-bottom card-overlay-inline-sm">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</a>
 				</div>
@@ -478,14 +478,14 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">With Paralax!</h4>
+						<h2 class="card-title">With Paralax!</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -511,7 +511,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A Slider!</h4>
+						<h2 class="card-title">A Slider!</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="kent-slider kent-slider-dark">
@@ -520,7 +520,7 @@
 								<img class="card-img" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
 						</div>
@@ -529,7 +529,7 @@
 								<img class="card-img" src="../media/images/hero-painting-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter.</p>
 							</div>
 						</div>
@@ -538,7 +538,7 @@
 								<img class="card-img" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
 						</div>
@@ -741,7 +741,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A video launcher</h4>
+						<h2 class="card-title">A video launcher</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap video-launcher" data-src="../media/video/video-research-student.mp4">
@@ -749,7 +749,7 @@
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
-						<h5 class="card-meta card-subtitle">A sub title</h5>
+						<h3 class="card-meta card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -764,7 +764,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">An inline video</h4>
+						<h2 class="card-title">An inline video</h2>
 					</div>
 					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
 						<img class="card-img" src="../media/images/students.jpg">
@@ -1008,7 +1008,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A video loop</h4>
+						<h2 class="card-title">A video loop</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap">
@@ -1019,7 +1019,7 @@
 						</div>
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -1027,7 +1027,7 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h4 class="card-title">A google map</h4>
+					<h2 class="card-title">A google map</h2>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
@@ -1039,7 +1039,7 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h4 class="card-title">A search box</h4>
+					<h2 class="card-title">A search box</h2>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
@@ -1072,7 +1072,7 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Goodbye</h4>
+						<h2 class="card-title">Goodbye</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 
@@ -1083,17 +1083,17 @@
 							</video>
 						</div>
 						<div class="card-img-overlay-bottom">
-							<h5 class="card-subtitle">On the Left</h5>
+							<h3 class="card-subtitle">On the Left</h3>
 							<p class="card-text">This content is shorter.</p>
 						</div>
 						<div class="card-img-overlay-bottom text-xs-right">
-							<h5 class="card-subtitle">On the right</h5>
+							<h3 class="card-subtitle">On the right</h3>
 							<p class="card-text">This content is shorter.</p>
 						</div>
 					</div>
 
 					<div class="card-title-wrap card-title-wrap-link">
-						<h4 class="card-title">Hello</h4>
+						<h2 class="card-title">Hello</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 
