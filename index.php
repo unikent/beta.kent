@@ -24,7 +24,7 @@
 
 			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true" >
 						<img  data-stellar-ratio="0.7" class="card-img" src="media/images/world-iss-4x3.jpg">
 					</div>
 					<a href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" class="card-title-wrap card-title-wrap-link card-transparent">

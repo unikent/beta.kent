@@ -23,7 +23,7 @@
 
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link">
@@ -477,10 +477,10 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">With Paralax!</h2>
+						<h2 class="card-title">With Parallax!</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
