@@ -23,7 +23,7 @@
 
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link">
@@ -143,7 +143,7 @@
 						<p class="card-text">Praesent quis dui nisi. Fusce rhoncus massa tellus, et dictum ipsum ultrices vel. Praesent bibendum enim ut tristique pellentesque.</p>
 					</div>
 					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="../media/images/students.jpg">
+						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 				</div>
 				<div class="card-footer">
@@ -324,18 +324,107 @@
 				</cite>
 			</blockquote>
 
+<div class="container">
+	<h2>Tabs</h2>
+	<ul class="nav nav-tabs" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" data-toggle="tab" href="#home" role="tab">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#messages" role="tab">Messages</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#settings" role="tab">Settings</a>
+		</li>
+	</ul>
+
+	<div class="tab-content">
+		<div class="tab-pane fade in active" id="home" role="tabpanel">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+		<div class="tab-pane fade" id="profile" role="tabpanel">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+		<div class="tab-pane fade" id="messages" role="tabpanel">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+		<div class="tab-pane fade" id="settings" role="tabpanel">Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</div>
+	</div>
+</div>
+
+<br>
+<br>
+
+			<div class="container">
+				<h2>Tabs -> Accordion at SM</h2>
+				<ul class="nav nav-tabs hidden-sm-down" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Messages</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Settings</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<h3 class="tab-title hidden-md-up" data-toggle="collapse_responsive" data-target="#home1" aria-controls="home" data-parent=".tab-content">Home</h3>
+					<div class="tab-pane fade in active collapse-sm-down" id="home1" role="tabpanel">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+					<h3 class="tab-title hidden-md-up collapsed" data-toggle="collapse_responsive" data-target="#profile1" aria-controls="profile" data-parent=".tab-content">Profile</h3>
+					<div class="tab-pane fade collapse-sm-down" id="profile1" role="tabpanel">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+					<h3 class="tab-title hidden-md-up collapsed" data-toggle="collapse_responsive" data-target="#messages1" aria-controls="messages" data-parent=".tab-content">Messages</h3>
+					<div class="tab-pane fade collapse-sm-down" id="messages1" role="tabpanel">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+					<h3 class="tab-title hidden-md-up collapsed" data-toggle="collapse_responsive" data-target="#settings1" aria-controls="settings" data-parent=".tab-content">Settings</h3>
+					<div class="tab-pane fade collapse-sm-down" id="settings1" role="tabpanel">Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</div>
+				</div>
+			</div>
+
+<br>
+<br>
+
+<div class="container">
+
+	<h2>Tabs -> Accordion at MD</h2>
+	<ul class="nav nav-tabs hidden-md-down" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" data-toggle="tab" href="#home2" role="tab">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#profile2" role="tab">Profile</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#messages2" role="tab">Messages</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#settings2" role="tab">Settings</a>
+		</li>
+	</ul>
+
+	<div class="tab-content">
+		<h3 class="tab-title hidden-lg-up" data-toggle="collapse_responsive" data-target="#home2" aria-controls="home" data-parent=".tab-content">Home</h3>
+		<div class="tab-pane fade in active collapse-md-down" id="home2" role="tabpanel">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+		<h3 class="tab-title hidden-lg-up collapsed" data-toggle="collapse_responsive" data-target="#profile2" aria-controls="profile" data-parent=".tab-content">Profile</h3>
+		<div class="tab-pane fade collapse-md-down" id="profile2" role="tabpanel">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+		<h3 class="tab-title hidden-lg-up collapsed" data-toggle="collapse_responsive" data-target="#messages2" aria-controls="messages" data-parent=".tab-content">Messages</h3>
+		<div class="tab-pane fade collapse-md-down" id="messages2" role="tabpanel">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+		<h3 class="tab-title hidden-lg-up collapsed" data-toggle="collapse_responsive" data-target="#settings2" aria-controls="settings" data-parent=".tab-content">Settings</h3>
+		<div class="tab-pane fade collapse-md-down" id="settings2" role="tabpanel">Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</div>
+	</div>
+</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A bold title</h4>
+						<h2  class="card-title">A bold title</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="../media/images/students.jpg">
+						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -407,15 +496,15 @@
 			</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Video + Slider</h4>
+						<h2 class="card-title">Video + Slider</h2>
 						<p class="card-text">Not happy with just a video or a slider? now you can have both!!!</p>
 					</div>
 					<div class="card-split">
 						<div class="card-half">
 							<div class="media-wrap video-launcher" data-src="../media/video/video-research-student.mp4" data-transcript="#">
-								<img class="card-img-bottom" src="../media/images/sea-turtle.jpg">
+								<img class="card-img" src="../media/images/sea-turtle.jpg">
 							</div>
 
 						</div>
@@ -423,19 +512,19 @@
 							<div class="kent-slider">
 								<div class="kent-slide">
 									<div class="media-wrap">
-										<img class="card-img-bottom" src="../media/images/world-4x3.jpg">
+										<img class="card-img" src="../media/images/world-4x3.jpg">
 									</div>
 								</div>
 								<div class="kent-slide">
 									<div class="media-wrap">
-										<img class="card-img-bottom" src="../media/images/ping-pong-4x3.jpg">
+										<img class="card-img" src="../media/images/ping-pong-4x3.jpg">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<a href="#" class="card-img-overlay-bottom card-overlay-inline-sm">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</a>
 				</div>
@@ -448,16 +537,16 @@
 			</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">With Paralax!</h4>
+						<h2 class="card-title">With Parallax!</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true">
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -481,42 +570,42 @@
 
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A Slider!</h4>
+						<h2 class="card-title">A Slider!</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
+								<img class="card-img" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap ">
-								<img class="card-img-bottom" src="../media/images/hero-painting-16-9.jpg">
+								<img class="card-img" src="../media/images/hero-painting-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
+								<img class="card-img" src="../media/images/sunrise-16-9.jpg">
 							</div>
 							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
-								<h5 class="card-subtitle">A sub title</h5>
+								<h3 class="card-subtitle">A sub title</h3>
 								<p class="card-text">This content is shorter. This content is shorter. This content is shorter.</p>
 							</div>
 						</div>
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-								<img class="card-img-bottom" src="../media/images/sunrise-16-9.jpg">
+								<img class="card-img" src="../media/images/sunrise-16-9.jpg">
 							</div>
 						</div>
 					</div>
@@ -711,17 +800,17 @@
 			</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A video launcher</h4>
+						<h2 class="card-title">A video launcher</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap video-launcher" data-src="../media/video/video-research-student.mp4">
-						<img class="card-img-bottom" src="../media/images/students.jpg">
+						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
-						<h5 class="card-meta card-subtitle">A sub title</h5>
+						<h3 class="card-meta card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -734,12 +823,13 @@
 			</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">An inline video</h4>
+						<h2 class="card-title">An inline video</h2>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-modal-up="xl" data-transcript="">
-						<img class="card-img-bottom" src="../media/images/students.jpg">
+
+					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="" data-modal-up="xl">
+						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
@@ -794,7 +884,7 @@
 							<img class="card-img" src="../media/images/promo-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">More stuff</h3>
-								<p class="card-text">We rank amongst the best in the UK.</p>
+								<p class="card-subtitle">We rank amongst the best in the UK.</p>
 							</div>
 						</div>
 					</div>
@@ -978,9 +1068,9 @@
 			</div>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">A video loop</h4>
+						<h2 class="card-title">A video loop</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-media-wrap">
@@ -991,7 +1081,7 @@
 						</div>
 					</div>
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">A sub title</h5>
+						<h3 class="card-subtitle">A sub title</h3>
 						<p class="card-text">This content is shorter.</p>
 					</div>
 				</div>
@@ -999,7 +1089,7 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h4 class="card-title">A google map</h4>
+					<h2 class="card-title">A google map</h2>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
@@ -1011,11 +1101,11 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h4 class="card-title">A search box</h4>
+					<h2 class="card-title">A search box</h2>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				</div>
 				<div class="card-media-wrap">
-					<img class="card-img-bottom" src="../media/images/students.jpg">
+					<img class="card-img" src="../media/images/students.jpg">
 				</div>
 				<div class="card-img-overlay-bottom">
 					<form >
@@ -1042,9 +1132,9 @@
 			</section>
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Goodbye</h4>
+						<h2 class="card-title">Goodbye</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 
@@ -1055,17 +1145,17 @@
 							</video>
 						</div>
 						<div class="card-img-overlay-bottom">
-							<h5 class="card-subtitle">On the Left</h5>
+							<h3 class="card-subtitle">On the Left</h3>
 							<p class="card-text">This content is shorter.</p>
 						</div>
 						<div class="card-img-overlay-bottom text-xs-right">
-							<h5 class="card-subtitle">On the right</h5>
+							<h3 class="card-subtitle">On the right</h3>
 							<p class="card-text">This content is shorter.</p>
 						</div>
 					</div>
 
 					<div class="card-title-wrap card-title-wrap-link">
-						<h4 class="card-title">Hello</h4>
+						<h2 class="card-title">Hello</h2>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 
@@ -1225,26 +1315,6 @@
 	</cite>
 </blockquote>
 
-<div class="" style="
-    background: #fff; //#f7f2e1;
-    padding: 2rem;
-">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3">
-				<div class="card card-backed card-backed-tertiary card-header-split card-centered">
-					<div class="card-header">
-						<img class="card-img img-circle" src="../media/images/profile-1.jpg">
-					</div>
-					<h3 class="card-title">Dr Ursular Fish</h3>
-					<p class="card-subtitle">Lecturer in Marine Biology</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-		<?php KentThemeHelper::footer(); ?>
+<?php KentThemeHelper::footer(); ?>
 
 

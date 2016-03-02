@@ -24,8 +24,8 @@
 
 			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
-					<div class="media-wrap-paralax" data-stellar-offset-parent="true" >
-						<img  data-stellar-ratio="0.7" class="card-img-bottom" src="media/images/world-iss-4x3.jpg">
+					<div class="media-wrap-parallax" data-stellar-offset-parent="true" >
+						<img  data-stellar-ratio="0.7" class="card-img" src="media/images/world-iss-4x3.jpg">
 					</div>
 					<a href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" class="card-title-wrap card-title-wrap-link card-transparent">
 							<h2 class="card-title">Strong international outlook</h2>
@@ -94,27 +94,27 @@
 
 
 			<div class="card card-overlay m-t-0">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<a href="http://www.kent.ac.uk/student/experience/">
 						<div class="card-title-wrap card-title-wrap-link pull-right">
-							<h4 class="card-title">Superb student experience</h4>
+							<h2 class="card-title">Superb student experience</h2>
 							<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
 						</div>
 					</a>
 					<div class="card-split">
 						<div class="card-half">
 							<div data-transcript="#" data-src="media/video/art-school-video.mp4" class="media-wrap video-launcher">
-								<img src="media/images/student-ex-video.jpg" class="card-img-bottom">
+								<img src="media/images/student-ex-video.jpg" class="card-img">
 							</div>
 
 						</div>
 						<div class="card-half">
 							<div class="media-wrap ">
-								<img src="media/images/student-ex-holi.jpg" class="card-img-bottom">
+								<img src="media/images/student-ex-holi.jpg" class="card-img">
 							</div>
 						</div>
 						<div class="card-img-overlay-bottom card-overlay-inline-sm" >
-							<h5 class="card-subtitle">Life at Kent</h5>
+							<h3 class="card-subtitle">Life at Kent</h3>
 							<p class="card-text">Find out more from our students.</p>
 						</div>
 					</div>
@@ -162,10 +162,10 @@
 
 
 			<div class="card card-overlay">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 
 					<a  href="http://www.kent.ac.uk/research/" class="card-title-wrap card-title-wrap-link pull-left" >
-						<h4 class="card-title">World-leading research</h4>
+						<h2 class="card-title">World-leading research</h2>
 						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
 					</a>
 
@@ -184,7 +184,7 @@
 					</div>
 
 					<a href="http://www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-img-overlay-bottom text-xs-right">
-						<h5 class="card-subtitle chevron-link">Designing nature reserve networks</h5>
+						<h3 class="card-subtitle chevron-link">Designing nature reserve networks</h3>
 						<p class="card-text ">Research into balancing conservation with local people.</p>
 					</a>
 
@@ -216,17 +216,17 @@
 
 
 			<div class="card card-overlay p-b-3">
-				<div class="card-body card-inverse">
+				<div class="card-body">
 					<a href="http://www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="card-title-wrap card-title-wrap-link pull-right">
-						<h4 class="card-title">Thinkers with global impact</h4>
+						<h2 class="card-title">Thinkers with global impact</h2>
 						<p class="card-text">Think Kent is a series of short, inspiring lectures showing our world-changing research.</p>
 					</a>
 					<div data-src="media/video/thinkkent.mp4" class="card-media-wrap video-launcher">
-						<img src="media/images/thinkkent-16x9.jpg" class="card-img-bottom">
+						<img src="media/images/thinkkent-16x9.jpg" class="card-img">
 					</div>
 
 					<div class="card-img-overlay-bottom">
-						<h5 class="card-subtitle">Dr Stephen Lowry</h5>
+						<h3 class="card-subtitle">Dr Stephen Lowry</h3>
 						<p class="card-text">Comet imaging during the Rosetta mission</p>
 					</div>
 				</div>
