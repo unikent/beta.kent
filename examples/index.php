@@ -738,12 +738,12 @@
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h4 class="card-title">An inline video</h4>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
+					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-modal-up="xl" data-transcript="">
 						<img class="card-img-bottom" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
-						<p class="card-text">It will however launch a modal if first played in mobile view (xs).</p>
+						<p class="card-text">It will however launch a modal if first played in mobile view (xs) or in extra large view (xl).</p>
 					</div>
 				</div>
 			</div>
