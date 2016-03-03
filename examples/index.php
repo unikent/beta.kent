@@ -826,9 +826,10 @@
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h2 class="card-title">An inline video</h2>
+						<p class="card-text">With support for youtube.</p>
 					</div>
 
-					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline">
+					<div class="card-media-wrap video-launcher"  data-src="https://youtu.be/_tBZXfPfhyg" data-mode="inline">
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
