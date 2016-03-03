@@ -828,7 +828,7 @@
 						<h2 class="card-title">An inline video</h2>
 					</div>
 
-					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="" data-modal-up="xl">
+					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="true" data-transcript="" data-modal-up="xl">
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
