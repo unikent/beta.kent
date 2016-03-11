@@ -826,13 +826,15 @@
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<h2 class="card-title">An inline video</h2>
+						<p class="card-text">With support for youtube.</p>
 					</div>
-					<div class="card-media-wrap video-launcher"  data-src="../media/video/research2.mp4" data-mode="inline" data-controls="false" data-transcript="">
+
+					<div class="card-media-wrap video-launcher"  data-src="https://youtu.be/_tBZXfPfhyg" data-mode="inline">
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
 					<div class="card-img-overlay-bottom text-xs-right">
-						<p class="card-text">It will however launch a modal if first played in mobile view (xs).</p>
+						<p class="card-text">It will however launch a modal if first played in mobile view (xs) or in extra extra large view (xxl).</p>
 					</div>
 				</div>
 			</div>
