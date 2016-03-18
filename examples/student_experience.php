@@ -101,13 +101,6 @@ in the National Student Survey 2015</p>
 				
 
 
-
-				
-
-
-
-
-
 <!--
 
 					<a href="#" class="card-img-overlay-bottom" >
@@ -208,6 +201,13 @@ in its student residences providing 6,500 bedrooms</p>
 
 
 <div class="card card-overlay p-t-5">
+
+
+
+
+	
+
+				
 				<div class="card-body">
 
 					<a href="#" class="card-title-wrap card-title-wrap-link pull-left">
@@ -216,13 +216,65 @@ in its student residences providing 6,500 bedrooms</p>
 					</a>
 
 				
-					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="/media/images/accommodation-16x9.jpg">
+					
+
+					<div class="kent-slider kent-slider-dark">
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img" src="/media/images/accommodation-keynes-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs">
+								<h3 class="card-subtitle">Keynes</h3>
+								<p class="card-text">Canterbury Campus</p>
+							</div>
+						</div>
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/accommodation-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
+								<h3 class="card-subtitle">Turing</h3>
+								
+								<p class="card-text">Canterbury Campus</p>
+							
+							</div>
+						</div>
+						
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/accommodation-woolfe-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+								<h3 class="card-subtitle">Woolfe</h3>
+								<p class="card-text">Canterbury Campus</p>
+							</div>
+						</div>
+
+
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/liberty-quays-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+								<h3 class="card-subtitle">Liberty Quays</h3>
+								<p class="card-text">Medway Campus</p>
+							</div>
+						</div>
+
 
 
 					</div>
+
+
+					<!--
+					<div class="card-media-wrap">
+						<img class="card-img-bottom" src="/media/images/accommodation-16x9.jpg">
+					</div>
+					-->
 					
 				</div>
+				
+
 
 				<div class="card-footer">
 					<a href="#" class="chevron-link">Canterbury</a>
@@ -239,17 +291,23 @@ in its student residences providing 6,500 bedrooms</p>
 
 
 
+
+
+
+
+
+
 			<div class="card-panel  m-b-5">
 				
 				<div class="card-panel-body">
 					<a class="card" href="#">
-						<img class="card-img" src="/media/images/project-3x2.jpg" alt="Student working on a design project">
+						<img class="card-img" src="/media/images/kent-union-rock-climber-3x2.jpg" alt="Student working on a design project">
 						<h3 class="card-title">Kent Union</h3>
 						<p class="card-text">Find out what Kent Union offers</p>
 					</a>
 
 					<a class="card" href="#">
-						<img class="card-img" src="/media/images/kent-union-3x2.jpg" alt="Student playing snooker">
+						<img class="card-img" src="/media/images/gk-union-3x2.jpg" alt="Student playing snooker">
 						<h3 class="card-title">GK Unions</h3>
 						<p class="card-text">Find out about GK Unions at Medway</p>
 					</a>
@@ -424,7 +482,7 @@ in its student residences providing 6,500 bedrooms</p>
 				<cite>
 					 Oli McVeigh,
 					<span>Student blogger</span>
-					<a class="chevron-link" href="https://blogs.kent.ac.uk/kentstudents/">More about life and study on our Kent student blog</a>
+					<a class="chevron-link" href="https://blogs.kent.ac.uk/kentstudents/">More about life and study at Kent on our student blog</a>
 				</cite>
 			</blockquote>
 
