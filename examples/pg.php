@@ -123,9 +123,10 @@
 							   </div>
 					   </div>
 
+						<h2 class="sr-only">Postgraduate student quote</h2>
 					   <blockquote>
 							   <img class="img-circle" src="../media/images/profile-academic.jpg">
-							   <p>It's the academic community that creates a supportive enviroment to help you excel</p>
+							   <p>It's the academic community that creates a supportive environment to help you excel</p>
 
 							   <cite>
 									  Dr David Hume,
