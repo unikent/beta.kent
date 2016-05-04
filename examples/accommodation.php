@@ -4,15 +4,18 @@
 
 		KentThemeHelper::header(
 			array(
-				'title' => "Superb student experience",
+				'title' => "Accommodation",
 				'menu' => array(
 					'Home' => '#',
-					'Inspirational teaching' => '#',
-					'Locations' => '#',
-					'Sports and culture' => '#',
+					'Canterbury campus' => '#',
+					'Medway campus' => '#',
+					'Off-campus housing' => '#',
+					'Arriving' => '#',
+					'Campus living' => '#',
+					'Apply for accommodation' => '#',
 
 				),
-				'meta' => array('title'=>'Inspiring student experience'),
+				'meta' => array('title'=>'Accommodation'),
 				'beta_bar' => array(
 					'about_url' => '/about-beta'
 				)
@@ -31,19 +34,28 @@
 
 
 
-
-
 	<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
 					
+				
 					<div class="card-media-wrap video-launcher" data-src="https://youtu.be/MBJXoeqXGks">
-						<img class="card-img" src="/media/images/students.jpg">
+						<img class="card-img" src="/media/images/student-reading-on-bed-16x9.jpg">
+					</div>
+					<!--
+
+					<div class="card-media-wrap">
+						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+							<video autoplay loop class="embed-responsive-item">
+								<source src="/media/video/accommodation.mp4">
+							</video>
+						</div>
 					</div>
 
+					-->
 	
 				<div class="card-title-wrap card-title-wrap-link">
-						<h2 class="card-title">Why I love Kent</h2>
-						<p class="card-text">Our excellent facilities and supportive atmosphere enable our students to thrive both academically and personally. </p>
+						<h2 class="card-title">Safe, comfortable and modern</h2>
+						<p class="card-text">We provide excellent accommodation and catering options</p>
 					</div>
 
 				</div>
@@ -55,11 +67,38 @@
 
 
 
+<!--
+
+<div class="card card-overlay header-card-overlay">
+				
+				<div class="card-media-wrap">
+					<img class="card-img" src="/media/images/accommodation-16x9.jpg">
+				</div>
+				<div class="card-img-overlay-bottom">
+					<form >
+						<div class="form-group">
+							<label for="search" class="sr-only">Search</label>
+							<div class="input-group input-group-lg">
+								<input type="search" class="form-control" id="cardCearch" placeholder="Search for interesting things...">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
+								</span>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+-->
+
+
 
 
 <aside class="container m-t-5 m-b-5">
-		   <p class="impact-statement">Kent gained the 5th highest score for overall student satisfaction*
-in the National Student Survey 2015</p>
+		   <p class="impact-statement">
+New full-time undergraduate students who select Kent as their first choice University are guaranteed university accommodation*
+		   </p>
 	</aside>
 
 
@@ -76,11 +115,105 @@ in the National Student Survey 2015</p>
 -->
 
 
-<style type="text/css">
-#navbar-menu, .navbar-toggler {
-	display: none !important;
-}
-</style>
+
+
+
+
+
+<div class="card card-overlay p-t-5">
+
+
+
+
+	
+
+				
+				<div class="card-body">
+
+					<a href="#" class="card-title-wrap card-title-wrap-link pull-left">
+						<h2 class="card-title">Canterbury campus</h2>
+						<p class="card-text">Kent has some of the best accommodation in the university sector, providing a perfect base for your studies and a place to relax with friends.</p>
+					</a>
+
+				
+					
+
+					<div class="kent-slider kent-slider-dark">
+						
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/accommodation-woolfe-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+								<h3 class="card-subtitle">Woolfe</h3>
+								<p class="card-text">Canterbury Campus</p>
+							</div>
+						</div>
+
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/accommodation-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs ">
+								<h3 class="card-subtitle">Turing</h3>
+								
+								<p class="card-text">Canterbury Campus</p>
+							
+							</div>
+						</div>
+
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img" src="/media/images/accommodation-keynes-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs">
+								<h3 class="card-subtitle">Keynes</h3>
+								<p class="card-text">Canterbury Campus</p>
+							</div>
+						</div>
+						
+						
+
+
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/liberty-quays-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+								<h3 class="card-subtitle">Liberty Quays</h3>
+								<p class="card-text">Medway Campus</p>
+							</div>
+						</div>
+
+
+
+					</div>
+
+
+					<!--
+					<div class="card-media-wrap">
+						<img class="card-img-bottom" src="/media/images/accommodation-16x9.jpg">
+					</div>
+					-->
+					
+				</div>
+				
+
+
+				<div class="card-footer">
+					<a href="#" class="chevron-link">Self-catered</a>
+					<a href="#" class="chevron-link">Part-catered</a>
+					<a href="#" class="chevron-link">Undergraduate</a>
+					<a href="#" class="chevron-link">Postgraduate</a>
+					<a href="#" class="chevron-link">Canterbury location</a>
+				</div>
+
+			</div>
+
+
+
+
+
 
 
 
@@ -394,9 +527,9 @@ in its student residences providing 6,500 bedrooms</p>
 				<div class="kent-slider" data-slider-config="profile_feature">
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-abigail.jpg">
+							<img class="card-img" src="/media/images/profile-student-1.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Abigail Hoffman</h3>
+								<h3 class="card-title">Filipa Moniz</h3>
 								<p class="card-subtitle">Biochemistry</p>
 							</div>
 						</div>
@@ -407,9 +540,9 @@ in its student residences providing 6,500 bedrooms</p>
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg">
+							<img class="card-img" src="/media/images/profile-student-2.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Osiyemi Osipitan</h3>
+								<h3 class="card-title">Victor Smith</h3>
 								<p class="card-subtitle">Business administration</p>
 							</div>
 						</div>
@@ -420,9 +553,9 @@ in its student residences providing 6,500 bedrooms</p>
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-angelika.jpg">
+							<img class="card-img" src="/media/images/profile-student-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Angelika Wallace-Whitfield</h3>
+								<h3 class="card-title">Veron Dane</h3>
 								<p class="card-subtitle">Computer science</p>
 							</div>
 						</div>
@@ -433,9 +566,9 @@ in its student residences providing 6,500 bedrooms</p>
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-edward.jpg">
+							<img class="card-img" src="/media/images/profile-student-4.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Edward Powe</h3>
+								<h3 class="card-title">Mellisa Poise</h3>
 								<p class="card-subtitle">Bioscience</p>
 							</div>
 						</div>
@@ -446,9 +579,9 @@ in its student residences providing 6,500 bedrooms</p>
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-christa.jpg">
+							<img class="card-img" src="/media/images/profile-student-5.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Christa Thavapalan</h3>
+								<h3 class="card-title"> Vicky Phippen</h3>
 								<p class="card-subtitle">Comparative Literature</p>
 							</div>
 						</div>
@@ -459,9 +592,9 @@ in its student residences providing 6,500 bedrooms</p>
 					</div>
 					<div class="card card-backed-primary">
 						<div class="front">
-							<img class="card-img" src="/media/images/profiles/student-alex.jpg">
+							<img class="card-img" src="/media/images/profile-student-6.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Alex Barnes</h3>
+								<h3 class="card-title">Sariya Suwannakarn</h3>
 								<p class="card-subtitle">Fine Art</p>
 							</div>
 						</div>
