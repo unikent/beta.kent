@@ -558,6 +558,7 @@
 				</div>
 			</div>
 
+			<h2 class="sr-only">Twitter quote</h2>
 			<blockquote class="social-quote social-quote-twitter">
 				<a href="#">
 					<button></button>
@@ -1294,7 +1295,7 @@
 					</div>
 				</div>
 			</div>
-
+			<h2 class="sr-only">Twitter quote</h2>
 			<blockquote class="social-quote social-quote-twitter">
 	<a href="https://twitter.com/UniKentNews/status/676708137903214592">
 		<button></button>
@@ -1305,7 +1306,7 @@
 	</cite>
 </blockquote>
 
-
+<h2 class="sr-only">Facebook quote</h2>
 <blockquote class="social-quote social-quote-facebook">
 	<a href="https://facebook.com">
 		<button></button>

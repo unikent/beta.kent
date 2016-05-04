@@ -22,9 +22,6 @@
 		);
 ?>
 
-
-			<h1 style="position: absolute; top: -999px">The University of Kent</h1>
-
 			<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true" >
@@ -38,7 +35,6 @@
 				</div>
 			</div>
 
-
 			<div class="panel panel-tertiary">
 				<div class="container-padded ">
 					<form class="quickspot-container m-t-3">
@@ -46,21 +42,21 @@
 						<h2 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h2>
 
 						 <div class="form-group">
-							 <label for="search" class="sr-only">Search</label>
+							 <label for="course-search" class="sr-only">Search courses</label>
 							 <div class="input-group input-group-lg">
-								<input type="search" class="form-control" id="course-search" placeholder="Search for undergraduate courses..." autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container">
+								<input type="search" class="form-control" id="course-search" placeholder="Search courses..." autocomplete="off" data-quickspot-config="all_courses" data-quickspot-target="quickspot-results-container">
 								<span class="input-group-btn">
-									<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
+									<button type="submit" class="btn btn-accent btn-icon"><span class="sr-only">Search courses</span> <span class="kf-fw kf-search"></span></button>
 								</span>
 							</div>
 						</div>
 						<div id="quickspot-results-container">
-							
 						</div>
 						<div class="inline-links text-xs-center text-sm-right">
 							<a href="http://www.kent.ac.uk/courses/undergraduate/search" >Courses A-Z</a>
 							<a href="http://www.kent.ac.uk/courses/undergraduate/prospectus/index.html" >Order a prospectus</a>
 						</div>
+
 					</form>
 				</div>
 			</div>
@@ -199,7 +195,7 @@
 
 
 
-			
+			<h2 class="sr-only">Alumni quote</h2>
 			<blockquote class="m-b-5 m-t-2">
 				<img src="media/images/staff-profile.jpg" class="img-circle" alt="Dara Blumenthal">
 				<p>Because of Kent, I have much greater academic and geographic possibilities. The experience has been priceless.</p>
