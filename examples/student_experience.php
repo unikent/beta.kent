@@ -18,20 +18,8 @@
 				)
 			)
 		);
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
+?
+    
 
 	<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
@@ -371,16 +359,7 @@ in its student residences providing 6,500 bedrooms</p>
 
 
 
-		-->	
-
-
-
-
-
-
-
-
-
+		-->
 
 
 
@@ -389,20 +368,20 @@ in its student residences providing 6,500 bedrooms</p>
 <div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
 				<a class="card card-double" href="https://www.kent.ac.uk/courses/undergraduate/profiles/index.html">
 					<h3 class="card-title">What our students say</h3>
-					<p class="card-subtitle">No one knows better than our students what it’s really like to be a student at Kent.</p>
+					<p class="card-subtitle">No one knows better than our students what it’s like to study at Kent.</p>
 				</a>
 				<div class="kent-slider" data-slider-config="profile_feature">
 					<div class="card card-backed-primary">
 						<div class="front">
 							<img class="card-img" src="/media/images/profiles/student-abigail.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Abigail Hoffman</h3>
-								<p class="card-subtitle">Biochemistry</p>
+								<h3 class="card-title">Abigail Hofmann</h3>
+								<p class="card-subtitle">Liberal Arts</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">"It is great to have the chance to meet people from all over the world and exchange great experiences."</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"Join societies and get involved – make sure you enjoy the whole University experience."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/liberal-arts-b.html">View Profile</a></p>
 						</div>
 					</div>
 					<div class="card card-backed-primary">
@@ -410,12 +389,12 @@ in its student residences providing 6,500 bedrooms</p>
 							<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Osiyemi Osipitan</h3>
-								<p class="card-subtitle">Business administration</p>
+								<p class="card-subtitle">Law</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"The academics at Kent are brilliant and have written many of the text books used by undergraduates everywhere."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/law-b.html">View Profile</a></p>
 						</div>
 					</div>
 					<div class="card card-backed-primary">
@@ -423,12 +402,13 @@ in its student residences providing 6,500 bedrooms</p>
 							<img class="card-img" src="/media/images/profiles/student-angelika.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Angelika Wallace-Whitfield</h3>
-								<p class="card-subtitle">Computer science</p>
+								<p class="card-subtitle">History and Philosophy of Art</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"Everyone on my course has different plans, which just shows how flexible the degree is."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/history_art-b.html
+">View Profile</a></p>
 						</div>
 					</div>
 					<div class="card card-backed-primary">
@@ -436,12 +416,12 @@ in its student residences providing 6,500 bedrooms</p>
 							<img class="card-img" src="/media/images/profiles/student-edward.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Edward Powe</h3>
-								<p class="card-subtitle">Bioscience</p>
+								<p class="card-subtitle">Architecture</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"In the second year I joined the caving society, which was amazing – especially our trip to Wales."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/architecture-b.html">View Profile</a></p>
 						</div>
 					</div>
 					<div class="card card-backed-primary">
@@ -449,12 +429,12 @@ in its student residences providing 6,500 bedrooms</p>
 							<img class="card-img" src="/media/images/profiles/student-christa.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Christa Thavapalan</h3>
-								<p class="card-subtitle">Comparative Literature</p>
+								<p class="card-subtitle">Information Technology</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">"I can’t think of anyone who isn’t catered for by all the clubs and societies, and I’d never even heard of some of the sports on offer."</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"I would recommend going on a placement, it gives you so much confidence and valuable experience."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/information_tech-b.html">View Profile</a></p>
 						</div>
 					</div>
 					<div class="card card-backed-primary">
@@ -462,12 +442,12 @@ in its student residences providing 6,500 bedrooms</p>
 							<img class="card-img" src="/media/images/profiles/student-alex.jpg">
 							<div class="card-img-overlay-bottom-shaded">
 								<h3 class="card-title">Alex Barnes</h3>
-								<p class="card-subtitle">Fine Art</p>
+								<p class="card-subtitle">Drama and Theatre</p>
 							</div>
 						</div>
 						<div class="back">
-							<p class="card-text">"It's easy to get to galleries in London. My most recent visit was [for] an exhibition by Ai Weiwei, one of the greatest artists of our time."</p>
-							<p><a href="#">View Profile</a></p>
+							<p class="card-text">"You do make friends quite easily because there are lots of opportunities to mix and get to know people."</p>
+							<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/drama-b.html">View Profile</a></p>
 						</div>
 					</div>
 				</div>
@@ -485,7 +465,7 @@ in its student residences providing 6,500 bedrooms</p>
 
 						<blockquote class="m-b-0 m-t-5">
 				<img src="/media/images/student-oli.jpg" class="img-circle" alt="Oli McVeigh">
-				<p>As Kent as a university is entering the rankings for top universities in the country, even being shortlisted for ‘University of the Year’, it is nice to see our education is not suffering but being enhanced in every corner of the campus.</p>
+				<p>As Kent is entering the rankings for top universities in the country, our education is being enhanced in every corner of the campus.</p>
 				<cite>
 					 Oli McVeigh,
 					<span>Student blogger</span>
