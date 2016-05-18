@@ -18,7 +18,7 @@
 				)
 			)
 		);
-?
+?>
     
 
 	<div class="card card-overlay header-card-overlay">
