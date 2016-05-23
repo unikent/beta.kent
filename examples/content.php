@@ -15,10 +15,7 @@
 			),
 			'meta' => array('title'=>'Content Demo Page - Kent Theme Beta'),
 			'slim'=>true,
-			'main_class' =>'content-page',
-			'beta_bar' => array(
-				'about_url' => '/about-beta'
-			)
+			'main_class' =>'content-page'
 		)
 	);
 KentThemeHelper::breadcrumb(array(

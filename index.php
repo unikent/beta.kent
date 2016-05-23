@@ -14,10 +14,7 @@
 					'Kent Life' => '#'
 				),
 				'meta' => array('title'=>"University of Kent - The UK's European University"),
-				'home_page' => true,
-				'beta_bar' => array(
-					'about_url' => '/about-beta'
-				)
+				'home_page' => true
 			)
 		);
 ?>
