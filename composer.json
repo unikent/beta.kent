@@ -1,27 +1,4 @@
 {
 	"require": {
-		"unikent/kent-beta-libs": "dev-master",
-		"guzzlehttp/guzzle": "3.8",
-        	"nesbot/carbon": "^1.21"
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "unikent/kent-beta-libs",
-				"type": "package",
-				"version": "master",
-				"source": {
-					"url": "https://87ad2205fd3780744886d5bd974c941cfe3773fd:@github.com/unikent/kent-beta-libs.git",
-					"type": "git",
-					"reference": "master"
-				}
-			}
-		}
-	],
-    "autoload": {
-        "psr-4": {
-            "unikent\\libs\\": "vendor/unikent/kent-beta-libs/src"
-        }
-    }
+	}
 }
