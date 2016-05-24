@@ -122,22 +122,22 @@
 			<div class="card-panel card-panel-tertiary nav-links-panel p-t-5 p-b-5 m-b-0">
 				<div class="card-panel-body">
 					<nav role="menu">
-						<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
+						<a href="https://www.kent.ac.uk/courses/postgraduate/apply/" role="menuitem">
 							<span class="nav-link-title">How to apply</span>
 							<span class="nav-link-desc">Our supportive staff will help you throughout the process</span>
 						</a>
-						<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
-							<span class="nav-link-title">Masters/Taught</span>
+						<a href="https://www.kent.ac.uk/courses/postgraduate/types/taught.html" role="menuitem">
+							<span class="nav-link-title">Master's/Taught</span>
 							<span class="nav-link-desc">A structured programme of study made up of modules 
 </span>
 						</a>
-						<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
-							<span class="nav-link-title">Research</span>
-							<span class="nav-link-desc">Besides PhDs, we we offer various types of programmes</span>
+						<a href="https://www.kent.ac.uk/courses/postgraduate/types/research.html" role="menuitem">
+							<span class="nav-link-title">Research/PhDs</span>
+							<span class="nav-link-desc">Browse our research degrees and PhDs by subject</span>
 						</a>
-						<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
-							<span class="nav-link-title">PhDs</span>
-							<span class="nav-link-desc">Makes an original contribution to knowledge with our docotorates</span>
+						<a href="https://www.kent.ac.uk/scholarships/postgraduate/index.html" role="menuitem">
+							<span class="nav-link-title">Funding</span>
+							<span class="nav-link-desc">Browse our research degrees and PhDs by subject</span>
 						</a>
 						
 					</nav>
@@ -158,10 +158,12 @@
 
 					   <div class="card card-overlay  m-t-0">
 							   <div class="card-body">
+									<a href="https://www.kent.ac.uk/research/">
 									  <div class="card-title-wrap card-title-wrap-link pull-left">
-											  <h2 class="card-title">World Leading research</h2>
-											  <p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
+											  <h2 class="card-title">World-Leading research</h2>
+											  <p class="card-text">Kent is ranked 17th in the UK for research intensity. We have world-leading research in all subjects and 97% of our research is deemed to be of international quality.</p>
 									  </div>
+									 </a>
 									   <div class="card-media-wrap video-launcher" data-toggle="modal" data-src="https://youtu.be/H4tcJUQ1USw">
 											  
 												<img src="/media/images/Ratio---16-9.jpg" class="card-img" alt="Dr Stephen Lowry holding a model of a comet">
@@ -175,9 +177,9 @@
 
 							   </div>
 							   <div class="card-footer">
-									  <a href="#" class="chevron-link">Academic community</a>
-									  <a href="http://www.kent.ac.uk/scholarships/search/postgraduate/" class="chevron-link">Scholarships and funding</a>
-									  <a href="#" class="chevron-link">Research projects</a>
+									  <a href="https://www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic excellence</a>
+									  <a href="https://www.kent.ac.uk/research/impact/index.html" class="chevron-link">Research impact</a>
+									  <a href="https://www.kent.ac.uk/graduateschool/news/currentresearch.html" class="chevron-link">Current projects</a>
 							   </div>
 					   </div>
 
@@ -186,28 +188,28 @@
 					   <div class="card-panel m-t-4 m-b-5">
 
 							   <div class="card-panel-body">
-									  <a class="card" href="#">
+									  <a class="card" href="https://www.kent.ac.uk/courses/postgraduate/supervisor/index.html">
 											  <img class="card-img" src="/media/images/placeholder-3x2.jpg">
 											  <h3 class="card-title">Find a supervisor</h3>
 											  <p class="card-text">We provide research students with excellent supervision.</p>
 											  </a>
 
 
-											  <a class="card" href="#">
+											  <a class="card" href="https://www-test.kent.ac.uk/courses/accommodation/postgraduates.html ">
 											  <img class="card-img" src="/media/images/placeholder-3x2.jpg">
-											  <h3 class="card-title">Funding your research</h3>
-											  <p class="card-text">£9 million fund to support taught and research students. </p>
+											  <h3 class="card-title">Accommodation</h3>
+											  <p class="card-text"> A wide selection to suit all needs and budgets.</p>
 									  </a>
 
 
-									  <a class="card" href="#">
+									  <a class="card" href="https://www.kent.ac.uk/graduateschool/index.html">
 											  <img class="card-img" src="/media/images/placeholder-3x2.jpg">
-											  <h3 class="card-title">Our excellent support</h3>
-											  <p class="card-text">Supporting you with everything you need.</p>
+											  <h3 class="card-title">Graduate School</h3>
+											  <p class="card-text">Working to enhance your postgraduate experience.</p>
 									  </a>
 									  
 									  
-									  	  <a class="card" href=''>
+									  	  <a class="card" href="https://www.kent.ac.uk/courses/postgraduate/international/">
 											  <img class="card-img" src="../media/images/international.jpg">
 											  <h3 class="card-title">International students</h3>
 											  <p class="card-text">From visa advice to arrival, we'll support you through the whole process.</p>
@@ -289,26 +291,25 @@
 
 <div class="card card-overlay  m-t-4 m-b-3">
 							   <div class="card-body">
+							   		<a href="https://www.kent.ac.uk/locations/index.html">
 									  <div class="card-title-wrap card-title-wrap-link pull-left">
 											  <h2 class="card-title">Superb locations</h2>
-											  <p class="card-text">We have 6 exceptional Postgraduate locations with UK 
-											  	Campuses close to London and centres in Paris, Brussels Rome and Athens with accommodation options to suit you and your family.</p>
+											  <p class="card-text">We have two stunning campuses and a part-time study centre in south-east England, plus four European centres in Paris, Brussels, Rome and Athens.</p>
 									  </div>
+									</a>
 									  <div class="card-media-wrap">
 											  <img src="../media/images/promo-park-16-9.jpg" class="card-img-bottom" alt="Sport" />
 
-											  <a class="card-img-overlay-bottom  text-xs-right" href="#">
+											  <a class="card-img-overlay-bottom  text-xs-right" href="https://www.kent.ac.uk/courses/visit/">
 													 <h3 class="card-subtitle">Visit us</h3>
 													 <p class="card-text">Come and see for yourself.</p>
 											  </a>
 									  </div>
 							   </div>
 							   <div class="card-footer">
-									  <a href="#" class="chevron-link">Accommodation &amp; Facilities</a>
-									  <a href="#" class="chevron-link">Student blogs</a>
-									  <a href="#" class="chevron-link">Visit us</a>
-									 
-									  <a href="#" class="chevron-link">Kent Union</a>
+									  <a href="https://www.kent.ac.uk/accommodation/" class="chevron-link">Accommodation and facilities</a>
+									  <a href="https://www.kent.ac.uk/courses/visit/openday/index.html" class="chevron-link">Open days</a>
+									  <a href="https://www.kent.ac.uk/courses/postgraduate/why/index.html" class="chevron-link">Why study at Kent? </a>
 							   </div>
 					   </div>
 
