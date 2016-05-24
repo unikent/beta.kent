@@ -12,14 +12,11 @@
 					'Sports and culture' => '#',
 
 				),
-				'meta' => array('title'=>'Inspiring student experience'),
-				'beta_bar' => array(
-					'about_url' => '/about-beta'
-				)
+				'meta' => array('title'=>'Inspiring student experience')
 			)
 		);
 ?>
-    
+
 
 	<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
