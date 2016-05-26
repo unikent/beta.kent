@@ -24,8 +24,9 @@
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
 					<div class="card-title-wrap card-title-wrap-link">
-						<h2 class="card-title">A leading research institution</h2>
+						<a href="#feature-title-link" class="card-title-link"><h2 class="card-title">A leading research institution</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">A leading research institution</a>
 					</div>
 
 				</div>
@@ -414,8 +415,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2  class="card-title">A bold title</h2>
+						<a href="#panel-title-link" class="card-title-link"><h2  class="card-title">A bold title</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">A bold title</a>
 					</div>
 					<div class="card-media-wrap">
 						<img class="card-img" src="../media/images/students.jpg">
@@ -436,22 +438,26 @@
 			<div class="card-panel card-panel-tertiary nav-links-panel">
 				<div class="card-panel-body">
 					<nav role="menu">
-						<a href="//www.kent.ac.uk/courses/why/" role="menuitem">
-							<span class="nav-link-title">Inspiring teaching</span>
-							<span class="nav-link-desc">Excellent teaching with individual attention</span>
-						</a>
-						<a href="//www.kent.ac.uk/courses/undergraduate/" role="menuitem">
-							<span class="nav-link-title">Undergraduate</span>
-							<span class="nav-link-desc">Courses to prepare you for a successful future</span>
-						</a>
-						<a href="//www.kent.ac.uk/courses/postgraduate/" role="menuitem">
-							<span class="nav-link-title">Postgraduate</span>
-							<span class="nav-link-desc">Programmes supported by a stimulating support culture</span>
-						</a>
-						<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/" role="menuitem">
-							<span class="nav-link-title">International</span>
-							<span class="nav-link-desc">World-wide links in a supportive, cosmopolitan community</span>
-						</a>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/about/" class="nav-link-title">Top 20 in the UK</a>
+							<span class="nav-link-desc">We rank amongst the best universities in the UK.</span>
+							<a href="//www.kent.ac.uk/about/" class="faux-link-overlay" aria-hidden="true">Top 20 in the UK</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/undergraduate/" class="nav-link-title">Undergraduate</a>
+							<span class="nav-link-desc">Quality teaching with world-leading academics.</span>
+							<a href="//www.kent.ac.uk/courses/undergraduate/" class="faux-link-overlay" aria-hidden="true">Undergraduate</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/" class="nav-link-title">Postgraduate</a>
+							<span class="nav-link-desc">Affordable programmes with leading researchers.</span>
+							<a href="//www.kent.ac.uk/courses/postgraduate/" class="faux-link-overlay" aria-hidden="true">Postgraduate</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/visit/" class="nav-link-title">Visit us</a>
+							<span class="nav-link-desc">Stunning locations and safe, comfortable accommodation.</span>
+							<a href="//www.kent.ac.uk/courses/visit/" class="faux-link-overlay" aria-hidden="true">Visit us</a>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -461,33 +467,37 @@
 					<h2 class="card-panel-title">Standard Card Panel</h2>
 				</div>
 				<div class="card-panel-body">
-					<div class="card">
+					<div class="card card-linked">
 						<img class="card-img" src="../media/images/promo-1.jpg">
-						<h3 class="card-title">Academic excellence</h3>
+						<a href="#title" class="card-title-link"><h3 class="card-title">Academic excellence</h3></a>
 						<p class="card-meta">1st September 2015</p>
 						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
-						<a href="#" class="card-badge kf-comment">5</a>
+						<a href="#comment" class="card-badge kf-comment">5</a>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">Academic excellence</a>
 					</div>
-					<div class="card">
+					<div class="card card-linked">
 						<img class="card-img" src="../media/images/promo-2.jpg">
-						<h3 class="card-title">Undergraduates</h3>
+						<a href="#title" class="card-title-link"><h3 class="card-title">Undergraduates</h3></a>
 						<p class="card-meta">28th March 2015</p>
 						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 						<a href="#" class="card-badge kf-comment">7</a>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">Undergraduates</a>
 					</div>
-					<div class="card">
+					<div class="card card-linked">
 						<img class="card-img" src="../media/images/promo-3.jpg">
-						<h3 class="card-title">Postgraduates</h3>
+						<a href="#title" class="card-title-link"><h3 class="card-title">Postgraduates</h3></a>
 						<p class="card-meta">5th November 2015</p>
 						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						<a href="#" class="card-badge kf-comment">1</a>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true"></a>
 					</div>
-					<div class="card">
+					<div class="card card-linked">
 						<img class="card-img" src="../media/images/promo-4.jpg">
-						<h3 class="card-title">Visit Kent</h3>
+						<a href="#title" class="card-title-link"><h3 class="card-title">Visit Kent</h3></a>
 						<p class="card-meta">17th May 2015</p>
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						<a href="#" class="card-badge kf-comment">23</a>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">Visit Kent</a>
 					</div>
 				</div>
 			</div>
@@ -495,8 +505,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">Video + Slider</h2>
+						<a class="card-title-link" href="#foo"><h2 class="card-title">Video + Slider</h2></a>
 						<p class="card-text">Not happy with just a video or a slider? now you can have both!!!</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 					<div class="card-split">
 						<div class="card-half">
@@ -520,10 +531,11 @@
 							</div>
 						</div>
 					</div>
-					<a href="#" class="card-img-overlay-bottom card-overlay-inline-sm">
-						<h3 class="card-subtitle">A sub title</h3>
+					<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm">
+						<a class="card-subtitle-link" href="#foobar"><h3 class="card-subtitle">A sub title</h3></a>
 						<p class="card-text">This content is shorter.</p>
-					</a>
+						<a href="#boofar" class="faux-link-overlay">A sub title</a>
+					</div>
 				</div>
 				<div class="card-footer">
 					<a href="#" class="chevron-link">Card link</a>
@@ -536,8 +548,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">With Parallax!</h2>
+						<a href="#foo" class="card-title-link"><h2 class="card-title">With Parallax!</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
@@ -570,8 +583,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">A Slider!</h2>
+						<a href="#foo" class="card-title-link"><h2 class="card-title">A Slider!</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
@@ -800,8 +814,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">A video launcher</h2>
+						<a class=card-title-link" href="#foo"><h2 class="card-title">A video launcher</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 					<div class="card-media-wrap video-launcher" data-src="../media/video/video-research-student.mp4">
 						<img class="card-img" src="../media/images/students.jpg">
@@ -823,8 +838,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">An inline video</h2>
+						<a class="card-title-link" href="#foo"><h2 class="card-title">An inline video</h2></a>
 						<p class="card-text">With support for youtube.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 
 					<div class="card-media-wrap video-launcher"  data-src="https://youtu.be/_tBZXfPfhyg" data-mode="inline">
@@ -1069,8 +1085,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">A video loop</h2>
+						<a href="#foo" class="card-title-link"><h2 class="card-title">A video loop</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 					<div class="card-media-wrap">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
@@ -1088,8 +1105,9 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h2 class="card-title">A google map</h2>
+					<a href="#foo" class="card-title-link"><h2 class="card-title">A google map</h2></a>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 				</div>
 				<div class="card-media-wrap">
 					<div class="card-embed-wrap embed-responsive embed-responsive-16by9 click-to-interact">
@@ -1100,8 +1118,9 @@
 
 			<div class="card card-overlay">
 				<div class="card-title-wrap card-title-wrap-link pull-right">
-					<h2 class="card-title">A search box</h2>
+					<a class="card-title-link" href="#foo"><h2 class="card-title">A search box</h2></a>
 					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 				</div>
 				<div class="card-media-wrap">
 					<img class="card-img" src="../media/images/students.jpg">
@@ -1133,8 +1152,9 @@
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">Goodbye</h2>
+						<a class="card-title-link" href="#foo"><h2 class="card-title">Goodbye</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 
 					<div class="card-media-wrap" data-toggle="modal" data-target="#myVideoModal">
@@ -1154,8 +1174,9 @@
 					</div>
 
 					<div class="card-title-wrap card-title-wrap-link">
-						<h2 class="card-title">Hello</h2>
+						<a class="card-title-link" href="#foo"><h2 class="card-title">Hello</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 
 				</div>
@@ -1207,10 +1228,11 @@
 			</div>
 
 			<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
-				<a class="card card-double">
-					<h3 class="card-title">Staff Profiles</h3>
+				<div class="card card-linked card-double">
+					<a href="#profiles" class="card-title-link"><h3 class="card-title">Staff Profiles</h3></a>
 					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
-				</a>
+					<a href="#profiles" class="faux-link-overlay" aria-hidden="true">Staff Profiles</a>
+				</div>
 				<div class="kent-slider" data-slider-config="profile_feature">
 					<div class="card card-backed-primary">
 						<div class="front">
