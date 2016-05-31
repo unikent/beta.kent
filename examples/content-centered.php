@@ -24,7 +24,7 @@ KentThemeHelper::breadcrumb(array(
 							));
 ?>
 <article class="content-page" itemscope itemtype="http://schema.org/Article">
-	<header class="content-header content-header-centered">
+	<header class="content-header content-header-centered content-header-with-social">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
 		<nav class="content-social content-social-head content-social-share">
 			<a title="twitter" href="#" class="kf-twitter twitter"></a>

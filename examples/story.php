@@ -38,7 +38,7 @@
 ?>
 </div>
 <article itemscope itemtype="http://schema.org/Article">
-	<header class="content-header">
+	<header class="content-header content-header-with-social">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
 		<div class="byline">
 			<img class="author-avatar" src="../media/images/story-author.jpg">
