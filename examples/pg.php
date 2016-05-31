@@ -2,19 +2,18 @@
 	include dirname(dirname(__FILE__)) . "/bootstrap.php";
 	use \unikent\kent_theme\kentThemeHelper;
 
-	KentThemeHelper::header(
-		[
+	KentThemeHelper::header(array(
 			'title' => "Postgraduate Courses",
-			'menu' => [
+			'menu' => array(
 				'Home' => '#',
 				'Apply' => '#'
-			],
-			'meta' => [
+			),
+			'meta' => array(
 				'description' => 'Postrgaduate home',
 				'title' => "Postgraduate Home - Kent Theme Beta"
-			],
+			),
 			'theme' => 'postgraduate'
-		]
+		)
 	);
 
 ?>
@@ -188,4 +187,4 @@
 <?php KentThemeHelper::footer(); ?>
 
 
-	 
+
