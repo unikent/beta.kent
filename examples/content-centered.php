@@ -24,7 +24,7 @@ KentThemeHelper::breadcrumb(array(
 							));
 ?>
 <article class="content-page" itemscope itemtype="http://schema.org/Article">
-	<header class="content-header">
+	<header class="content-header content-header-centered">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
 		<nav class="content-social content-social-head content-social-share">
 			<a title="twitter" href="#" class="kf-twitter twitter"></a>
@@ -33,7 +33,7 @@ KentThemeHelper::breadcrumb(array(
 	</header>
 	<section class="content-body">
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<p class="lead">
 					A leading consultant in renal medicine is joining the University's Centre for Health Services Studies (CHSS) in a new post as Clinical.
 				</p>
@@ -80,38 +80,10 @@ KentThemeHelper::breadcrumb(array(
 				<p>This blog post aims to give a quick run down of each of the teams ideas. Just to show off some of the cool stuff our colleagues produced in such a short amount of time.</p>
 
 			</div>
-			<aside class="content-aside">
-				<nav>
-					<h3>See also</h3>
-					<ul>
-						<li><a href="#">Dr. Michael Fish</a></li>
-						<li><a href="#">DICE</a></li>
-						<li><a href="#">Professor Stephan Peckham</a></li>
-					</ul>
-				</nav>
-				<nav>
-					<h3>In the media</h3>
-					<ul>
-						<li>
-							<a href="#">Squeek! Dolphins deciphered</a>
-							<span>Guardian</span>
-						</li>
-						<li>
-							<a href="#">Dolphin Sandwiches</a>
-							<span>Sydney Morning Herald</span>
-						</li>
-					</ul>
-				</nav>
-				<div>
-					<h3>Follow us</h3>
-					<a title="twitter" href="https://twitter.com/unikentnews" class="social-link"><i class="kf-twitter"></i> @unikentnews</a>
-
-				</div>
-			</aside>
 		</div>
 
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<h2>Surveys of amphibians and reptiles</h2>
 
 				<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary <a href="#">figurative painting</a>.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
@@ -149,26 +121,16 @@ KentThemeHelper::breadcrumb(array(
 		</figure>
 
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<p>Contractor ES Global was then appointed to develop the design, with the help of KSA specialists including its digital workshop team, who produced 3D images to perfect the joints of the new structure. The complex engineering of the structure led to it being featured at the Future Visions conference on Shell and Spatial structures in Amsterdam in August 2015.</p>
 				<p>Assembly of the structure took less than one week on site. The result , according to Don Gray, is ‘a truly ground-breaking adventure in high-technology assembly, the use of new materials and advanced structural engineering.’</p>
 			</div>
-			<aside class="content-aside">
-				<nav>
-					<h3>See also</h3>
-					<ul>
-						<li><a href="#">Dr. Michael Fish</a></li>
-						<li><a href="#">DICE</a></li>
-						<li><a href="#">Professor Stephan Peckham</a></li>
-					</ul>
-				</nav>
-			</aside>
 		</div>
 	</section>
 
 	<footer class="content-footer">
 		<div class="content-container ">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<nav class="content-social content-social-colored content-social-share">
 					<a title="twitter" href="#" class="kf-twitter twitter"></a>
 					<a title="facebook" href="#" class="kf-facebook facebook" ></a>
