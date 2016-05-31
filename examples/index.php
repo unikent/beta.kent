@@ -1362,5 +1362,3 @@
 </blockquote>
 
 <?php KentThemeHelper::footer(); ?>
-
-
