@@ -925,7 +925,7 @@
 			</div>
 
 			<div class="clearfix">
-			    <div class="col-md-6">
+				<div class="col-md-6">
 
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
@@ -1077,6 +1077,31 @@
 								<li><a href="#">More linkage</a></li>
 								<li><a href="#">Another link</a></li>
 							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-panel card-panel-tertiary">
+				<div class="card-panel-header">
+					<h2 class="card-panel-title">Full Width Card Listing</h2>
+				</div>
+				<div class="card-panel-body">
+					<div class="card-panel-list-full-width">
+						<div class="card">
+							<img class="card-img" src="../media/images/promo-2.jpg">
+							<h3 class="card-title">Undergraduates</h3>
+							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics. More text will wrap like this.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="../media/images/promo-3.jpg">
+							<h3 class="card-title">Postgraduates</h3>
+							<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
+						</div>
+						<div class="card">
+							<img class="card-img" src="../media/images/promo-4.jpg">
+							<h3 class="card-title">Visit Kent</h3>
+							<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						</div>
 					</div>
 				</div>
