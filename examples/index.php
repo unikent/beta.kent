@@ -1082,16 +1082,16 @@
 				</div>
 			</div>
 
-			<div class="card-panel card-panel-tertiary">
+			<div class="card-panel card-panel-tertiary cards-list">
 				<div class="card-panel-header">
 					<h2 class="card-panel-title">Full Width Card Listing</h2>
 				</div>
 				<div class="card-panel-body">
-					<div class="card-panel-list-full-width">
+					<div class="card-panel-list">
 						<div class="card">
 							<img class="card-img" src="../media/images/promo-2.jpg">
 							<h3 class="card-title">Undergraduates</h3>
-							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics. More text will wrap like this.</p>
+							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
 						</div>
 						<div class="card">
 							<img class="card-img" src="../media/images/promo-3.jpg">
