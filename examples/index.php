@@ -1088,19 +1088,19 @@
 				</div>
 				<div class="card-panel-body">
 					<div class="card-panel-list">
-						<div class="card">
+						<div class="card card-in-list">
 							<img class="card-img" src="../media/images/promo-2.jpg">
-							<h3 class="card-title">Undergraduates</h3>
-							<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
+							<h3 class="card-title">EU Referendum Experts</h3>
+							<p class="card-text">Keep up to date with Kent's experts as they provide new insights and perspectives on key Referendum issues for UK and international media.</p>
 						</div>
-						<div class="card">
+						<div class="card card-in-list">
 							<img class="card-img" src="../media/images/promo-3.jpg">
-							<h3 class="card-title">Postgraduates</h3>
+							<h3 class="card-title">Employability Points celebrate Kent students' success</h3>
 							<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
 						</div>
-						<div class="card">
+						<div class="card card-in-list">
 							<img class="card-img" src="../media/images/promo-4.jpg">
-							<h3 class="card-title">Visit Kent</h3>
+							<h3 class="card-title">Conservatives prefer using nouns, psychologists find</h3>
 							<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						</div>
 					</div>
