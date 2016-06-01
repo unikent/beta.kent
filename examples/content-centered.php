@@ -4,7 +4,7 @@
 
 	KentThemeHelper::header(
 		array(
-			'title' => "Kent Theme Demo - Story",
+			'title' => "Kent Theme Demo - Content Page",
 			'menu' => array(
 				'Home' => '#',
 				'Culture' => '#',
@@ -13,51 +13,32 @@
 				'Society' => '#',
 				'Kent Life' => '#'
 			),
-			'meta' => array('title'=>'Story Demo Page - Kent Theme Beta'),
+			'meta' => array('title'=>'Content Demo Page - Kent Theme Beta'),
 			'slim'=>true,
-			'breadcrumb'=> false,
 			'main_class' =>'content-page'
 		)
 	);
+KentThemeHelper::breadcrumb(array(
+								'Theme Examples'=>'/',
+								'Content Page'=>''
+							));
 ?>
-<figure class="featured-image">
-	<div class="media-wrap-letterbox">
-		<img src="../media/images/story-ping-pong.jpg">
-		<div class="attribution">
-			<i class="kf-camera"></i>
-			<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
-		</div>
-	</div>
-	<figcaption>Ping Pong the dolphin</figcaption>
-</figure>
-<div class="content-header">
-<?php
-	KentThemeHelper::breadcrumb(array(
-									'News Centre'=> '/news',
-								));
-?>
-</div>
-<article itemscope itemtype="http://schema.org/Article">
-	<header class="content-header content-header-with-social">
+<article class="content-page" itemscope itemtype="http://schema.org/Article">
+	<header class="content-header content-header-centered content-header-with-social">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
-		<div class="byline">
-			<img class="author-avatar" src="../media/images/story-author.jpg">
-			<address class="article-author">By <a rel="author" href="#">Wendy Raeside</a></address>
-			<time class="article-published pubdate" pubdate datetime="2015-12-1T12:01:01">12 December 2015</time>
-		</div>
-		<nav class="content-social content-social-head">
-			<a title="twitter" href="#" class="kf-twitter"></a>
-			<a title="facebook" href="#" class="kf-facebook"></a>
+		<nav class="content-social content-social-head content-social-share">
+			<a title="twitter" href="#" class="kf-twitter twitter"></a>
+			<a title="facebook" href="#" class="kf-facebook facebook" ></a>
 		</nav>
 	</header>
 	<section class="content-body">
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<p class="lead">
 					A leading consultant in renal medicine is joining the University's Centre for Health Services Studies (CHSS) in a new post as Clinical.
 				</p>
 
-				<p>She argues that ‘While its absolute influence may have diminished as <a href="#">Beijing’s money arrives</a>, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
+				<p>She argues that ‘While its absolute influence <a href="#">may have diminished</a> as Beijing’s money arrives, Europe continues to enjoy a premium position, and deeper ties which may hold greater reward in the future’.</p>
 
 				<blockquote>
 					<img class="img-circle" src="../media/images/profile-academic.jpg">
@@ -70,6 +51,20 @@
 
 				<p>Using statistical models, Professor Griffiths’ team from the School of Anthropology and Conservation determined the combination of survey visits and methods needed to obtain reliable data on population status. This resolved a long-standing debate within the fields of conservation and ecology and has made surveys significantly more cost-effective and reliable.</p>
 
+
+				<blockquote class="social-quote social-quote-twitter">
+					<a href="#">
+						<button></button>
+						<p>Kent study shows that tourism boost in Malta can aid struggling traditional fishermen.</p>
+					</a>
+					<cite>
+						<a href="#">@unikentnews</a>
+					</cite>
+				</blockquote>
+
+				<p>Assembly of the structure took less than one week on site. The result , according to Don Gray, is ‘a truly ground-breaking adventure in high-technology assembly, the use of new materials and advanced structural engineering.’</p>
+				<p>The protocols are being adopted into policy guidance in England, Wales and Scotland and will help to improve the management and conservation of important amphibian and reptile species.</p>
+
 				<figure class="full-width">
 					<div class="media-wrap-letterbox">
 						<img src="../media/images/story-swimmers.jpg">
@@ -81,43 +76,17 @@
 					<figcaption>Students enjoying diving course</figcaption>
 				</figure>
 
-				<p>The protocols are being adopted <a href="#">into policy guidance</a> in England, Wales and Scotland and will help to improve the management and conservation of important amphibian and reptile species.</p>
-			</div>
-			<aside class="content-aside">
-				<nav>
-					<h3>See also</h3>
-					<ul>
-						<li><a href="#">Dr. Michael Fish</a></li>
-						<li><a href="#">DICE</a></li>
-						<li><a href="#">Professor Stephan Peckham</a></li>
-					</ul>
-				</nav>
-				<nav>
-					<h3>In the media</h3>
-					<ul>
-						<li>
-							<a href="#">Squeek! Dolphins deciphered</a>
-							<span>Guardian</span>
-						</li>
-						<li>
-							<a href="#">Dolphin Sandwiches</a>
-							<span>Sydney Morning Herald</span>
-						</li>
-					</ul>
-				</nav>
-				<div>
-					<h3>Follow us</h3>
-					<a title="twitter" href="https://twitter.com/unikentnews" class="social-link"><i class="kf-twitter"></i> @unikentnews</a>
+				<p>The event was held over 2 working days, we had a total of 5 teams take part who tackled various problems facing the institution and gave 10 minute lightening talks on their prototypes at the end of the second day.</p>
+				<p>This blog post aims to give a quick run down of each of the teams ideas. Just to show off some of the cool stuff our colleagues produced in such a short amount of time.</p>
 
-				</div>
-			</aside>
+			</div>
 		</div>
 
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<h2>Surveys of amphibians and reptiles</h2>
 
-				<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary figurative painting.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
+				<p>Together with Billy Childish, Charles Thomson founded the movement in 1999 in an attempt to revive the fortunes of contemporary <a href="#">figurative painting</a>.  The show, co-curated by the Studio 3 Gallery MA Curating group in collaboration with Charles Thomson, demonstrates the now-global reach of the movement and includes works by Thomson, Ella Guru, Joe Machine, Jaroslav Valecka and Black Francis (frontman of The Pixies).  It is the School’s 20th exhibition since opening in 2010.</p>
 				<figure class="figure-right">
 						<div class="media-wrap">
 							<img src="../media/images/story-starfish.jpg">
@@ -152,33 +121,21 @@
 		</figure>
 
 		<div class="content-container">
-			<div class="content-main">
+			<div class="content-main content-main-centered">
 				<p>Contractor ES Global was then appointed to develop the design, with the help of KSA specialists including its digital workshop team, who produced 3D images to perfect the joints of the new structure. The complex engineering of the structure led to it being featured at the Future Visions conference on Shell and Spatial structures in Amsterdam in August 2015.</p>
 				<p>Assembly of the structure took less than one week on site. The result , according to Don Gray, is ‘a truly ground-breaking adventure in high-technology assembly, the use of new materials and advanced structural engineering.’</p>
 			</div>
 		</div>
-
 	</section>
 
 	<footer class="content-footer">
-		<div class="content-container">
-			<div class="content-main">
-				<nav class="content-tags">
-					<a class="content-tag btn btn-label">Culture</a>
-					<a class="content-tag btn btn-label">Environment</a>
-				</nav>
-				<nav class="content-social content-social-colored">
-					<a title="twitter" href="#" class="kf-twitter"></a>
-					<a title="facebook" href="#" class="kf-facebook"></a>
-					<a title="instagram" href="#" class="kf-instagram"></a>
-					<a title="pinterest" href="#" class="kf-pinterest"></a>
-					<a title="linkedin" href="#" class="kf-linkedin"></a>
-					<a title="google-plus" href="#" class="kf-google-plus"></a>
-					<a title="tumblr" href="#" class="kf-tumblr"></a>
-					<a title="flickr" href="#" class="kf-flickr"></a>
-					<a title="rss" href="#" class="kf-rss"></a>
-					<a title="youtube" href="#" class="kf-youtube"></a>
-					<a title="email" href="#" class="kf-email-o"></a>
+		<div class="content-container ">
+			<div class="content-main content-main-centered">
+				<nav class="content-social content-social-colored content-social-share">
+					<a title="twitter" href="#" class="kf-twitter twitter"></a>
+					<a title="facebook" href="#" class="kf-facebook facebook" ></a>
+					<a title="linkedin" href="#" class="kf-linkedin linkedin" ></a>
+					<a title="google" href="#" class="kf-google-plus plusone" ></a>
 				</nav>
 			</div>
 		</div>

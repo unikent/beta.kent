@@ -24,11 +24,11 @@
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true" >
 						<img  data-stellar-ratio="0.7" class="card-img" src="media/images/world-iss-4x3.jpg" alt="Earth viewed from the International Space Station">
 					</div>
-					<a href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" class="card-title-wrap card-title-wrap-link card-transparent">
-							<h2 class="card-title">Strong international outlook</h2>
-							<p class="card-text">Kent is among top 100 most international universities.</p>
-					</a>
-
+					<div class="card-title-wrap card-title-wrap-link card-transparent">
+						<a href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" class="card-title-link"><h2 class="card-title">Strong international outlook</h2></a>
+						<p class="card-text">Kent is among top 100 most international universities.</p>
+						<a class="faux-link-overlay" href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" aria-hidden="true">Strong international outlook</a>
+					</div>
 				</div>
 			</div>
 
@@ -50,32 +50,37 @@
 						<div id="quickspot-results-container">
 						</div>
 						<div class="inline-links text-xs-center text-sm-right">
-							<a href="http://www.kent.ac.uk/courses/undergraduate/search" >Courses A-Z</a>
-							<a href="http://www.kent.ac.uk/courses/undergraduate/prospectus/index.html" >Order a prospectus</a>
+							<a href="//www.kent.ac.uk/courses/undergraduate/search" >Courses A-Z</a>
+							<a href="//www.kent.ac.uk/courses/undergraduate/prospectus/index.html" >Order a prospectus</a>
 						</div>
 
 					</form>
 				</div>
 			</div>
+
 			<div class="card-panel  card-panel-tertiary nav-links-panel p-b-5 m-b-0">
 				<div class="card-panel-body">
 					<nav role="menu">
-						<a role="menuitem" href="http://www.kent.ac.uk/about/">
-							<span class="nav-link-title">Top 20 in the UK </span>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/about/" class="nav-link-title">Top 20 in the UK</a>
 							<span class="nav-link-desc">We rank amongst the best universities in the UK.</span>
-						</a>
-						<a role="menuitem" href="http://www.kent.ac.uk/courses/undergraduate/">
-							<span class="nav-link-title">Undergraduate</span>
+							<a href="//www.kent.ac.uk/about/" class="faux-link-overlay" aria-hidden="true">Top 20 in the UK</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/undergraduate/" class="nav-link-title">Undergraduate</a>
 							<span class="nav-link-desc">Quality teaching with world-leading academics.</span>
-						</a>
-						<a role="menuitem" href="http://www.kent.ac.uk/courses/postgraduate/">
-							<span class="nav-link-title">Postgraduate</span>
+							<a href="//www.kent.ac.uk/courses/undergraduate/" class="faux-link-overlay" aria-hidden="true">Undergraduate</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/" class="nav-link-title">Postgraduate</a>
 							<span class="nav-link-desc">Affordable programmes with leading researchers.</span>
-						</a>
-						<a role="menuitem" href="http://www.kent.ac.uk/courses/visit/">
-							<span class="nav-link-title">Visit us</span>
+							<a href="//www.kent.ac.uk/courses/postgraduate/" class="faux-link-overlay" aria-hidden="true">Postgraduate</a>
+						</div>
+						<div class="nav-link">
+							<a role="menuitem" href="//www.kent.ac.uk/courses/visit/" class="nav-link-title">Visit us</a>
 							<span class="nav-link-desc">Stunning locations and safe, comfortable accommodation.</span>
-						</a>
+							<a href="//www.kent.ac.uk/courses/visit/" class="faux-link-overlay" aria-hidden="true">Visit us</a>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -87,12 +92,13 @@
 
 			<div class="card card-overlay m-t-0">
 				<div class="card-body">
-					<a href="examples/student_experience.php/">
-						<div class="card-title-wrap card-title-wrap-link pull-right">
-							<h2 class="card-title">Superb student experience</h2>
-							<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
-						</div>
-					</a>
+
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<a href="examples/student_experience" class="card-title-link"><h2 class="card-title">Superb student experience</h2></a>
+						<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
+						<a href="examples/student_experience" class="faux-link-overlay" aria-hidden="true">Superb student experience</a>
+					</div>
+
 					<div class="card-split">
 						<div class="card-half">
 							<div data-src="https://youtu.be/33eohY6Rmc4" class="media-wrap video-launcher">
@@ -101,7 +107,7 @@
 
 						</div>
 						<div class="card-half">
-							<div class="media-wrap ">
+							<div class="media-wrap">
 								<img src="media/images/student-ex-holi.jpg" class="card-img" alt="Student covered in colourful dust from the Holi Festival">
 							</div>
 						</div>
@@ -112,10 +118,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a href="https://www.kent.ac.uk/courses/undergraduate/why/excellence.html" class="chevron-link">Academic excellence</a>
-					<a href="https://www.kent.ac.uk/courses/undergraduate/why/community.html" class="chevron-link">Supportive community</a>
-					<a href="http://www.kent.ac.uk/courses/undergraduate/profiles/" class="chevron-link">Student profiles</a>
-					<a href="http://www.kent.ac.uk/student/experience/living-leisure.html" class="chevron-link">Culture, sports and societies</a>
+					<a href="//www.kent.ac.uk/courses/undergraduate/why/excellence.html" class="chevron-link">Academic excellence</a>
+					<a href="//www.kent.ac.uk/courses/undergraduate/why/community.html" class="chevron-link">Supportive community</a>
+					<a href="//www.kent.ac.uk/courses/undergraduate/profiles/" class="chevron-link">Student profiles</a>
+					<a href="//www.kent.ac.uk/student/experience/living-leisure.html" class="chevron-link">Culture, sports and societies</a>
 				</div>
 			</div>
 
@@ -124,30 +130,34 @@
 
 			<div class="card-panel p-b-3">
 				<div class="card-panel-body">
-					<a  href="http://www.kent.ac.uk/locations/" class="card">
+
+					<div class="card card-linked">
 						<img class="card-img" src="media/images/locations-3x2.jpg" alt="Canterbury Campus">
-						<h3 class="card-title">Stunning locations</h3>
+						<a class="card-title-link" href="//www.kent.ac.uk/locations/"><h3 class="card-title">Stunning locations</h3></a>
 						<p class="card-text">UK campuses close to London and European centres in Paris, Brussels, Rome and Athens.</p>
-					</a>
-					
-					<a href="http://www.kent.ac.uk/accommodation/" class="card" >
+						<a href="//www.kent.ac.uk/locations/" class="faux-link-overlay" aria-hidden="true">Stunning locations</a>
+					</div>
+
+					<div class="card card-linked">
 						<img class="card-img" src="media/images/campus-room-3x2.jpg" alt="Student relaxing in a room">
-						<h3 class="card-title">Living on campus</h3>
+						<a href="//www.kent.ac.uk/accommodation/" class="card-title-link"><h3 class="card-title">Living on campus</h3></a>
 						<p class="card-text">Safe and comfortable accommodation for studying and student life.</p>
-					</a>
+						<a href="//www.kent.ac.uk/accommodation/" class="faux-link-overlay" aria-hidden="true">Living on campus</a>
+					</div>
 
-					<a href="http://www.kent.ac.uk/student/experience/learning-resources.html" class="card" >
+					<div class="card card-linked">
 						<img class="card-img" src="media/images/templeman-3x2.jpg" alt="Templeman Library">
-						<h3 class="card-title">Investing in our facilities</h3>
+						<a href="//www.kent.ac.uk/student/experience/learning-resources.html" class="card-title-link"><h3 class="card-title">Investing in our facilities</h3></a>
 						<p class="card-text">Our new library and study hubs provide world-class facilities.</p>
-					</a>
+						<a href="//www.kent.ac.uk/student/experience/learning-resources.html" class="faux-link-overlay" aria-hidden="true">Investing in our facilities</a>
+					</div>
 					
-					<a href="http://www.kent.ac.uk/goabroad/index.html" class="card" >
+					<div class="card card-linked">
 						<img class="card-img" src="media/images/tortoise-3x2.jpg" alt="Student with a Galapagos tortoise">
-						<h3 class="card-title">Experience the world</h3>
+						<a href="//www.kent.ac.uk/goabroad/index.html" class="card-title-link"><h3 class="card-title">Experience the world</h3></a>
 						<p class="card-text">A world of study abroad and work placement opportunities are available.</p>
-
-					</a>
+						<a href="//www.kent.ac.uk/goabroad/index.html" class="faux-link-overlay" aria-hidden="true">Experience the world</a>
+					</div>
 				</div>
 			</div>
 
@@ -155,13 +165,11 @@
 
 			<div class="card card-overlay">
 				<div class="card-body">
-
-					<a  href="http://www.kent.ac.uk/research/" class="card-title-wrap card-title-wrap-link pull-left" >
-						<h2 class="card-title">World-leading research</h2>
+					<div class="card-title-wrap card-title-wrap-link pull-left" >
+						<a href="//www.kent.ac.uk/research/" class="card-title-link"><h2 class="card-title">World-leading research</h2></a>
 						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
-					</a>
-
-
+						<a href="//www.kent.ac.uk/research/" class="faux-link-overlay" aria-hidden="true">World-leading research</a>
+					</div>
 
 					<div class="card-media-wrap">
 						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
@@ -171,20 +179,21 @@
 						</div>
 
 						<div class="card-img-overlay text-xs-right hidden-xs-down">
-							<a href="https://www.kent.ac.uk/research/ref2014/"><img width="120" src="media/images/ref-logo.png" alt="Logo for Research Excellence Framework"></a>
+							<a href="//www.kent.ac.uk/research/ref2014/"><img width="120" src="media/images/ref-logo.png" alt="Logo for Research Excellence Framework"></a>
 						</div>
 					</div>
 
-					<a href="http://www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-img-overlay-bottom text-xs-right">
-						<h3 class="card-subtitle chevron-link">Designing nature reserve networks</h3>
+					<div class="card-img-overlay-bottom text-xs-right card-img-overlay-link">
+						<a href="//www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-subtitle-link"><h3 class="card-subtitle">Designing nature reserve networks</h3></a>
 						<p class="card-text ">Research into balancing conservation with local people.</p>
-					</a>
+						<a href="//www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="faux-link-overlay" aria-hidden="true">Designing nature reserve network</a>
+					</div>
 
 				</div>
 				<div class="card-footer">
-					<a href="http://www.kent.ac.uk/research/impact/" class="chevron-link">Research impact</a>
-					<a href="https://www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic successes</a>
-					<a href="http://www.kent.ac.uk/courses/postgraduate/types/research.html#!degrees" class="chevron-link">Research degrees</a>
+					<a href="//www.kent.ac.uk/research/impact/" class="chevron-link">Research impact</a>
+					<a href="//www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic successes</a>
+					<a href="//www.kent.ac.uk/courses/postgraduate/types/research.html#!degrees" class="chevron-link">Research degrees</a>
 				</div>
 			</div>
 
@@ -199,7 +208,7 @@
 				<cite>
 					Dara Blumenthal,
 					<span>PhD Sociology</span>
-					<a class="chevron-link" href="http://www.kent.ac.uk/courses/postgraduate/profiles/sociology.html">View Dara's profile</a>
+					<a class="chevron-link" href="//www.kent.ac.uk/courses/postgraduate/profiles/sociology.html">View Dara's profile</a>
 				</cite>
 			</blockquote>
 
@@ -209,10 +218,11 @@
 
 			<div class="card card-overlay p-b-3">
 				<div class="card-body">
-					<a href="http://www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">Thinkers with global impact</h2>
+					<div class="card-title-wrap card-title-wrap-link pull-right">
+						<a href="//www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="card-title-link"><h2 class="card-title">Thinkers with global impact</h2></a>
 						<p class="card-text">Think Kent is a series of short, inspiring lectures showing our world-changing research.</p>
-					</a>
+						<a href="//www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="faux-link-overlay" aria-hidden="true">Thinkers with global impact</a>
+					</div>
 					<div data-src="https://youtu.be/H4tcJUQ1USw" class="card-media-wrap video-launcher">
 						<img src="media/images/thinkkent-16x9.jpg" class="card-img" alt="Dr Stephen Lowry holding a model of a comet">
 					</div>
@@ -223,9 +233,9 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<a href="https://www.kent.ac.uk/enterprise/ice.html" class="chevron-link">Innovation, creativity and enterprise</a>
+					<a href="//www.kent.ac.uk/enterprise/ice.html" class="chevron-link">Innovation, creativity and enterprise</a>
 					<a href="https://www.youtube.com/playlist?list=PL_voamVqJ_ZyVoZdGh4ov5u1PseEJxwEX" class="chevron-link">Think Kent on YouTube</a>
-					<a href="https://www.kent.ac.uk/events/esteem/2015-16/index.html" class="chevron-link">Open lectures</a>
+					<a href="//www.kent.ac.uk/events/esteem/2015-16/index.html" class="chevron-link">Open lectures</a>
 				</div>
 			</div>
 		<?php KentThemeHelper::footer(); ?>
