@@ -17,24 +17,21 @@
 		);
 ?>
 
-	<div class="card card-overlay header-card-overlay">
-				<div class="card-body">
-					
-					<div class="card-media-wrap video-launcher" data-src="https://youtu.be/MBJXoeqXGks">
-						<img class="card-img" src="/media/images/students.jpg">
+	<div class="card card-overlay header-card-overlay card-media-inline">
+			<div class="card-body">
+				<div class="card-media-wrap video-launcher">
+					<div class="video-player">
+						<div data-video-id="MBJXoeqXGks" data-type="youtube"></div>
 					</div>
-
-	
-				<div class="card-title-wrap card-title-wrap-link">
-						<h2 class="card-title">Why I love Kent</h2>
-						<p class="card-text">Our excellent facilities and supportive atmosphere enable our students to thrive both academically and personally. </p>
-					</div>
-
+					<img class="card-img" src="/media/images/students.jpg">
 				</div>
 
-				
-
+				<div class="card-title-wrap card-title-wrap-link">
+					<h2 class="card-title">Why I love Kent</h2>
+					<p class="card-text">Our excellent facilities and supportive atmosphere enable our students to thrive both academically and personally. </p>
+				</div>
 			</div>
+		</div>
 
 
 
