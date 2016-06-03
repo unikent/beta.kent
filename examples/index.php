@@ -1133,6 +1133,38 @@
 				</div>
 			</div>
 
+			<div class="card-panel card-panel-tertiary cards-list">
+				<div class="card-panel-header">
+					<h2 class="card-panel-title">Full Width Card Listing</h2>
+				</div>
+				<div class="card-panel-body">
+					<div class="card">
+						<img class="card-img" src="../media/images/promo-2.jpg">
+						<h3 class="card-title">EU Referendum Experts</h3>
+						<p class="card-text">Keep up to date with Kent's experts as they provide new insights and perspectives on key Referendum issues for UK and international media.</p>
+					</div>
+					<div class="card">
+						<img class="card-img" src="../media/images/promo-3.jpg">
+						<h3 class="card-title">Employability Points celebrate Kent students' success</h3>
+						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
+					</div>
+					<div class="card">
+						<img class="card-img" src="../media/images/promo-4.jpg">
+						<h3 class="card-title">Conservatives prefer using nouns, psychologists find</h3>
+						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="container">
+				<div class="card card-list-item">
+					<img class="card-img" src="../media/images/promo-2.jpg">
+					<h3 class="card-title">EU Referendum Experts</h3>
+					<p class="card-text">Keep up to date with Kent's experts as they provide new insights and perspectives on key Referendum issues for UK and international media.</p>
+				</div>
+			</div>
+
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
@@ -1388,5 +1420,3 @@
 </blockquote>
 
 <?php KentThemeHelper::footer(); ?>
-
-
