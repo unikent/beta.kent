@@ -37,28 +37,18 @@
 
 
 
-									<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-nopad">
-											
-
-
-					<form class="quickspot-container" >
-
-						<!--
-						<h2 style="position: relative; top: -7rem" class="strap-line text-xs-center">With passion and focus <span>/ You can achieve anything</span></h2>
-					-->
-
-												 <div class="form-group" style="position: relative; top: -1rem">
-													 <label for="search" class="sr-only">Search</label>
-													 <div class="input-group input-group-lg">
-														<input  type="search" class="form-control" id="course-search" placeholder="Search our postgraduate programmes and supervisors..." autocomplete="off" data-quickspot-config="pg_courses" data-quickspot-target="quickspot-results-container">
-														<span class="input-group-btn">
-															<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
-														</span>
-													</div>
+									<div class="card-img-overlay-bottom">
+										<form >
+											<div class="form-group">
+												<label for="search" class="sr-only">Search</label>
+												<div class="input-group input-group-lg">
+													<input type="search" class="form-control" id="cardCearch" placeholder="Search our postgraduate programmes and supervisors">
+													<span class="input-group-btn">
+														<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
+													</span>
 												</div>
-												<div id="quickspot-results-container" class="quickspot-contained">								
-												</div>
-											</form>
+											</div>
+										</form>
 									</div>
 
 							   </div>
@@ -66,95 +56,37 @@
 
 
 
-
-
-
-<!--
-<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
-							   
-							   <div class="card-body">
-					
-					<div class="card-media-wrap">
-						<img class="card-img" src="/media/images/student-filming-3-16x9.jpg">
-					</div>
-
-	
-				<div class="card-title-wrap card-title-wrap-link">
-						<h2 class="card-title">World-leading research</h2>
-						<p class="card-text">We are ranked 17th in the UK for Research Intensity. </p>
-					</div>
-
-				</div>
-
-	   </div>
-
--->
-
-
-<!--
-		<div class="panel panel-tertiary">
-				<div class="container-padded ">
-					<form class="quickspot-container m-t-3">
-
-
-						 <div class="form-group">
-							 <label for="search" class="sr-only">Search</label>
-							 <div class="input-group input-group-lg">
-								<input type="search" class="form-control" id="course-search" placeholder="Search for postgraduate programmes..." autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container">
-								<span class="input-group-btn">
-									<button type="submit" class="btn btn-accent btn-icon"><span class="kf-fw kf-search"></span></button>
-								</span>
-							</div>
-						</div>
-						<div id="quickspot-results-container">
-							
-						</div>
-						<div class="inline-links text-xs-center text-sm-right">
-							<a href="http://www.kent.ac.uk/courses/undergraduate/search" >Courses A-Z</a>
-							<a href="http://www.kent.ac.uk/courses/undergraduate/prospectus/index.html" >Order a prospectus</a>
-						</div>
-					</form>
-				</div>
-			</div>
-
--->
-
-			<div class="card-panel card-panel-tertiary nav-links-panel p-t-5 p-b-5 m-b-0">
-				<div class="card-panel-body">
-					<nav role="menu">
-						<a href="https://www.kent.ac.uk/courses/postgraduate/apply/" role="menuitem">
-							<span class="nav-link-title">How to apply</span>
-							<span class="nav-link-desc">Our supportive staff will help you throughout the process</span>
-						</a>
-						<a href="https://www.kent.ac.uk/courses/postgraduate/types/taught.html" role="menuitem">
-							<span class="nav-link-title">Master's/Taught</span>
-							<span class="nav-link-desc">A structured programme of study made up of modules 
-</span>
-						</a>
-						<a href="https://www.kent.ac.uk/courses/postgraduate/types/research.html" role="menuitem">
-							<span class="nav-link-title">Research/PhDs</span>
-							<span class="nav-link-desc">Browse our research degrees and PhDs by subject</span>
-						</a>
-						<a href="https://www.kent.ac.uk/scholarships/postgraduate/index.html" role="menuitem">
-							<span class="nav-link-title">Funding</span>
-							<span class="nav-link-desc">Browse our research degrees and PhDs by subject</span>
-						</a>
-						
-					</nav>
-				</div>
-			</div>
+					<div class="card-panel  card-panel-tertiary nav-links-panel p-t-5 p-b-5 m-b-0">
+									<div class="card-panel-body">
+										<nav role="menu">
+											<div class="nav-link">
+												<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/apply/" class="nav-link-title">How to apply</a>
+												<span class="nav-link-desc">Our supportive staff will help you throughout the process.</span>
+												<a href="//www.kent.ac.uk/courses/postgraduate/apply/" class="faux-link-overlay" aria-hidden="true">How to apply</a>
+											</div>
+											<div class="nav-link">
+												<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/types/taught.html" class="nav-link-title">Master's/Taught</a>
+												<span class="nav-link-desc">A structured programme of study made up of modules.</span>
+												<a href="//www.kent.ac.uk/courses/postgraduate/types/taught.html" class="faux-link-overlay" aria-hidden="true">Master's/Taught</a>
+											</div>
+											<div class="nav-link">
+												<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/types/research.html" class="nav-link-title">Research/PhDs</a>
+												<span class="nav-link-desc">Browse our research degrees and PhDs by subject.</span>
+												<a href="//www.kent.ac.uk/courses/postgraduate/types/research.html" class="faux-link-overlay" aria-hidden="true">Research/PhDs</a>
+											</div>
+											<div class="nav-link">
+												<a role="menuitem" href="//www.kent.ac.uk/scholarships/postgraduate/index.html" class="nav-link-title">Funding</a>
+												<span class="nav-link-desc">Browse our research degrees and PhDs by subject.</span>
+												<a href="//www.kent.ac.uk/scholarships/postgraduate/index.html" class="faux-link-overlay" aria-hidden="true">Funding</a>
+											</div>
+										</nav>
+									</div>
+								</div>
 
 
 
 
-
-
-
-
-
-
-
-					 
+ 
 
 					   <div class="card card-overlay  m-t-0">
 							   <div class="card-body">
