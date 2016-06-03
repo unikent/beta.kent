@@ -101,7 +101,10 @@
 
 					<div class="card-split">
 						<div class="card-half">
-							<div data-src="https://youtu.be/33eohY6Rmc4" class="media-wrap video-launcher">
+							<div class="media-wrap video-launcher" data-mode="fullscreen">
+								<div class="video-player">
+									<div data-video-id="33eohY6Rmc4" data-type="youtube"></div>
+								</div>
 								<img src="media/images/student-ex-video.jpg" class="card-img" alt="Positive student">
 							</div>
 
@@ -216,14 +219,19 @@
 
 
 
-			<div class="card card-overlay p-b-3">
+			<div class="card card-overlay card-media-inline p-b-3">
+
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<a href="//www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="card-title-link"><h2 class="card-title">Thinkers with global impact</h2></a>
 						<p class="card-text">Think Kent is a series of short, inspiring lectures showing our world-changing research.</p>
 						<a href="//www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="faux-link-overlay" aria-hidden="true">Thinkers with global impact</a>
 					</div>
-					<div data-src="https://youtu.be/H4tcJUQ1USw" class="card-media-wrap video-launcher">
+
+					<div class="card-media-wrap video-launcher" data-mode="inline">
+						<div class="video-player">
+							<div data-video-id="H4tcJUQ1USw" data-type="youtube"></div>
+						</div>
 						<img src="media/images/thinkkent-16x9.jpg" class="card-img" alt="Dr Stephen Lowry holding a model of a comet">
 					</div>
 

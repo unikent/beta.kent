@@ -511,7 +511,19 @@
 					</div>
 					<div class="card-split">
 						<div class="card-half">
-							<div class="media-wrap video-launcher" data-src="../media/video/video-research-student.mp4" data-transcript="#">
+							<div class="media-wrap video-launcher" data-mode="fullscreen" data-src="../media/video/video-research-student.mp4" data-transcript="#">
+
+								<div class="video-player">
+									<video poster="../media/images/sea-turtle.jpg" controls>
+										<!-- Video files -->
+										<source src="../media/video/video-research-student.mp4" type="video/mp4">
+										<!-- Text track file -->
+										<!--track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default-->
+
+										<!-- Fallback for browsers that don't support the <video> element -->
+										<a href="../media/video/video-research-student.mp4">Download</a>
+									</video>
+								</div>
 								<img class="card-img" src="../media/images/sea-turtle.jpg">
 							</div>
 
@@ -818,7 +830,19 @@
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
-					<div class="card-media-wrap video-launcher" data-src="../media/video/video-research-student.mp4">
+					<div class="card-media-wrap video-launcher" data-mode="fullscreen" >
+						<div class="video-player">
+							<video poster="../media/images/students.jpg" controls>
+								<!-- Video files -->
+								<source src="../media/video/video-research-student.mp4" type="video/mp4">
+								<!-- Text track file -->
+								<!--track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default-->
+
+								<!-- Fallback for browsers that don't support the <video> element -->
+								<a href="../media/video/video-research-student.mp4">Download</a>
+							</video>
+						</div>
+
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
@@ -836,6 +860,7 @@
 			</div>
 
 			<div class="card card-overlay">
+
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
 						<a class="card-title-link" href="#foo"><h2 class="card-title">An inline video</h2></a>
@@ -843,7 +868,10 @@
 						<a class="faux-link-overlay" href="#foo" aria-hidden="true"></a>
 					</div>
 
-					<div class="card-media-wrap video-launcher"  data-src="https://youtu.be/_tBZXfPfhyg" data-mode="inline">
+					<div class="card-media-wrap video-launcher">
+						<div class="video-player">
+							<div data-video-id="_tBZXfPfhyg" data-type="youtube"></div>
+						</div>
 						<img class="card-img" src="../media/images/students.jpg">
 					</div>
 
@@ -953,7 +981,19 @@
 					<div class="card-panel card-panel-contained card-panel-primary-tint">
 						<div class="card-panel-body">
 							<div class="card-panel-full fixed">
-								<div class="expanded video-launcher"  data-src="../media/video/video-research-student.mp4" data-transcript="#" style="background-image:url('../media/images/sea-turtle.jpg');">
+								<div class="expanded video-launcher" data-mode="fullscreen" data-transcript="#" style="background-image:url('../media/images/sea-turtle.jpg');">
+									<div class="video-player">
+										<video poster="../media/images/sea-turtle.jpg" controls>
+											<!-- Video files -->
+											<source src="../media/video/video-research-student.mp4" type="video/mp4">
+											<!-- Text track file -->
+											<!--track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default-->
+
+											<!-- Fallback for browsers that don't support the <video> element -->
+											<a href="../media/video/video-research-student.mp4">Download</a>
+										</video>
+									</div>
+
 								</div>
 							</div>
 							<div class="card-panel-single">
@@ -1012,7 +1052,18 @@
 						</div>
 					</div>
 					<div class="card-panel-full fixed">
-						<div class="video-launcher"  data-src="../media/video/video-research-student.mp4" data-controls="false" style="background-image:url('../media/images/sea-turtle.jpg');">
+						<div class="video-launcher"  data-mode="fullscreen" data-controls="false" style="background-image:url('../media/images/sea-turtle.jpg');">
+							<div class="video-player">
+								<video poster="../media/images/sea-turtle.jpg" controls>
+									<!-- Video files -->
+									<source src="../media/video/video-research-student.mp4" type="video/mp4">
+									<!-- Text track file -->
+									<!--track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default-->
+
+									<!-- Fallback for browsers that don't support the <video> element -->
+									<a href="../media/video/video-research-student.mp4">Download</a>
+								</video>
+							</div>
 						</div>
 					</div>
 				</div>

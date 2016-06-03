@@ -43,14 +43,20 @@
 		<p class="impact-statement">Our programmes are informed by a commitment to research excellence. We are ranked 17th in the UK for Research Intensity.</p>
 	</aside>
 
-	<div class="card card-overlay">
+	<div class="card card-overlay card-media-inline">
 		<div class="card-body">
 			<div class="card-title-wrap pull-right">
 				<h2 class="card-title">World Leading research</h2>
 				<p class="card-text">Kent's excellent research performance positions us as one of UK's leading universities. Our 19 academic schools engage in research of international and world class standing.</p>
 			</div>
-			<div class="card-media-wrap video-launcher" data-toggle="modal" data-target="#myVideoModal">
+
+			<div class="card-media-wrap video-launcher">
+				<div class="video-player">
+					<div data-video-id="H4tcJUQ1USw" data-type="youtube"></div>
+				</div>
 				<img class="card-img" src="../media/images/feature-professor-2-1.jpg">
+
+
 				<div class="card-img-overlay-bottom text-right">
 					<h3 class="card-subtitle">Prof. David Welch</h3>
 					<p class="card-text">Professor of Modern History</p>
