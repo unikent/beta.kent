@@ -1,4 +1,10 @@
 # beta.kent
+
+# THIS THEME IS STILL IN BETA AND NOT FOR APPROVED FOR PRODUCTION USE
+Usage
+
+This theme is still in beta and not approved for production use, please refer to the current brand guidleines for use of the exisitng brand.
+
 - This repository has been created for the Kent beta site index page
 - This is to keep the [Kent Theme](https://github.com/unikent/kent-theme) clean
 - This repo will pull in dependencies from [Kent Beta Libs](https://github.com/unikent/kent-beta-libs)
