@@ -4,7 +4,7 @@
 
 ## Usage
 
-This theme is still in beta and not approved for production use, please refer to the current brand guidleines for use of the exisitng brand.
+This theme is still in beta and not approved for production use, please refer to the [current brand guidelines](https://www.kent.ac.uk/brand) for use of the existing brand.
 
 - This repository has been created for the Kent beta site index page
 - This is to keep the [Kent Theme](https://github.com/unikent/kent-theme) clean
