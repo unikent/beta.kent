@@ -1,7 +1,8 @@
 # beta.kent
 
 # THIS THEME IS STILL IN BETA AND NOT FOR APPROVED FOR PRODUCTION USE
-Usage
+
+## Usage
 
 This theme is still in beta and not approved for production use, please refer to the current brand guidleines for use of the exisitng brand.
 
