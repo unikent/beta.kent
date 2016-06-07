@@ -20,16 +20,22 @@
 		)
 	);
 ?>
-<figure class="featured-image">
-	<div class="media-wrap-letterbox">
-		<img src="../media/images/story-ping-pong.jpg">
-		<div class="attribution">
-			<i class="kf-camera"></i>
-			<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
+<div class="card card-overlay header-card-overlay">
+	<div class="card-body">
+		<div class="card-media-wrap">
+			<img class="card-img" src="../media/images/story-ping-pong.jpg">
+			<div class="card-img-overlay-bottom card-img-overlay-link">
+				<div class="attribution">
+					<i class="kf-camera"></i>
+					<span>Political Studies Association: Picture by <a href="#">Someone</a>. <a href="#">Attribution License</a></span>
+				</div>
+			</div>
 		</div>
 	</div>
-	<figcaption>Ping Pong the dolphin</figcaption>
-</figure>
+	<div class="card-footer">
+		<p class="caption">Ping Pong the dolphin</p>
+	</div>
+</div>
 <div class="content-header">
 <?php
 	KentThemeHelper::breadcrumb(array(
