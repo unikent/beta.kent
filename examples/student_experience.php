@@ -1,60 +1,45 @@
 <?php
-	include dirname(dirname(__FILE__))."/bootstrap.php";
-	use \unikent\kent_theme\kentThemeHelper;
+include dirname(dirname(__FILE__))."/bootstrap.php";
+use \unikent\kent_theme\kentThemeHelper;
 
-		KentThemeHelper::header(
-			array(
-				'title' => "Superb student experience",
-				'menu' => array(
-					'Home' => '#',
-					'Inspirational teaching' => '#',
-					'Locations' => '#',
-					'Sports and culture' => '#',
-
-				),
-				'meta' => array('title'=>'Inspiring student experience')
+KentThemeHelper::header(
+	array(
+		'title' => "Superb student experience",
+		'menu' => array(
+			'Home' => '#',
+			),
+		'meta' => array('title'=>'Superb student experience'),
+		'beta_bar' => array(
+			'about_url' => '/about-beta'
 			)
-		);
-?>
+		)
+	);
+	?>
+
+
 
 	<div class="card card-overlay header-card-overlay card-media-inline">
-			<div class="card-body">
-				<div class="card-media-wrap video-launcher">
-					<div class="video-player">
-						<div data-video-id="MBJXoeqXGks" data-type="youtube"></div>
-					</div>
-					<img class="card-img" src="/media/images/students.jpg">
+		<div class="card-body">
+			<div class="card-media-wrap video-launcher">
+				<div class="video-player">
+					<div data-video-id="MBJXoeqXGks" data-type="youtube"></div>
 				</div>
+				<img class="card-img" src="/media/images/students-park-16-9.jpg">
+			</div>
 
-				<div class="card-title-wrap card-title-wrap-link">
-					<h2 class="card-title">Why I love Kent</h2>
-					<p class="card-text">Our excellent facilities and supportive atmosphere enable our students to thrive both academically and personally. </p>
-				</div>
+			<div class="card-title-wrap">
+				<h2 class="card-title">Why I love Kent</h2>
+				<p class="card-text">Our excellent facilities and supportive atmosphere enable our students to thrive both academically and personally</p>
 			</div>
 		</div>
+	</div>
 
 
 
-
-
-
-<aside class="container m-t-5 m-b-5">
-		   <p class="impact-statement">Kent gained the 5th highest score for overall student satisfaction*
-in the National Student Survey 2015</p>
+	<aside class="container m-t-5 m-b-5">
+		<p class="impact-statement">Kent gained the 5th highest score for overall student satisfaction* in the National Student Survey 2015</p>
 	</aside>
 
-
-
-
-
-<!--
-
-<aside class="container m-t-5 m-b-5">
-		   <p class="impact-statement">By making the most of the opportunities at the University of Kent you can create the best student experience for you and reach your full potential.</p>
-	</aside>
-
-
--->
 
 
 <style type="text/css">
@@ -65,462 +50,192 @@ in the National Student Survey 2015</p>
 
 
 
+<div class="card card-overlay p-t-5">
+	<div class="card-body">
+		<div class="card-title-wrap card-title-wrap-link pull-left">
+			<a href="https://www.kent.ac.uk/student/" class="card-title-link"><h2 class="card-title">Life at Kent</h2></a>
+			<p class="card-text">By making the most of the opportunities at the University of Kent you can create the best student experience for you and reach your full potential.</p>
+			<a href="https://www.kent.ac.uk/student/" class="faux-link-overlay" aria-hidden="true">Life at Kent</a>
+		</div>
+		<div class="card-media-wrap">
+			<img class="card-img-bottom" src="/media/images/kent-life-16x9.jpg">
+		</div>
 
+	</div>
+	<div class="card-footer">
+		<a href="https://www.kent.ac.uk/student/experience/academic-personal-support.html" class="chevron-link">Academic support</a>
+		<a href="https://www.kent.ac.uk/student/support-and-wellbeing/" class="chevron-link">Health and wellbeing</a>
+		<a href="https://www.kent.ac.uk/sports" class="chevron-link">Sporting culture</a>
+		<a href="https://www.kent.ac.uk/arts" class="chevron-link">Arts programme</a>
+		<a href="https://www.kent.ac.uk/music" class="chevron-link">Musical community</a>
 
-
-	<div class="card card-overlay p-t-5">
-				<div class="card-body">
-					<a href="#" class="card-title-wrap card-title-wrap-link pull-left">
-						<h2 class="card-title">Life at Kent</h2>
-						<p class="card-text">By making the most of the opportunities at the University of Kent you can create the best student experience for you and reach your full potential.</p>
-					</a>
-					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="/media/images/kent-life-16x9.jpg">
-
-
-					</div>
-				
-
-
-
-				
-
-
-
-
-
-<!--
-
-					<a href="#" class="card-img-overlay-bottom" >
-						<h3 class="card-subtitle chevron-link">Overlay subtitle</h3>
-						<p class="card-text">Overlay description.</p>
-					</a>
-				
--->
-				</div>
-				<div class="card-footer">
-					<a href="#" class="chevron-link">Academic support</a>
-					<a href="#" class="chevron-link">Student health and wellbeing</a>
-					<a href="#" class="chevron-link">Sporting culture</a>
-					<a href="#" class="chevron-link">Arts programme</a>
-					<a href="#" class="chevron-link">Musical community</a>
-
-				</div>
-			</div>
-
-
-
-
-
-
-
-
-
+	</div>
+</div>
 
 
 
 <aside class="container m-t-5 m-b-5">
-		   <p class="impact-statement">Kent ranked 16th in The Guardian University Guide 2016</p>
+	<p class="impact-statement">Kent ranked 16th in The Guardian University Guide 2016</p>
+</aside>
+
+
+
+<div class="card card-overlay p-t-5">
+	<div class="card-body">
+
+		<div class="card-title-wrap card-title-wrap-link pull-right">
+			<a href="https://www.kent.ac.uk/locations/" class="card-title-link"><h2 class="card-title">Superb locations</h2></a>
+			<p class="card-text">We have two stunning campuses and a part-time study centre in south-east England, plus four postgraduate study centres across Europe. Explore the links below to find out what each location has to offer, from nightlife to local facilities and activities.</p>
+			<a href="https://www.kent.ac.uk/locations/" class="faux-link-overlay" aria-hidden="true">Superb locations</a>
+		</div>
+
+
+		<div class="card-media-wrap">
+			<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+				<video autoplay loop class="embed-responsive-item">
+					<source src="/media/video/Cabo De Palos - 1283.mp4">
+					</video>
+				</div>
+			</div>
+
+
+			<a href="https://www.kent.ac.uk/courses/visit/index.html" class="card-img-overlay-bottom" >
+				<h3 class="card-subtitle chevron-link">Visit us</h3>
+				<p class="card-text">Come and see for yourself</p>
+			</a>
+
+
+		</div>
+
+		<div class="card-footer">
+			<a href="http://www.kent.ac.uk/locations/canterbury/" class="chevron-link">Canterbury</a>
+			<a href="http://www.kent.ac.uk/locations/medway/index.html" class="chevron-link">Medway</a>
+			<a href="http://www.kent.ac.uk/tonbridge/" class="chevron-link">Tonbridge</a>
+			<a href="http://www.kent.ac.uk/paris/" class="chevron-link">Paris</a>
+			<a href="http://www.kent.ac.uk/brussels/" class="chevron-link">Brussels</a>
+			<a href="http://www.kent.ac.uk/rome/" class="chevron-link">Rome</a>
+			<a href="http://www.kent.ac.uk/locations/athens/" class="chevron-link">Athens</a>
+
+		</div>
+
+	</div>
+
+
+
+
+	<aside class="container m-t-5 m-b-5">
+		<p class="impact-statement">Since 2010, Kent and its partners have invested over £120min its student residences providing 6,500 bedrooms</p>
 	</aside>
 
 
 
 
+	<div class="card card-overlay p-t-5">
+
+		<div class="card-body">
+
+			<div class="card-title-wrap card-title-wrap-link pull-left">
+				<a class="card-title-link" href="http://www.kent.ac.uk/accommodation/" ><h2 class="card-title">Accommodation</h2></a>
+				<p class="card-text">Kent has some of the best accommodation in the university sector, providing a perfect base for your studies and a place to relax with friends.</p>
+				<a href="http://www.kent.ac.uk/accommodation/" class="faux-link-overlay" aria-hidden="true">Accommodation</a>
+			</div>
 
 
-
-
-
-
-
-<div class="card card-overlay p-t-5">
-				<div class="card-body">
-
-					<a href="#" class="card-title-wrap card-title-wrap-link pull-right">
-						<h2 class="card-title">Superb locations</h2>
-						<p class="card-text">We have two stunning campuses and a part-time study centre in south-east England, plus four postgraduate study centres across Europe. Explore the links below to find out what each location has to offer, from nightlife to local facilities and activities.</p>
-					</a>
-
-				
+			<div class="kent-slider kent-slider-dark">
+				<div class="kent-slide">
+					<div class="card-media-wrap ">
+						<img class="card-img" src="/media/images/accommodation-keynes-16x9.jpg">
+					</div>
+					<div class="card-img-overlay-bottom card-overlay-inline-xs">
+						<h3 class="card-subtitle">Keynes</h3>
+						<p class="card-text">Canterbury Campus</p>
+					</div>
+				</div>
+				<div class="kent-slide">
 					<div class="card-media-wrap">
-						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
-							<video autoplay loop class="embed-responsive-item">
-								<source src="/media/video/Cabo De Palos - 1283.mp4">
-							</video>
-						</div>
+						<img class="card-img" src="/media/images/accommodation-16x9.jpg">
 					</div>
-					
+					<div class="card-img-overlay-bottom card-overlay-inline-xs ">
+						<h3 class="card-subtitle">Turing</h3>
+
+						<p class="card-text">Canterbury Campus</p>
+
+					</div>
 				</div>
 
-				<div class="card-footer">
-					<a href="#" class="chevron-link">Canterbury</a>
-					<a href="#" class="chevron-link">Medway</a>
-					<a href="#" class="chevron-link">Tonbridge</a>
-					<a href="#" class="chevron-link">Paris</a>
-					<a href="#" class="chevron-link">Brussels</a>
-					<a href="#" class="chevron-link">Rome</a>
-					<a href="#" class="chevron-link">Athens</a>
-
-				</div>
-
-			</div>
-
-
-
-
-
-
-
-
-
-
-<aside class="container m-t-5 m-b-5">
-		   <p class="impact-statement">Since 2010, Kent and its partners have invested over £120m
-in its student residences providing 6,500 bedrooms</p>
-</aside>
-
-
-
-
-
-
-
-
-
-
-<div class="card card-overlay p-t-5">
-				<div class="card-body">
-
-					<a href="#" class="card-title-wrap card-title-wrap-link pull-left">
-						<h2 class="card-title">Accommodation</h2>
-						<p class="card-text">Kent has some of the best accommodation in the university sector, providing a perfect base for your studies and a place to relax with friends.</p>
-					</a>
-
-				
+				<div class="kent-slide">
 					<div class="card-media-wrap">
-						<img class="card-img-bottom" src="/media/images/accommodation-16x9.jpg">
-
-
+						<img class="card-img" src="/media/images/accommodation-woolfe-16x9.jpg">
 					</div>
-					
-				</div>
-
-				<div class="card-footer">
-					<a href="#" class="chevron-link">Canterbury</a>
-					<a href="#" class="chevron-link">Medway</a>
-					<a href="#" class="chevron-link">European centres</a>
-					<a href="#" class="chevron-link">Postgraduate</a>
-					<a href="#" class="chevron-link">Food and drink</a>
-				</div>
-
-			</div>
-
-
-
-
-
-
-			<div class="card-panel  m-b-5">
-				
-				<div class="card-panel-body">
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/project-3x2.jpg" alt="Student working on a design project">
-						<h3 class="card-title">Kent Union</h3>
-						<p class="card-text">Find out what Kent Union offers</p>
-					</a>
-
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/kent-union-3x2.jpg" alt="Student playing snooker">
-						<h3 class="card-title">GK Unions</h3>
-						<p class="card-text">Find out about GK Unions at Medway</p>
-					</a>
-					
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/discussion-3x2.jpg"  alt="Student having a discussion">
-						<h3 class="card-title">Image galleries</h3>
-						<p class="card-text">Image galleries and 360° panoramas</p>
-					</a>
-					
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/sketching-3x2.jpg"  alt="Fasion design student sketching">
-						<h3 class="card-title">Fees and funding</h3>
-						<p class="card-text">Affordable financing and funding opportunities.</p>
-					</a>
-				</div>
-			</div>
-
-
-
-
-
-<!--
-
-
-			<div class="card-panel  m-b-5">
-				
-				<div class="card-panel-body">
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/project-3x2.jpg" alt="Student working on a design project">
-						<h3 class="card-title">Kick-start your future</h3>
-						<p class="card-text">We provide transferable skills to help kick-start your career.</p>
-					</a>
-
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/kent-union-3x2.jpg" alt="Student playing snooker">
-						<h3 class="card-title">Kent plus</h3>
-						<p class="card-text">Kent gives you more with sports, culture and community.</p>
-					</a>
-					
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/discussion-3x2.jpg"  alt="Student having a discussion">
-						<h3 class="card-title">Inspirational teaching</h3>
-						<p class="card-text">We provide some of the best teaching in the country.</p>
-					</a>
-					
-					<a class="card" href="#">
-						<img class="card-img" src="/media/images/sketching-3x2.jpg"  alt="Fasion design student sketching">
-						<h3 class="card-title">Fees and funding</h3>
-						<p class="card-text">Affordable financing and funding opportunities.</p>
-					</a>
-				</div>
-			</div>
-
-
-
-		-->	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
-				<a class="card card-double" href="https://www.kent.ac.uk/courses/undergraduate/profiles/index.html">
-					<h3 class="card-title">What our students say</h3>
-					<p class="card-subtitle">No one knows better than our students what it’s really like to be a student at Kent.</p>
-				</a>
-				<div class="kent-slider" data-slider-config="profile_feature">
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-1.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Filipa Moniz</h3>
-								<p class="card-subtitle">Biochemistry</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">"It is great to have the chance to meet people from all over the world and exchange great experiences."</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
-					</div>
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-2.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Victor Smith</h3>
-								<p class="card-subtitle">Business administration</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
-					</div>
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-3.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Veron Dane</h3>
-								<p class="card-subtitle">Computer science</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
-					</div>
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-4.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Mellisa Poise</h3>
-								<p class="card-subtitle">Bioscience</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
-					</div>
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-5.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title"> Vicky Phippen</h3>
-								<p class="card-subtitle">Comparative Literature</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">"I can’t think of anyone who isn’t catered for by all the clubs and societies, and I’d never even heard of some of the sports on offer."</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
-					</div>
-					<div class="card card-backed-primary">
-						<div class="front">
-							<img class="card-img" src="/media/images/profile-student-6.jpg">
-							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">Sariya Suwannakarn</h3>
-								<p class="card-subtitle">Fine Art</p>
-							</div>
-						</div>
-						<div class="back">
-							<p class="card-text">"It's easy to get to galleries in London. My most recent visit was [for] an exhibition by Ai Weiwei, one of the greatest artists of our time."</p>
-							<p><a href="#">View Profile</a></p>
-						</div>
+					<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+						<h3 class="card-subtitle">Woolfe</h3>
+						<p class="card-text">Canterbury Campus</p>
 					</div>
 				</div>
 
 
-
+				<div class="kent-slide">
+					<div class="card-media-wrap">
+						<img class="card-img" src="/media/images/liberty-quays-16x9.jpg">
+					</div>
+					<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
+						<h3 class="card-subtitle">Liberty Quays</h3>
+						<p class="card-text">Medway Campus</p>
+					</div>
+				</div>
 
 
 			</div>
 
 
 
+		</div>
 
 
 
-						<blockquote class="m-b-0 m-t-5">
-				<img src="/media/images/student-oli.jpg" class="img-circle" alt="Oli McVeigh">
-				<p>As Kent as a university is entering the rankings for top universities in the country, even being shortlisted for ‘University of the Year’, it is nice to see our education is not suffering but being enhanced in every corner of the campus.</p>
-				<cite>
-					 Oli McVeigh,
-					<span>Student blogger</span>
-					<a class="chevron-link" href="https://blogs.kent.ac.uk/kentstudents/">More about life and study on our Kent student blog</a>
-				</cite>
-			</blockquote>
+		<div class="card-footer">
+			<a href="http://www.kent.ac.uk/accommodation/canterbury/apply/index.html" class="chevron-link">Canterbury</a>
+			<a href="http://www.kent.ac.uk/accommodation/medway/apply/index.html" class="chevron-link">Medway</a>
+			<a href="http://www.kent.ac.uk/accommodation/canterbury/apply/guide/pg-accomm.html" class="chevron-link">European centres</a>
+			<a href="http://www.kent.ac.uk/accommodation/canterbury/apply/guide/pg-accomm.html" class="chevron-link">Postgraduate</a>
+			<a href="http://www.kent.ac.uk/catering/" class="chevron-link">Food and drink</a>
+		</div>
+
+	</div>
 
 
+	<div class="card-panel  m-b-5">
 
-
-<!--
-
-
-			<blockquote class="social-quote social-quote-twitter m-b-5">
-				<a href="#">
-					<button></button>
-					<p>Kent top seven for student satisfaction.</p>
-				</a>
-				<cite>
-					<a href="#">@UKCstudent</a>
-				</cite>
-			</blockquote>
-
-
--->
-
-
-
-
-<!--
-
-			<div class="card-panel card-panel-primary-secondary">
-				<div class="card-panel-header">
-					<h2 class="card-panel-title">Keep in touch</h2>
-
-			
-					<nav class="content-social content-social-colored">
-						<a title="facebook" href="#" class="kf-facebook"></a>
-						<a title="twitter" href="#" class="kf-twitter"></a>
-						<a title="youtube" href="#" class="kf-youtube"></a>
-						<a title="instagram" href="#" class="kf-instagram"></a>
-						<a title="linkedin" href="#" class="kf-linkedin"></a>
-						<a title="pinterest" href="#" class="kf-pinterest"></a>
-					</nav>
-
-				</div>
-				
-
-				<div class="card-panel-body">
-					<div class="card">
-						<img class="card-img" src="../media/images/promo-1.jpg">
-						<h3 class="card-title">Academic excellence</h3>
-						<p class="card-text">We rank amongst the best in the UK. Find out why we're more prestigious than many in the Russel Group.</p>
-
-
-					</div>
-					<div class="card">
-						<img class="card-img" src="../media/images/promo-2.jpg">
-						<h3 class="card-title">Undergraduates</h3>
-						<p class="card-text">We have a renowned personal teaching style supported by our accessible and passionate academics.</p>
-
-					</div>
-					<div class="card">
-						<img class="card-img" src="../media/images/promo-3.jpg">
-						<h3 class="card-title">Postgraduates</h3>
-						<p class="card-text">We'll equip you with essential skills to give you a competitive advantage when it comes to your career.</p>
-					
-
-					</div>
-					<div class="card">
-						<img class="card-img" src="../media/images/promo-4.jpg">
-						<h3 class="card-title">Visit Kent</h3>
-						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
-				
-					</div>
-				</div>
-			-->
+		<div class="card-panel-body">
+			<div class="card card-linked">
+				<img class="card-img" src="/media/images/kent-union-rock-climber-3x2.jpg" alt="Student working on a design project">
+				<a href="https://www.kentunion.co.uk/" class="card-title-link"><h3 class="card-title">Kent Union</h3></a>
+				<p class="card-text">Find out what Kent Union offers</p>
+				<a href="https://www.kentunion.co.uk/" class="faux-link-overlay" aria-hidden="true">Kent Union</a>
 			</div>
 
-
-
-
-
-
-
-<div class="container m-b-5">
-
-	<h2>Keep in touch</h2>
-	<nav class="content-social content-social-colored">
-		<a title="facebook" href="#" class="kf-facebook"></a>
-		<a title="twitter" href="#" class="kf-twitter"></a>
-		<a title="youtube" href="#" class="kf-youtube"></a>
-		<a title="instagram" href="#" class="kf-instagram"></a>
-		<a title="linkedin" href="#" class="kf-linkedin"></a>
-		<a title="pinterest" href="#" class="kf-pinterest"></a>
-	</nav>
-
-
-
-
-<p class="m-t-2">* out of all publicly funded, multi-faculty (ie not single-subject/specialist institutions) universities.</p>
-</div>
-
-
-
-
-	<div class="card card-overlay m-t-0">
-		
-				<div class="card-footer">
-					<a href="#" class="chevron-link">Student blogs</a>
-					<a href="#" class="chevron-link">Student profiles</a>
-
-					<a title="twitter" href="https://twitter.com/unikentnews" class="social-link chevron-link"><i class="kf-twitter"></i> @UKCstudent</a>
-
-					<a title="twitter" href="https://twitter.com/unikentnews" class="social-link chevron-link"><i class="kf-twitter"></i> @UKMstudent</a>
-
-				</div>
+			<div class="card card-linked">
+				<img class="card-img" src="/media/images/gk-union-3x2.jpg" alt="Student playing snooker">
+				<a href="https://www.gkunions.co.uk/" class="card-title-link"><h3 class="card-title">GK Unions</h3></a>
+				<p class="card-text">Find out about GK Unions at Medway</p>
+				<a href="https://www.gkunions.co.uk/" class="faux-link-overlay" aria-hidden="true">GK Unions</a>
 			</div>
 
+			<div class="card card-linked">
+				<img class="card-img" src="/media/images/winter-cathedral-3x2.jpg"  alt="Man looking over Canterbury towards the cathedral on a frosty day">
+				<a href="https://www.kent.ac.uk/locations/gallery/index.html" class="card-title-link"><h3 class="card-title">Image galleries</h3></a>
+				<p class="card-text">Image galleries and 360° panoramas</p>
+				<a href="https://www.kent.ac.uk/locations/gallery/index.html" class="faux-link-overlay" aria-hidden="true">Image galleries</a>
+			</div>
+
+			<div class="card card-linked">
+				<img class="card-img" src="/media/images/sketching-3x2.jpg"  alt="Fashion design student sketching">
+				<a href="https://www.kent.ac.uk/courses/funding/undergraduate/costs/index.html" class="card-title-link"><h3 class="card-title">Fees and funding</h3></a>
+				<p class="card-text">Affordable financing and funding opportunities.</p>
+				<a href="https://www.kent.ac.uk/courses/funding/undergraduate/costs/index.html" class="faux-link-overlay" aria-hidden="true">Fees and funding</a>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -528,15 +243,140 @@ in its student residences providing 6,500 bedrooms</p>
 
 
 
+	<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
+
+
+		<div class="card card-linked card-double">
+			<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="card-title-link"><h3 class="card-title">What our students say</h3></a>
+			<p class="card-subtitle">No one knows better than our students what it’s like to study at Kent.</p>
+			<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="faux-link-overlay" aria-hidden="true">What our students say</a>
+		</div>
+
+
+
+		<div class="kent-slider" data-slider-config="profile_feature">
+			<div class="card card-backed-primary">
+				<div class="front">
+					<img class="card-img" src="/media/images/profiles/student-abigail.jpg">
+					<div class="card-img-overlay-bottom-shaded">
+						<h3 class="card-title">Abigail Hofmann</h3>
+						<p class="card-subtitle">Liberal Arts</p>
+					</div>
+				</div>
+				<div class="back">
+					<p class="card-text">"Join societies and get involved – make sure you enjoy the whole University experience."</p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/liberal-arts-b.html">View Profile</a></p>
+				</div>
+			</div>
+			<div class="card card-backed-primary">
+				<div class="front">
+					<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg">
+					<div class="card-img-overlay-bottom-shaded">
+						<h3 class="card-title">Osiyemi Osipitan</h3>
+						<p class="card-subtitle">Law</p>
+					</div>
+				</div>
+				<div class="back">
+					<p class="card-text">"The academics at Kent are brilliant and have written many of the text books used by undergraduates everywhere."</p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/law-b.html">View Profile</a></p>
+				</div>
+			</div>
+			<div class="card card-backed-primary">
+				<div class="front">
+					<img class="card-img" src="/media/images/profiles/student-angelika.jpg">
+					<div class="card-img-overlay-bottom-shaded">
+						<h3 class="card-title">Angelika Wallace-Whitfield</h3>
+						<p class="card-subtitle">History and Philosophy of Art</p>
+					</div>
+				</div>
+				<div class="back">
+					<p class="card-text">"Everyone on my course has different plans, which just shows how flexible the degree is."</p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/history_art-b.html
+						">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="/media/images/profiles/student-edward.jpg">
+						<div class="card-img-overlay-bottom-shaded">
+							<h3 class="card-title">Edward Powe</h3>
+							<p class="card-subtitle">Architecture</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">"In the second year I joined the caving society, which was amazing – especially our trip to Wales."</p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/architecture-b.html">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="/media/images/profiles/student-christa.jpg">
+						<div class="card-img-overlay-bottom-shaded">
+							<h3 class="card-title">Christa Thavapalan</h3>
+							<p class="card-subtitle">Information Technology</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">"I would recommend going on a placement, it gives you so much confidence and valuable experience."</p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/information_tech-b.html">View Profile</a></p>
+					</div>
+				</div>
+				<div class="card card-backed-primary">
+					<div class="front">
+						<img class="card-img" src="/media/images/profiles/student-alex.jpg">
+						<div class="card-img-overlay-bottom-shaded">
+							<h3 class="card-title">Alex Barnes</h3>
+							<p class="card-subtitle">Drama and Theatre</p>
+						</div>
+					</div>
+					<div class="back">
+						<p class="card-text">"You do make friends quite easily because there are lots of opportunities to mix and get to know people."</p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/drama-b.html">View Profile</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<h2 class="sr-only">Student quote</h2>
+		<blockquote class="m-b-0 m-t-5">
+			<img src="/media/images/student-oli.jpg" class="img-circle" alt="Oli McVeigh">
+			<p>As Kent is entering the rankings for top universities in the country, our education is being enhanced in every corner of the campus.</p>
+			<cite>
+				Oli McVeigh,
+				<span>Student blogger</span>
+				<a class="chevron-link" href="https://blogs.kent.ac.uk/kentstudents/">More about life and study at Kent on our student blog</a>
+			</cite>
+		</blockquote>
+
+
+
+	</div>
+
+
+
+	<div class="container m-b-5">
+
+		<h2>Keep in touch</h2>
+		<nav class="content-social content-social-colored">
+			<a title="facebook" href="https://www.facebook.com/UniversityofKent" class="kf-facebook"></a>
+			<a title="twitter" href="https://twitter.com/unikent" class="kf-twitter"></a>
+			<a title="youtube" href="https://www.youtube.com/user/UniversityofKent" class="kf-youtube"></a>
+			<a title="instagram" href="https://www.instagram.com/unikentlive/" class="kf-instagram"></a>
+			<a title="linkedin" href="https://www.linkedin.com/company/university-of-kent" class="kf-linkedin"></a>
+			<a title="pinterest" href="https://www.pinterest.com/KentUni/" class="kf-pinterest"></a>
+		</nav>
 
 
 
 
+		<p class="m-t-2">* out of all publicly funded, multi-faculty (ie not single-subject/specialist institutions) universities.</p>
+	</div>
 
 
 
 
-
-<?php KentThemeHelper::footer(); ?>
+	<?php KentThemeHelper::footer(); ?>
 
 

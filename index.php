@@ -26,7 +26,7 @@
 					</div>
 					<div class="card-title-wrap card-title-wrap-link card-transparent">
 						<a href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" class="card-title-link"><h2 class="card-title">Strong international outlook</h2></a>
-						<p class="card-text">Kent is among top 100 most international universities.</p>
+						<p class="card-text">Kent is among the top 100 most international universities</p>
 						<a class="faux-link-overlay" href="http://beta.kent.ac.uk/news/kentlife/8503/kent-among-thes-top-100-most-international-universities-in-the-world-2016" aria-hidden="true">Strong international outlook</a>
 					</div>
 				</div>
@@ -58,6 +58,8 @@
 				</div>
 			</div>
 
+
+
 			<div class="card-panel  card-panel-tertiary nav-links-panel p-b-5 m-b-0">
 				<div class="card-panel-body">
 					<nav role="menu">
@@ -73,7 +75,7 @@
 						</div>
 						<div class="nav-link">
 							<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/" class="nav-link-title">Postgraduate</a>
-							<span class="nav-link-desc">Affordable programmes with leading researchers.</span>
+							<span class="nav-link-desc">Well-established programmes with leading researchers.</span>
 							<a href="//www.kent.ac.uk/courses/postgraduate/" class="faux-link-overlay" aria-hidden="true">Postgraduate</a>
 						</div>
 						<div class="nav-link">
@@ -94,9 +96,9 @@
 				<div class="card-body">
 
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<a href="examples/student_experience" class="card-title-link"><h2 class="card-title">Superb student experience</h2></a>
+						<a href="https://www.kent.ac.uk/courses/undergraduate/why/experience.html" class="card-title-link"><h2 class="card-title">Superb student experience</h2></a>
 						<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
-						<a href="examples/student_experience" class="faux-link-overlay" aria-hidden="true">Superb student experience</a>
+						<a href="https://www.kent.ac.uk/courses/undergraduate/why/experience.html" class="faux-link-overlay" aria-hidden="true">Superb student experience</a>
 					</div>
 
 					<div class="card-split">
@@ -116,7 +118,7 @@
 						</div>
 						<div class="card-img-overlay-bottom card-overlay-inline-sm" >
 							<h3 class="card-subtitle">Life at Kent</h3>
-							<p class="card-text">Find out more from our students.</p>
+							<p class="card-text">Find out more from our students</p>
 						</div>
 					</div>
 				</div>
@@ -170,7 +172,7 @@
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-left" >
 						<a href="//www.kent.ac.uk/research/" class="card-title-link"><h2 class="card-title">World-leading research</h2></a>
-						<p class="card-text">As one of the UK’s leading Universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
+						<p class="card-text">As one of the UK’s leading universities, our academic schools produce word-class research. We’re rated as internationally excellent, leading the way in many fields of study.</p>
 						<a href="//www.kent.ac.uk/research/" class="faux-link-overlay" aria-hidden="true">World-leading research</a>
 					</div>
 
@@ -188,7 +190,7 @@
 
 					<div class="card-img-overlay-bottom text-xs-right card-img-overlay-link">
 						<a href="//www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="card-subtitle-link"><h3 class="card-subtitle">Designing nature reserve networks</h3></a>
-						<p class="card-text ">Research into balancing conservation with local people.</p>
+						<p class="card-text ">Research into balancing conservation with local people</p>
 						<a href="//www.kent.ac.uk/news/environment/4577/research-impact-designing-nature-reserve-networks" class="faux-link-overlay" aria-hidden="true">Designing nature reserve network</a>
 					</div>
 
