@@ -412,6 +412,8 @@
 	</div>
 </div>
 
+
+
 			<div class="card card-overlay">
 				<div class="card-body">
 					<div class="card-title-wrap card-title-wrap-link pull-right">
@@ -1418,5 +1420,19 @@
 		<a href="https://twitter.com/unikentnews">unikent</a>
 	</cite>
 </blockquote>
+
+<div class="container">
+	<h2>Inline video</h2>
+	<div class="video-launcher" data-mode="inline">
+		<div class="video-player">
+			<div data-video-id="H4tcJUQ1USw" data-type="youtube"></div>
+		</div>
+		<img src="../media/images/thinkkent-16x9.jpg" class="card-img" alt="Dr Stephen Lowry holding a model of a comet">
+	</div>
+</div>
+
+<div class="container">
+<p>&nbsp;</p>
+</div>
 
 <?php KentThemeHelper::footer(); ?>
