@@ -27,8 +27,8 @@ KentThemeHelper::breadcrumb(array(
 	<header class="content-header content-header-with-social">
 		<h1 class="article-title" itemprop="name">Center strengthened by consultant appointment</h1>
 		<nav class="content-social content-social-head content-social-share">
-			<a title="twitter" href="#" class="kf-twitter twitter"></a>
-			<a title="facebook" href="#" class="kf-facebook facebook" ></a>
+			<a title="twitter" href="#" class="kf-twitter"><span class="sr-only">Share on Twitter</span></a>
+			<a title="facebook" href="#" class="kf-facebook"><span class="sr-only">Share on Facebook</span></a>
 		</nav>
 	</header>
 	<section class="content-body">
@@ -170,10 +170,15 @@ KentThemeHelper::breadcrumb(array(
 		<div class="content-container ">
 			<div class="content-main">
 				<nav class="content-social content-social-colored content-social-share">
-					<a title="twitter" href="#" class="kf-twitter twitter"></a>
-					<a title="facebook" href="#" class="kf-facebook facebook" ></a>
-					<a title="linkedin" href="#" class="kf-linkedin linkedin" ></a>
-					<a title="google" href="#" class="kf-google-plus plusone" ></a>
+					<a title="twitter" href="#" class="kf-twitter"><span class="sr-only">Share on Twitter</span></a>
+					<a title="facebook" href="#" class="kf-facebook"><span class="sr-only">Share on Facebook</span></a>
+					<a title="instagram" href="#" class="kf-instagram"><span class="sr-only">Share on Instagram</span></a>
+					<a title="pinterest" href="#" class="kf-pinterest"><span class="sr-only">Share on Pinterest</span></a>
+					<a title="linkedin" href="#" class="kf-linkedin"><span class="sr-only">Share on Linkedin</span></a>
+					<a title="google-plus" href="#" class="kf-google-plus"><span class="sr-only">Share on Google+</span></a>
+					<a title="tumblr" href="#" class="kf-tumblr"><span class="sr-only">Share on Tumblr</span></a>
+					<a title="flickr" href="#" class="kf-flickr"><span class="sr-only">Share on Flickr</span></a>
+					<a title="email" href="#" class="kf-email-o"><span class="sr-only">Share on Email</span></a>
 				</nav>
 			</div>
 		</div>

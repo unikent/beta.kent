@@ -33,20 +33,20 @@ KentThemeHelper::header(
 				<img src="/media/images/growing-plant-3x2.jpg" alt="Student filming useing a television camera" class="card-img-bottom">
 			</div>
 
-			<div class="card-img-overlay-bottom">
-				<form >
-					<div class="form-group">
+			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad">
+				<form>
+					<div class="form-group quickspot-container">
 						<label for="search" class="sr-only">Search</label>
 						<div class="input-group input-group-lg">
-							<input type="search" class="form-control" id="cardCearch" placeholder="Search our postgraduate programmes and supervisors">
+							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="pg_courses" data-quickspot-target="quickspot-results-container" placeholder="Search our postgraduate programmes and supervisors">
 							<span class="input-group-btn">
 								<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
 							</span>
 						</div>
+						<div id="quickspot-results-container"></div>
 					</div>
 				</form>
 			</div>
-
 		</div>
 	</div>
 

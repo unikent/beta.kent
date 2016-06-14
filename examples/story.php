@@ -52,8 +52,8 @@
 			<time class="article-published pubdate" pubdate datetime="2015-12-1T12:01:01">12 December 2015</time>
 		</div>
 		<nav class="content-social content-social-head">
-			<a title="twitter" href="#" class="kf-twitter"></a>
-			<a title="facebook" href="#" class="kf-facebook"></a>
+			<a title="twitter" href="#" class="kf-twitter"><span class="sr-only">Share on Twitter</span></a>
+			<a title="facebook" href="#" class="kf-facebook"><span class="sr-only">Share on Facebook</span></a>
 		</nav>
 	</header>
 	<section class="content-body">
@@ -174,17 +174,15 @@
 					<a class="content-tag btn btn-label">Environment</a>
 				</nav>
 				<nav class="content-social content-social-colored">
-					<a title="twitter" href="#" class="kf-twitter"></a>
-					<a title="facebook" href="#" class="kf-facebook"></a>
-					<a title="instagram" href="#" class="kf-instagram"></a>
-					<a title="pinterest" href="#" class="kf-pinterest"></a>
-					<a title="linkedin" href="#" class="kf-linkedin"></a>
-					<a title="google-plus" href="#" class="kf-google-plus"></a>
-					<a title="tumblr" href="#" class="kf-tumblr"></a>
-					<a title="flickr" href="#" class="kf-flickr"></a>
-					<a title="rss" href="#" class="kf-rss"></a>
-					<a title="youtube" href="#" class="kf-youtube"></a>
-					<a title="email" href="#" class="kf-email-o"></a>
+					<a title="twitter" href="#" class="kf-twitter"><span class="sr-only">Share on Twitter</span></a>
+					<a title="facebook" href="#" class="kf-facebook"><span class="sr-only">Share on Facebook</span></a>
+					<a title="instagram" href="#" class="kf-instagram"><span class="sr-only">Share on Instagram</span></a>
+					<a title="pinterest" href="#" class="kf-pinterest"><span class="sr-only">Share on Pinterest</span></a>
+					<a title="linkedin" href="#" class="kf-linkedin"><span class="sr-only">Share on Linkedin</span></a>
+					<a title="google-plus" href="#" class="kf-google-plus"><span class="sr-only">Share on Google+</span></a>
+					<a title="tumblr" href="#" class="kf-tumblr"><span class="sr-only">Share on Tumblr</span></a>
+					<a title="flickr" href="#" class="kf-flickr"><span class="sr-only">Share on Flickr</span></a>
+					<a title="email" href="#" class="kf-email-o"><span class="sr-only">Share on Email</span></a>
 				</nav>
 			</div>
 		</div>
