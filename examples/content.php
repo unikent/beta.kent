@@ -15,6 +15,7 @@
 			),
 			'meta' => array('title'=>'Content Demo Page - Kent Theme Beta'),
 			'slim'=>true,
+			'brand_header'=>true,
 			'main_class' =>'content-page'
 		)
 	);

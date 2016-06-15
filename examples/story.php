@@ -15,6 +15,7 @@
 			),
 			'meta' => array('title'=>'Story Demo Page - Kent Theme Beta'),
 			'slim'=>true,
+			'brand_header'=>true,
 			'breadcrumb'=> false,
 			'main_class' =>'content-page'
 		)
