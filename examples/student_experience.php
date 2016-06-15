@@ -255,83 +255,88 @@ KentThemeHelper::header(
 
 
 		<div class="kent-slider" data-slider-config="profile_feature">
-			<div class="card card-backed-primary">
+			<div class="card card-backed-primary card-linked">
 				<div class="front">
 					<img class="card-img" src="/media/images/profiles/student-abigail.jpg">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Abigail Hofmann</h3>
 						<p class="card-subtitle">Liberal Arts</p>
 					</div>
+					<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/liberal-arts-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Abigail Hofmann</a>
 				</div>
 				<div class="back">
 					<p class="card-text">"Join societies and get involved – make sure you enjoy the whole University experience."</p>
-					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/liberal-arts-b.html">View Profile</a></p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/liberal-arts-b.html">View Profile<span class="sr-only"> for Abigail Hofmann</span></a></p>
 				</div>
 			</div>
-			<div class="card card-backed-primary">
+			<div class="card card-backed-primary card-linked">
 				<div class="front">
 					<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Osiyemi Osipitan</h3>
 						<p class="card-subtitle">Law</p>
 					</div>
+					<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/law-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Osiyemi Osipitan</a>
 				</div>
 				<div class="back">
 					<p class="card-text">"The academics at Kent are brilliant and have written many of the text books used by undergraduates everywhere."</p>
-					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/law-b.html">View Profile</a></p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/law-b.html">View Profile<span class="sr-only"> for Osiyemi Osipitan</span></a></p>
 				</div>
 			</div>
-			<div class="card card-backed-primary">
+			<div class="card card-backed-primary card-linked">
 				<div class="front">
 					<img class="card-img" src="/media/images/profiles/student-angelika.jpg">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Angelika Wallace-Whitfield</h3>
 						<p class="card-subtitle">History and Philosophy of Art</p>
 					</div>
+					<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/history_art-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Angelika Wallace-Whitfield</a>
 				</div>
 				<div class="back">
 					<p class="card-text">"Everyone on my course has different plans, which just shows how flexible the degree is."</p>
-					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/history_art-b.html
-						">View Profile</a></p>
+					<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/history_art-b.html">View Profile<span class="sr-only"> for Angelika Wallace-Whitfield</span></a></p>
 					</div>
 				</div>
-				<div class="card card-backed-primary">
+				<div class="card card-backed-primary card-linked">
 					<div class="front">
 						<img class="card-img" src="/media/images/profiles/student-edward.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Edward Powe</h3>
 							<p class="card-subtitle">Architecture</p>
 						</div>
+						<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/architecture-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Edward Powe</a>
 					</div>
 					<div class="back">
 						<p class="card-text">"In the second year I joined the caving society, which was amazing – especially our trip to Wales."</p>
-						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/architecture-b.html">View Profile</a></p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/architecture-b.html">View Profile<span class="sr-only"> for Edward Powe</span></a></p>
 					</div>
 				</div>
-				<div class="card card-backed-primary">
+				<div class="card card-backed-primary card-linked">
 					<div class="front">
 						<img class="card-img" src="/media/images/profiles/student-christa.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Christa Thavapalan</h3>
 							<p class="card-subtitle">Information Technology</p>
 						</div>
+						<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/information_tech-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Christa Thavapalan</a>
 					</div>
 					<div class="back">
 						<p class="card-text">"I would recommend going on a placement, it gives you so much confidence and valuable experience."</p>
-						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/information_tech-b.html">View Profile</a></p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/information_tech-b.html">View Profile<span class="sr-only"> for Christa Thavapalan</span></a></p>
 					</div>
 				</div>
-				<div class="card card-backed-primary">
+				<div class="card card-backed-primary card-linked">
 					<div class="front">
 						<img class="card-img" src="/media/images/profiles/student-alex.jpg">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Alex Barnes</h3>
 							<p class="card-subtitle">Drama and Theatre</p>
 						</div>
+						<a href="https://www.kent.ac.uk/courses/undergraduate/profiles/drama-b.html" class="faux-link-overlay" aria-hidden="true">View Profile for Alex Barnes</a>
 					</div>
 					<div class="back">
 						<p class="card-text">"You do make friends quite easily because there are lots of opportunities to mix and get to know people."</p>
-						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/drama-b.html">View Profile</a></p>
+						<p><a href="https://www.kent.ac.uk/courses/undergraduate/profiles/drama-b.html">View Profile<span class="sr-only"> for Alex Barnes</span></a></p>
 					</div>
 				</div>
 			</div>
