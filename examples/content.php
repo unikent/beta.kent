@@ -129,7 +129,9 @@ KentThemeHelper::breadcrumb(array(
 				<p>Stuckism has become a truly international art movement, with affiliated groups spanning Buenos Aires to Beijing. But Stuckism still retains deep regional affiliations with the North Kent and Medway areas from which many of the founding Stuckists originated.</p>
 				<p>This research event is held in partnership between the Art History & Visual Cultures Research Centre and Studio 3 Gallery.</p>
 				<p>This event is free and all are welcome but booking  is encouraged due to limited space.</p>
-				<p>At the end of October 2015 we had our second hackathon for Information Services. In an attempt to target a wider audience and get more non-techies involved we renamed the event “Innovation Splash”.</p>
+				<div class="panel panel-tertiary">
+					<p>At the end of October 2015 we had our second hackathon for Information Services. In an attempt to target a wider audience and get more non-techies involved we renamed the event “Innovation Splash”.</p>
+				</div>
 				<p>The event was held over 2 working days, we had a total of 5 teams take part who tackled various problems facing the institution and gave 10 minute lightening talks on their prototypes at the end of the second day.</p>
 				<p>This blog post aims to give a quick run down of each of the teams ideas. Just to show off some of the cool stuff our colleagues produced in such a short amount of time.</p>
 				<p>Tests on 461 cancer cell lines revealed that neuroblastoma – the most common solid cancer occurring outside the brain in children and a major cause of death during infancy – was highly sensitive to flubendazole.</p>
