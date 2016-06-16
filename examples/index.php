@@ -942,12 +942,13 @@
 			<div class="card-panel">
 				<div class="card-panel-body">
 					<div class="card-panel-full">
-						<div class="card">
+						<div class="card card-linked">
 							<img class="card-img" src="../media/images/promo-3.jpg">
 							<div class="card-img-overlay-bottom-shaded">
-								<h3 class="card-title">More stuff</h3>
+								<a href="#foobar" class="card-title-link"><h3 class="card-title">More stuff</h3></a>
 								<p class="card-subtitle">We rank amongst the best in the UK.</p>
 							</div>
+							<a href="#foobar" class="faux-link-overlay" aria-hidden="true">More stuff</a>
 						</div>
 					</div>
 					<div class="card-panel-grid">
