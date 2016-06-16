@@ -32,7 +32,7 @@
 				</div>
 			</div>
 
-			<div class="panel panel-tertiary">
+			<div class="panel-tertiary">
 				<div class="container-padded ">
 					<form class="quickspot-container m-t-3">
 
