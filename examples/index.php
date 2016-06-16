@@ -23,6 +23,7 @@
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
+
 					<div class="card-title-wrap card-title-wrap-link">
 						<a href="#feature-title-link" class="card-title-link"><h2 class="card-title">A leading research institution</h2></a>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -500,6 +501,22 @@
 						<p class="card-text">We're ranked one of the best universities for student satisfaction. Learn more why our students love Kent.</p>
 						<a href="#" class="card-badge kf-comment">23</a>
 						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">Visit Kent</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-overlay">
+				<div class="card-body">
+					<div class="card-media-wrap">
+						<img class="card-img" src="../media/images/students.jpg">
+					</div>
+					<div class="card-img-overlay-centered card-img-overlay-tinted">
+						<div class="text-xs-center">
+							<h2 class="card-subtitle">Call to action! A catchy statement</h2>
+							<p class="card-text">more information about stuff you can do.</p>
+							<br>
+							<p><a href="#dostuff" class="btn btn-primary">Do Stuff</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
