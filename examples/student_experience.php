@@ -18,13 +18,19 @@ KentThemeHelper::header(
 
 
 
+
+
+
+
+
+
 	<div class="card card-overlay header-card-overlay card-media-inline">
 		<div class="card-body">
-			<div class="card-media-wrap video-launcher">
+			<div class="card-media-wrap video-launcher" data-mode="fullscreen">
 				<div class="video-player">
 					<div data-video-id="MBJXoeqXGks" data-type="youtube"></div>
 				</div>
-				<img class="card-img" src="/media/images/students-park-16-9.jpg">
+				<img class="card-img" src="/media/images/students-park-16-9.jpg" alt="Students having a picnic in the park at Canterbury Campus">
 			</div>
 
 			<div class="card-title-wrap">
@@ -58,7 +64,7 @@ KentThemeHelper::header(
 			<a href="https://www.kent.ac.uk/student/" class="faux-link-overlay" aria-hidden="true">Life at Kent</a>
 		</div>
 		<div class="card-media-wrap">
-			<img class="card-img-bottom" src="/media/images/kent-life-16x9.jpg">
+			<img class="card-img-bottom" src="/media/images/kent-life-16x9.jpg" alt="A group of images showing the variety or sport and cultural activities available at Kent">
 		</div>
 
 	</div>
@@ -75,7 +81,7 @@ KentThemeHelper::header(
 
 
 <aside class="container m-t-5 m-b-5">
-	<p class="impact-statement">Kent ranked 16th in The Guardian University Guide 2016</p>
+	<p class="impact-statement">Kent ranked 23rd in <em>The Guardian University Guide</em> 2016</p>
 </aside>
 
 
@@ -124,7 +130,7 @@ KentThemeHelper::header(
 
 
 	<aside class="container m-t-5 m-b-5">
-		<p class="impact-statement">Since 2010, Kent and its partners have invested over £120min its student residences providing 6,500 bedrooms</p>
+		<p class="impact-statement">Since 2010, Kent and its partners have invested over £120mil in its student residences providing 6,500 bedrooms</p>
 	</aside>
 
 
@@ -144,7 +150,7 @@ KentThemeHelper::header(
 			<div class="kent-slider kent-slider-dark">
 				<div class="kent-slide">
 					<div class="card-media-wrap ">
-						<img class="card-img" src="/media/images/accommodation-keynes-16x9.jpg">
+						<img class="card-img" src="/media/images/accommodation-keynes-16x9.jpg" alt="Accommodation at Keynes College at Canterbury Campus">
 					</div>
 					<div class="card-img-overlay-bottom card-overlay-inline-xs">
 						<h3 class="card-subtitle">Keynes</h3>
@@ -153,7 +159,7 @@ KentThemeHelper::header(
 				</div>
 				<div class="kent-slide">
 					<div class="card-media-wrap">
-						<img class="card-img" src="/media/images/accommodation-16x9.jpg">
+						<img class="card-img" src="/media/images/accommodation-16x9.jpg" alt="Accommodation at Turing Colleage at Canterbury Campus">
 					</div>
 					<div class="card-img-overlay-bottom card-overlay-inline-xs ">
 						<h3 class="card-subtitle">Turing</h3>
@@ -165,7 +171,7 @@ KentThemeHelper::header(
 
 				<div class="kent-slide">
 					<div class="card-media-wrap">
-						<img class="card-img" src="/media/images/accommodation-woolfe-16x9.jpg">
+						<img class="card-img" src="/media/images/accommodation-woolfe-16x9.jpg" alt="Accommodation at Woolfe College at Canterbury Campus">
 					</div>
 					<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
 						<h3 class="card-subtitle">Woolfe</h3>
@@ -176,7 +182,7 @@ KentThemeHelper::header(
 
 				<div class="kent-slide">
 					<div class="card-media-wrap">
-						<img class="card-img" src="/media/images/liberty-quays-16x9.jpg">
+						<img class="card-img" src="/media/images/liberty-quays-16x9.jpg" alt="Accommodation at Liberty Quays student residence at Medway Campus">
 					</div>
 					<div class="card-img-overlay-bottom card-overlay-inline-xs card-overlay-inline-primary">
 						<h3 class="card-subtitle">Liberty Quays</h3>
@@ -208,14 +214,14 @@ KentThemeHelper::header(
 
 		<div class="card-panel-body">
 			<div class="card card-linked">
-				<img class="card-img" src="/media/images/kent-union-rock-climber-3x2.jpg" alt="Student working on a design project">
+				<img class="card-img" src="/media/images/kent-union-rock-climber-3x2.jpg" alt="A student rock climbing">
 				<a href="https://www.kentunion.co.uk/" class="card-title-link"><h3 class="card-title">Kent Union</h3></a>
 				<p class="card-text">Find out what Kent Union offers</p>
 				<a href="https://www.kentunion.co.uk/" class="faux-link-overlay" aria-hidden="true">Kent Union</a>
 			</div>
 
 			<div class="card card-linked">
-				<img class="card-img" src="/media/images/gk-union-3x2.jpg" alt="Student playing snooker">
+				<img class="card-img" src="/media/images/gk-union-3x2.jpg" alt="Student performing music with an electric guitar">
 				<a href="https://www.gkunions.co.uk/" class="card-title-link"><h3 class="card-title">GK Unions</h3></a>
 				<p class="card-text">Find out about GK Unions at Medway</p>
 				<a href="https://www.gkunions.co.uk/" class="faux-link-overlay" aria-hidden="true">GK Unions</a>
@@ -257,7 +263,7 @@ KentThemeHelper::header(
 		<div class="kent-slider" data-slider-config="profile_feature">
 			<div class="card card-backed-primary card-linked">
 				<div class="front">
-					<img class="card-img" src="/media/images/profiles/student-abigail.jpg">
+					<img class="card-img" src="/media/images/profiles/student-abigail.jpg" alt="Abigail Hofmann">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Abigail Hofmann</h3>
 						<p class="card-subtitle">Liberal Arts</p>
@@ -271,7 +277,7 @@ KentThemeHelper::header(
 			</div>
 			<div class="card card-backed-primary card-linked">
 				<div class="front">
-					<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg">
+					<img class="card-img" src="/media/images/profiles/student-osiyemi.jpg" alt="Osiyemi Osipitan">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Osiyemi Osipitan</h3>
 						<p class="card-subtitle">Law</p>
@@ -285,7 +291,7 @@ KentThemeHelper::header(
 			</div>
 			<div class="card card-backed-primary card-linked">
 				<div class="front">
-					<img class="card-img" src="/media/images/profiles/student-angelika.jpg">
+					<img class="card-img" src="/media/images/profiles/student-angelika.jpg" alt="Angelika Wallace-Whitfield">
 					<div class="card-img-overlay-bottom-shaded">
 						<h3 class="card-title">Angelika Wallace-Whitfield</h3>
 						<p class="card-subtitle">History and Philosophy of Art</p>
@@ -299,7 +305,7 @@ KentThemeHelper::header(
 				</div>
 				<div class="card card-backed-primary card-linked">
 					<div class="front">
-						<img class="card-img" src="/media/images/profiles/student-edward.jpg">
+						<img class="card-img" src="/media/images/profiles/student-edward.jpg" alt="Edward Powe">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Edward Powe</h3>
 							<p class="card-subtitle">Architecture</p>
@@ -313,7 +319,7 @@ KentThemeHelper::header(
 				</div>
 				<div class="card card-backed-primary card-linked">
 					<div class="front">
-						<img class="card-img" src="/media/images/profiles/student-christa.jpg">
+						<img class="card-img" src="/media/images/profiles/student-christa.jpg" alt="Christa Thavapalan">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Christa Thavapalan</h3>
 							<p class="card-subtitle">Information Technology</p>
@@ -327,7 +333,7 @@ KentThemeHelper::header(
 				</div>
 				<div class="card card-backed-primary card-linked">
 					<div class="front">
-						<img class="card-img" src="/media/images/profiles/student-alex.jpg">
+						<img class="card-img" src="/media/images/profiles/student-alex.jpg" alt="Alex Barnes">
 						<div class="card-img-overlay-bottom-shaded">
 							<h3 class="card-title">Alex Barnes</h3>
 							<p class="card-subtitle">Drama and Theatre</p>
@@ -365,12 +371,12 @@ KentThemeHelper::header(
 
 		<h2>Keep in touch</h2>
 		<nav class="content-social content-social-colored">
-			<a title="facebook" href="https://www.facebook.com/UniversityofKent" class="kf-facebook"></a>
-			<a title="twitter" href="https://twitter.com/unikent" class="kf-twitter"></a>
-			<a title="youtube" href="https://www.youtube.com/user/UniversityofKent" class="kf-youtube"></a>
-			<a title="instagram" href="https://www.instagram.com/unikentlive/" class="kf-instagram"></a>
-			<a title="linkedin" href="https://www.linkedin.com/company/university-of-kent" class="kf-linkedin"></a>
-			<a title="pinterest" href="https://www.pinterest.com/KentUni/" class="kf-pinterest"></a>
+			<a title="facebook" href="https://www.facebook.com/UniversityofKent" class="kf-facebook"><span class="sr-only">Facebook</span></a>
+			<a title="twitter" href="https://twitter.com/unikent" class="kf-twitter"><span class="sr-only">Twitter</span></a>
+			<a title="youtube" href="https://www.youtube.com/user/UniversityofKent" class="kf-youtube"><span class="sr-only">YouTube</span></a>
+			<a title="instagram" href="https://www.instagram.com/unikentlive/" class="kf-instagram"><span class="sr-only">Instagram</span></a>
+			<a title="linkedin" href="https://www.linkedin.com/company/university-of-kent" class="kf-linkedin"><span class="sr-only">LinkedIn</span></a>
+			<a title="pinterest" href="https://www.pinterest.com/KentUni/" class="kf-pinterest"><span class="sr-only">Pinterest</span></a>
 		</nav>
 
 

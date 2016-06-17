@@ -171,14 +171,14 @@ KentThemeHelper::header(
 	</div>
 
 
-	<h2 class="sr-only">Facebook post</h2>
-	<blockquote class="social-quote social-quote-twitter p-b-5">
-		<a href="#">
-			<button></button>
-			<p>Congratulations Eske Van Gils, Christian Ottolini, Katinka Van De Ven and Eleanor Perry on the PG Research Prizes.</p>
+	<h2 class="sr-only">Twitter post</h2>
+	<blockquote class="social-quote social-quote-twitter p-b-5 m-b-3">
+		<a href="https://twitter.com/UniKentGradSch/status/736467824349196289">
+			<button><span class="sr-only">Twitter logo</span></button>
+			<p>PG researchers in the arts and humanities at Kent! Check out the call for papers from this new postgraduate journal.</p>
 		</a>
 		<cite>
-			<a href="#">@UniKentGradSch</a>
+			<a href="https://twitter.com/UniKentGradSch">@UniKentGradSch</a>
 		</cite>
 	</blockquote>
 

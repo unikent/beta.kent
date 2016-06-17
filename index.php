@@ -32,7 +32,7 @@
 				</div>
 			</div>
 
-			<div class="panel panel-tertiary">
+			<div class="panel-tertiary">
 				<div class="container-padded ">
 					<form class="quickspot-container m-t-3">
 
@@ -64,7 +64,7 @@
 				<div class="card-panel-body">
 					<nav role="menu">
 						<div class="nav-link">
-							<a role="menuitem" href="//www.kent.ac.uk/about/" class="nav-link-title">Top 20 in the UK</a>
+							<a role="menuitem" href="//www.kent.ac.uk/about/" class="nav-link-title">23rd in the UK</a>
 							<span class="nav-link-desc">We rank amongst the best universities in the UK.</span>
 							<a href="//www.kent.ac.uk/about/" class="faux-link-overlay" aria-hidden="true">Top 20 in the UK</a>
 						</div>
