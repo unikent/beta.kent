@@ -208,12 +208,12 @@
 
 			<h2 class="sr-only">Alumni quote</h2>
 			<blockquote class="m-b-5 m-t-2">
-				<img src="media/images/staff-profile.jpg" class="img-circle" alt="Dara Blumenthal">
-				<p>Because of Kent, I have much greater academic and geographic possibilities. The experience has been priceless.</p>
+				<img src="/media/images/profile-khalida-durrani.jpg" class="img-circle" alt="Khalida Durrani">
+				<p>My course is made up of a diverse group of students, so I've met people from all over the world.</p>
 				<cite>
-					Dara Blumenthal,
-					<span>PhD Sociology</span>
-					<a class="chevron-link" href="//www.kent.ac.uk/courses/postgraduate/profiles/sociology.html">View Dara's profile</a>
+					Khalida Durrani,
+					<span>MSc Financial Markets</span>
+					<a class="chevron-link" href="//www.kent.ac.uk/courses/postgraduate/profiles/financial-markets.html">View Dara's profile</a>
 				</cite>
 			</blockquote>
 
@@ -230,7 +230,7 @@
 						<a href="//www.kent.ac.uk/news/kentlife/8331/food-for-thought-over-the-holiday-season-think-kent" class="faux-link-overlay" aria-hidden="true">Thinkers with global impact</a>
 					</div>
 
-					<div class="card-media-wrap video-launcher" data-mode="inline">
+					<div class="card-media-wrap video-launcher" data-mode="fullscreen">
 						<div class="video-player">
 							<div data-video-id="H4tcJUQ1USw" data-type="youtube"></div>
 						</div>
