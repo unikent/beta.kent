@@ -13,7 +13,7 @@
 					'Society' => '#',
 					'Kent Life' => '#'
 				),
-				'meta' => array('title'=>"University of Kent - The UK's European University"),
+				'meta' => array('title'=>"University of Kent - The UK's European university"),
 				'home_page' => true
 			)
 		);
@@ -34,7 +34,7 @@
 
 			<div class="panel-tertiary">
 				<div class="container-padded ">
-					<form class="quickspot-container m-t-3">
+					<form class="quickspot-container m-t-2">
 
 						<h2 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h2>
 
@@ -74,7 +74,7 @@
 							<a href="//www.kent.ac.uk/courses/undergraduate/" class="faux-link-overlay" aria-hidden="true">Undergraduate</a>
 						</div>
 						<div class="nav-link">
-							<a role="menuitem" href="//www.kent.ac.uk/courses/postgraduate/" class="nav-link-title">Postgraduate</a>
+							<a role="menuitem" href="examples/postgraduate.php" class="nav-link-title">Postgraduate</a>
 							<span class="nav-link-desc">Well-established programmes with leading researchers.</span>
 							<a href="//www.kent.ac.uk/courses/postgraduate/" class="faux-link-overlay" aria-hidden="true">Postgraduate</a>
 						</div>
@@ -96,7 +96,7 @@
 				<div class="card-body">
 
 					<div class="card-title-wrap card-title-wrap-link pull-right">
-						<a href="https://www.kent.ac.uk/courses/undergraduate/why/experience.html" class="card-title-link"><h2 class="card-title">Superb student experience</h2></a>
+						<a href="examples/student_experience.php" class="card-title-link"><h2 class="card-title">Superb student experience</h2></a>
 						<p class="card-text">Our campuses provide stunning locations for your studies and offer first class academic and social facilities.</p>
 						<a href="https://www.kent.ac.uk/courses/undergraduate/why/experience.html" class="faux-link-overlay" aria-hidden="true">Superb student experience</a>
 					</div>
@@ -219,8 +219,6 @@
 
 
 
-
-
 			<div class="card card-overlay card-media-inline p-b-3">
 
 				<div class="card-body">
@@ -248,6 +246,8 @@
 					<a href="//www.kent.ac.uk/events/esteem/2015-16/index.html" class="chevron-link">Open lectures</a>
 				</div>
 			</div>
+
+
 		<?php KentThemeHelper::footer(); ?>
 
 
