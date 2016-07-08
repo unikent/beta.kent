@@ -211,7 +211,7 @@ KentThemeHelper::header(
 	<cite>
 		Khalida Durrani,
 		<span>MSc Financial Markets</span>
-		<a class="chevron-link" href="//www.kent.ac.uk/courses/postgraduate/profiles/financial-markets.html">View Dara's profile</a>
+		<a class="chevron-link" href="//www.kent.ac.uk/courses/postgraduate/profiles/financial-markets.html">View Khalida's profile</a>
 	</cite>
 </blockquote>
 
