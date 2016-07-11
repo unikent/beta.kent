@@ -30,13 +30,13 @@ KentThemeHelper::header(
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
 			<div class="card-media-wrap">
-				<img src="/media/images/growing-plant-3x2.jpg" alt="Student filming useing a television camera" class="card-img-bottom">
+				<img src="/media/images/growing-plant-3x2.jpg" alt="Student studying a plant" class="card-img-bottom">
 			</div>
 
 			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad">
 				<form>
 					<div class="form-group quickspot-container">
-						<label for="search" class="sr-only">Search</label>
+						<label for="course-search" class="sr-only">Search</label>
 						<div class="input-group input-group-lg">
 							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="pg_courses" data-quickspot-target="quickspot-results-container" placeholder="Search our postgraduate programmes and supervisors">
 							<span class="input-group-btn">
@@ -90,7 +90,7 @@ KentThemeHelper::header(
 
 			<div class="card-media-wrap video-launcher" data-toggle="modal" data-src="https://youtu.be/H4tcJUQ1USw">
 
-				<img src="/media/images/Ratio---16-9.jpg" class="card-img" alt="Dr Stephen Lowry holding a model of a comet">
+				<img src="/media/images/Ratio---16-9.jpg" class="card-img" alt="A student filming on a video camera">
 
 				<div class="card-img-overlay-bottom text-right text-xs-right">
 					<h3 class="card-subtitle">Interdisciplinary research at Kent</h3>
