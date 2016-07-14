@@ -60,7 +60,7 @@ KentThemeHelper::header(
 					<div class="form-group quickspot-container">
 						<label for="search" class="sr-only">Search</label>
 						<div class="input-group input-group-lg">
-							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="pg_courses" data-quickspot-target="quickspot-results-container" placeholder="Search undergraduate courses">
+							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container" placeholder="Search undergraduate courses">
 							<span class="input-group-btn">
 								<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
 							</span>
