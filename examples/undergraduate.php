@@ -12,8 +12,6 @@ KentThemeHelper::header(
 			'Choosing your course' => 'https://www.kent.ac.uk/courses/undergraduate/how/index.html',
 			'Student profiles' => 'https://www.kent.ac.uk/courses/undergraduate/profiles/index.html',
 			'Fees and funding' => 'https://www.kent.ac.uk/courses/postgraduate/why/index.html',
-
-
 			),
 		'meta' => array(
 			'description'=>'Undergraduate home',
@@ -28,32 +26,13 @@ KentThemeHelper::header(
 	?>
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
-			
-<!--
 			<div class="card-media-wrap">
-				<img src="/media/images/ktv-filming-medway-16x9.jpg" alt="Student filming useing a television camera" class="card-img-bottom">
+				<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
+					<video autoplay loop class="embed-responsive-item">
+						<source src="/media/video/students.mp4">
+					</video>
+				</div>
 			</div>
-
-
-			<div class="card-media-wrap video-launcher" data-toggle="modal" data-src="https://youtu.be/H4tcJUQ1USw">
-
-				<img src="/media/images/ktv-filming-medway-16x9.jpg" alt="Student filming useing a television camera" class="card-img-bottom">
-
-			</div>
-
-
--->
-
-			<div class="card-media-wrap">
-						<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
-							<video autoplay loop class="embed-responsive-item">
-								<source src="/media/video/students.mp4">
-							</video>
-						</div>
-					</div>
-
-
-
 
 			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad">
 				<form>
@@ -62,7 +41,8 @@ KentThemeHelper::header(
 						<div class="input-group input-group-lg">
 							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="ug_courses" data-quickspot-target="quickspot-results-container" placeholder="Search undergraduate courses">
 							<span class="input-group-btn">
-								<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
+								<button type="submit" class="btn btn-accent btn-icon">
+									<span class='kf-fw kf-search'></span></button>
 							</span>
 						</div>
 						<div id="quickspot-results-container"></div>
@@ -71,13 +51,6 @@ KentThemeHelper::header(
 			</div>
 		</div>
 	</div>
-
-
-
-
-
-
-
 
 	<div class="card-panel  card-panel-tertiary nav-links-panel p-t-5 p-b-5 m-b-0">
 		<div class="card-panel-body">
@@ -139,26 +112,26 @@ KentThemeHelper::header(
 
 
 
-	<div class="card-panel m-t-5 m-b-5">
+	<div class="card-panel cards-linked m-t-5 m-b-5">
 		
 		<div class="card-panel-body">
-			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/extra/index.html" class="card-title-link "><h3 class="card-title  chevron-link">Kent Extra</h3></a>
+			<div class="card">
+				<a href="//www.kent.ac.uk/extra/index.html" class="card-title-link "><h3 class="card-title chevron-link chevron-link-accent">Kent Extra</h3></a>
 				<p class="card-text">A new range of extra-curricular and co-curricular activities taht will enhance your employability.</p>
 				<a href="//www.kent.ac.uk/extra/index.html" class="faux-link-overlay" aria-hidden="true">Kent Extra</a>
 			</div>
-			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="card-title-link"><h3 class="card-title  chevron-link">What our students say</h3></a>
+			<div class="card">
+				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="card-title-link"><h3 class="card-title chevron-link chevron-link-accent">What our students say</h3></a>
 				<p class="card-text">Read interviews with some of our undergraduates to find out why they chose Kent and their experiences with us.</p>
 				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="faux-link-overlay" aria-hidden="true">What our students say</a>
 			</div>
-			<div class="card card-linked">
-				<a href="//blogs.kent.ac.uk/kentstudents/" class="card-title-link"><h3 class="card-title  chevron-link">The Kent Students blog</h3></a>
+			<div class="card">
+				<a href="//blogs.kent.ac.uk/kentstudents/" class="card-title-link"><h3 class="card-title chevron-link chevron-link-accent">The Kent Students blog</h3></a>
 				<p class="card-text">A blog written by current students about life and study at the University of Kent.</p>
 				<a href="//blogs.kent.ac.uk/kentstudents/" class="faux-link-overlay" aria-hidden="true">The Kent Students blog</a>
 			</div>
-			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="card-title-link"><h3 class="card-title  chevron-link">International students</h3></a>
+			<div class="card">
+				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="card-title-link"><h3 class="card-title chevron-link chevron-link-accent">International students</h3></a>
 				<p class="card-text">Kent is a favourite destination for international students, with 148 nationalities represented in our student community..</p>
 				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="faux-link-overlay" aria-hidden="true">International students</a>
 			</div>
@@ -175,60 +148,23 @@ KentThemeHelper::header(
 				<p class="card-text">Our first-class study facilities, academic strengths and a wide selection of undergraduate programmes will create the best university experience for you and help you to fulfil your potential.</p>
 				<a href="https://www.kent.ac.uk/research/" class="faux-link-overlay" aria-hidden="true">World-Leading research</a>
 			</div>
-
 			<div class="card-media-wrap video-launcher" data-toggle="modal" data-src="https://youtu.be/H4tcJUQ1USw">
-
 				<img src="/media/images/undergrad-discussion-library-16x9.jpg" class="card-img" alt="Students chatting in the library">
-
-
-<!--
-				<div class="card-img-overlay-bottom text-right text-xs-right">
-					<h3 class="card-subtitle">Interdisciplinary research at Kent</h3>
-					<p class="card-text">Stronger collaboration, stronger research</p>
-				</div> -->
 			</div>
-
-
 		</div>
-		
-<!--
-		<div class="card-footer">
-			<a href="https://www.kent.ac.uk/research/academics/index.html" class="chevron-link">Academic excellence</a>
-			<a href="https://www.kent.ac.uk/research/impact/index.html" class="chevron-link">Research impact</a>
-			<a href="https://www.kent.ac.uk/graduateschool/news/currentresearch.html" class="chevron-link">Current projects</a>
-		</div>
-	-->
 	</div>
 
 
 
-
-
-
-<h2 class="sr-only">Undergraduate quote</h2>
-<blockquote class="m-b-5 m-t-3">
-	<img src="/media/images/profiles/student-mario-ella.jpg" class="img-circle" alt="Mario Elia, Undergraduate student blogger">
-	<p>You will be surprised at how independent you become at university so if you are not quite there yet, don't worry.</p>
-	<cite>
-		Mario Elia,
-		<span>Undergraduate student blogger</span>
-		<a class="chevron-link" href="//blogs.kent.ac.uk/kentstudents/">More about life and study on our Kent student blog</a>
-	</cite>
-</blockquote>
-
-
-<!--
-
-	<h2 class="sr-only">Twitter post</h2>
-	<blockquote class="social-quote social-quote-twitter p-b-5 m-b-3">
-		<a href="https://twitter.com/UniKentGradSch/status/736467824349196289">
-			<button><span class="sr-only">Twitter logo</span></button>
-			<p>PG researchers in the arts and humanities at Kent! Check out the call for papers from this new postgraduate journal.</p>
-		</a>
+	<h2 class="sr-only">Undergraduate quote</h2>
+	<blockquote class="m-b-5 m-t-3">
+		<img src="/media/images/profiles/student-mario-ella.jpg" class="img-circle" alt="Mario Elia, Undergraduate student blogger">
+		<p>You will be surprised at how independent you become at university so if you are not quite there yet, don't worry.</p>
 		<cite>
-			<a href="https://twitter.com/UniKentGradSch">@UniKentGradSch</a>
+			Mario Elia,
+			<span>Undergraduate student blogger</span>
+			<a class="chevron-link" href="//blogs.kent.ac.uk/kentstudents/">More about life and study on our Kent student blog</a>
 		</cite>
 	</blockquote>
 
--->
 <?php KentThemeHelper::footer(); ?>
