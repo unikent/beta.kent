@@ -1330,7 +1330,7 @@
 				</div>
 			</div>
 
-			<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
+			<div class="card-panel card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
 				<div class="card card-linked card-double">
 					<a href="#profiles" class="card-title-link"><h3 class="card-title">Staff Profiles</h3></a>
 					<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
@@ -1455,8 +1455,25 @@
 	</div>
 </div>
 
-<div class="container">
-<p>&nbsp;</p>
+<div class="card-panel cards-backed cards-linked">
+	<div class="card-panel-body">
+		<div class="card card-backed-primary">
+			<h3 class="card-title card-title-figure">37%</h3>
+			<p class="card-text">37% of our academic staff are from overseas and we have students representing 148 nationalities.</p>
+		</div>
+		<div class="card card-backed-primary-light">
+			<h3 class="card-title card-title-figure">1</h3>
+			<p class="card-text">Dolphin mascot who speaks Astro French</p>
+		</div>
+		<div class="card card-backed-energy">
+			<h3 class="card-title card-title-figure">92%</h3>
+			<p class="card-text">92% of our research was found to be international quality in the Research Excellence Framework 2014 (an independent national survey of UK univercities).</p>
+		</div>
+		<div class="card card-backed-primary">
+			<h3 class="card-title card-title-figure">5<sup>th</sup></h3>
+			<p class="card-text">Kent gained the 5th highest score for overall student satisfaction in the National Student Survey 2015.</p>
+		</div>
+	</div>
 </div>
 
 <?php KentThemeHelper::footer(); ?>
