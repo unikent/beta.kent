@@ -22,7 +22,7 @@ KentThemeHelper::header(
 
 <div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 				<div class="card-body">
-					
+
 					<div class="kent-slider kent-slider-dark">
 						<div class="kent-slide">
 							<div class="card-media-wrap">
@@ -43,7 +43,7 @@ KentThemeHelper::header(
 								<p class="card-text">The first effective treatment for deliberate firesetters </p>
 
 
- 
+
 
 
 
@@ -59,7 +59,7 @@ KentThemeHelper::header(
 							<div class="card-title-wrap">
 								<h3 class="card-title">Clearing and adjustments 2016 now open</h3>
 								<p class="card-text">Apply online or call our hotline 0845 2000 166 or +44 1227 768896</p>
-									
+
 									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
 							</div>
 						</div>
@@ -79,7 +79,7 @@ KentThemeHelper::header(
 
 
 
-					
+
 
 
 
@@ -90,17 +90,17 @@ KentThemeHelper::header(
 							<div class="card-img-overlay-centered card-img-overlay-tinted">
 								<div class="text-xs-center">
 									<h2 class="card-subtitle">Clearing and adjustments 2016 now open</h2>
-									
+
 									<br>
 									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
 								</div>
 							</div>
 						</div>
-						
-						
+
+
 					</div>
 				</div>
-				
+
 			</div>
 
 
@@ -112,6 +112,23 @@ KentThemeHelper::header(
 .card-img-overlay-tinted .card-subtitle {
 	margin-bottom: 1rem !important;
 }
+
+.card.card-overlay .card-media-wrap {
+	max-height: 36rem;
+}
+
+@media (min-width: 1920px) {
+	.card.card-overlay .card-media-wrap {
+		min-height: 42rem;
+	}
+	.card.card-overlay .card-title-wrap .card-title {
+		font-size: 3.6em;
+	}
+	.card-text {
+		font-size: 1.8em;
+	}
+}
+
 </style>
 
 
@@ -133,7 +150,7 @@ KentThemeHelper::header(
 -->
 
 <div class="panel-tertiary">
-	<div class="container-padded" style="padding-top: 1rem; padding-bottom: 1rem">
+	<div class="container-padded" style="padding-top: 3rem; padding-bottom: 1rem">
 		<form class="quickspot-container m-t-0 p-t-0">
 
 			<!-- <h2 class="strap-line text-xs-center">A place to Inspire <span>/ An approach to challenge</span></h2> -->
@@ -158,7 +175,7 @@ KentThemeHelper::header(
 	</div>
 </div>
 
-<div class="card-panel  card-panel-tertiary nav-links-panel p-b-4 p-t-0 m-b-0 m-t-0">
+<div class="card-panel  card-panel-tertiary nav-links-panel p-b-4 p-t-4 m-b-0 m-t-0" style="background-color:#fff;">
 	<div class="card-panel-body">
 		<nav role="menu">
 			<div class="nav-link">
@@ -347,5 +364,3 @@ KentThemeHelper::header(
 -->
 
 <?php KentThemeHelper::footer(); ?>
-
-

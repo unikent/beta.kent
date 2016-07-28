@@ -45,7 +45,24 @@ $("body").addClass("brand-header");
 		font-size: 1.4rem;
 	}
 
+	.card.card-overlay .card-media-wrap {
+		max-height: 30rem;
+	}
+
+
+
+	@media (min-width: 1920px) {
+		.card.card-overlay .card-media-wrap {
+			min-height: 44rem;
+		}
+	}
+	.departmental-nav header {
+		font-size: 2.2em;
+	}
+
 </style>
+
+
 	<!--
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
@@ -76,13 +93,128 @@ $("body").addClass("brand-header");
 	</div>
 -->
 
+
+<!--
+<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
+				<div class="card-body">
+
+					<div class="kent-slider kent-slider-dark">
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+								<img class="card-img" src="/media/images/flower-thing.jpg">
+							</div>
+							<div class="card-title-wrap">
+								<h3 class="card-title">Come and visit us</h3>
+								<p class="card-text">Open days and more</p>
+							</div>
+						</div>
+
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img" src="/media/images/matchstick-16x9.jpg">
+							</div>
+							<div class="card-title-wrap">
+								<h3 class="card-title">Research on firesetting treatment wins award</h3>
+								<p class="card-text">The first effective treatment for deliberate firesetters </p>
+
+
+
+
+
+
+							</div>
+						</div>
+
+
+
+							<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img" src="/media/images/stocky-students-16x9.jpg">
+							</div>
+							<div class="card-title-wrap">
+								<h3 class="card-title">Clearing and adjustments 2016 now open</h3>
+								<p class="card-text">Apply online or call our hotline 0845 2000 166 or +44 1227 768896</p>
+
+									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
+							</div>
+						</div>
+
+
+
+
+						<div class="kent-slide">
+							<div class="card-media-wrap ">
+								<img class="card-img" src="/media/images/world-iss-16x9.jpg">
+							</div>
+							<div class="card-title-wrap">
+								<h3 class="card-title">Strong international outlook</h3>
+								<p class="card-text">Kent is among the 100 most international universities</p>
+							</div>
+						</div>
+
+
+
+
+
+
+
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+									<img class="card-img" src="/media/images/story-swimmers.jpg">
+							</div>
+							<div class="card-img-overlay-centered card-img-overlay-tinted">
+								<div class="text-xs-center">
+									<h2 class="card-subtitle">Clearing and adjustments 2016 now open</h2>
+
+									<br>
+									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+
+
+
+			<div class="panel-tertiary">
+				<div class="container-padded" style="padding-top: 4rem; padding-bottom: 4rem">
+					<form class="quickspot-container m-t-0 p-t-0">
+
+
+						<div class="form-group">
+							<label for="course-search" class="sr-only">Search courses</label>
+							<div class="input-group input-group-lg">
+								<input type="search" class="form-control" id="course-search" placeholder="Search courses..." autocomplete="off" data-quickspot-config="all_courses" data-quickspot-target="quickspot-results-container">
+											<span class="input-group-btn">
+												<button type="submit" class="btn btn-accent btn-icon"><span class="sr-only">Search courses</span> <span class="kf-fw kf-search"></span></button>
+											</span>
+							</div>
+						</div>
+						<div id="quickspot-results-container">
+						</div>
+						<div class="inline-links text-xs-center text-sm-right">
+							<a href="//www.kent.ac.uk/courses/undergraduate/search" >Courses A-Z</a>
+							<a href="//www.kent.ac.uk/courses/undergraduate/prospectus/index.html" >Order a prospectus</a>
+						</div>
+
+					</form>
+				</div>
+			</div>
+-->
+
+
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
 			<div class="card-media-wrap">
-				<img src="/media/images/undergrad-discussion-16x9.jpg" alt="Undergraduates having a discussion" class="card-img-bottom">
+				<!-- <img src="/media/images/undergrad-discussion-16x9.jpg" alt="Undergraduates having a discussion" class="card-img-bottom"> -->
+				<img src="/media/images/flower-thing.jpg" alt="Undergraduates having a discussion" class="card-img-bottom">
 			</div>
 
-			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad">
+			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad" >
 				<form>
 					<div class="form-group quickspot-container">
 						<label for="course-search" class="sr-only">Search</label>
@@ -98,6 +230,7 @@ $("body").addClass("brand-header");
 			</div>
 		</div>
 	</div>
+
 
 	<div class="card-panel  card-panel-tertiary nav-links-panel p-t-3 p-b-2 m-b-0">
 		<div class="card-panel-body">
@@ -150,14 +283,14 @@ $("body").addClass("brand-header");
 				<img class="card-img-bottom" src="/media/images/stocky-students-16x9.jpg" alt="Students having a discussion in a class">
 			</div>
 		</div>
-		
+
 	</div>
 
 
 
 
 	<div class="card-panel cards-linked m-t-5 m-b-5">
-		
+
 		<div class="card-panel-body">
 			<div class="card">
 				<a href="//www.kent.ac.uk/extra/index.html" class="card-title-link "><h3 class="card-title chevron-link chevron-link-accent">Kent Extra</h3></a>
