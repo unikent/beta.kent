@@ -320,6 +320,154 @@ KentThemeHelper::header(
 
 
 
+<div class="card-panel-profiles card-panel-tertiary card-panel-flush cards-flip">
+
+
+	<div class="card card-linked card-backed-primary card-double" style="z-index:100;padding:0;">
+			<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/06/AH4A6799-e1466761262295.jpg">
+			<div class="card-img-overlay-bottom-shaded">
+				<h3 class="card-title" id="dr-ursular-fish">University response to referendum result</h3>
+				<p>Following the UK vote to leave the European Union, the University has reinforced its commitment to remain a European university and to continue to provide one of the best student experiences in the UK.</p>
+			</div>
+			<a href="#" class="faux-link-overlay" aria-hidden="true">Read more</a>
+	</div>
+
+	<!-- <div class="card card-linked card-double">
+		<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/06/AH4A6799-e1466761262295.jpg">
+		<a href="#profiles" class="card-title-link"><h3 class="card-title" id="staff-profiles">Staff Profiles</h3></a>
+		<p class="card-subtitle">these are some staff profiles, they are all great people...mostly! Blah blah blah ldkfjgldkf lkjdfkjgdf dflgdfllkdf dflkdfl fgldf ldfhg ldhf dflkghdlfg</p>
+		<a href="#profiles" class="faux-link-overlay" aria-hidden="true">Staff Profiles</a>
+	</div> -->
+
+
+	<div class="kent-slider" data-slider-config="profile_feature">
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/07/14440817981_f06a3fe749_k-e1469102045791.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="dr-ursular-fish">Bioscientists win international prize for Ebola research</h3>
+				</div>
+				<a href="#" class="faux-link-overlay" aria-hidden="true">Read more</a>
+			</div>
+			<div class="back">
+				<p class="card-text">A team led by bioscientists from the University has won the international Fight Against Ebola Award for research that identified new insights into the way the deadly virus works.</p>
+				<p><a href="#">View Profile<span class="sr-only"> for Dr Ursular Fish</span></a></p>
+			</div>
+		</div>
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/07/BA-Front-1-e1469617568845.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="dr-victor-crow">Academic appointed to key British Academy role</h3>
+					<!-- <p class="card-subtitle">Lecturer in Human Flight</p> -->
+				</div>
+				<a href="#" class="faux-link-overlay" aria-hidden="true">View Profile for Dr Victor Crow</a>
+			</div>
+			<div class="back">
+				<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+				<p><a href="#">View Profile<span class="sr-only"> for Dr Victor Crow</span></a></p>
+			</div>
+		</div>
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/05/Paralympic-athlete-photo-from-Army-Medicine-e1463572606775.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="dr-veronica-ferret">Guide to change perception of disability at Paralympics</h3>
+					<!-- <p class="card-subtitle">Senior Lecturer in Espionage</p> -->
+				</div>
+				<a href="#" class="faux-link-overlay" aria-hidden="true">View Profile for Dr Veronica Ferret</a>
+			</div>
+			<div class="back">
+				<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+				<p><a href="#">View Profile<span class="sr-only"> for Dr Veronica Ferret</span></a></p>
+			</div>
+		</div>
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/02/3203303992_ac98d22631_o-e1456324032369.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="prof-mark-porpoise">Conservatives prefer using nouns, psychologists find</h3>
+					<!-- <p class="card-subtitle">Senior Lecturer in Pseudo Science</p> -->
+				</div>
+				<a href="#" class="faux-link-overlay" aria-hidden="true">View Profile for Prof Mark Porpoise</a>
+			</div>
+			<div class="back">
+				<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+				<p><a href="#">View Profile<span class="sr-only"> for Prof Mark Porpoise</span></a></p>
+			</div>
+		</div>
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2016/05/CITYCO1-e1469546764644.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="dr-nicholas-badger">Public invited to view concept master plan exhibition</h3>
+					<!-- <p class="card-subtitle">Lecturer in Forestry</p> -->
+				</div>
+				<a href="#" class="faux-link-overlay" aria-hidden="true">View Profile for Dr Nicholas Badger</a>
+			</div>
+			<div class="back">
+				<p class="card-text">Integer euismod, mauris quis maximus egestas, elit nibh maximus justo, et elementum tortor erat in odio. Donec ut vehicula velit.</p>
+				<p><a href="#">View Profile<span class="sr-only"> for Dr Nicholas Badger</span></a></p>
+			</div>
+		</div>
+		<div class="card card-backed-primary card-linked">
+			<div class="front">
+				<img class="card-img" src="https://static.kent.ac.uk/media/news/2014/12/11856051526_c5b5ac54fe_k-e1418381854979.jpg">
+				<div class="card-img-overlay-bottom-shaded">
+					<h3 class="card-title" id="dr-ping-pong">Chickens ‘closer to dinosaurs’ than other birds</h3>
+					<!-- <p class="card-subtitle">Senior Lecturer in Astrofrench</p> -->
+				</div>
+				<a href="#pingpong" class="faux-link-overlay" aria-hidden="true">View Profile for Dr Ping Pong</a>
+			</div>
+			<div class="back">
+				<p class="card-text">Ping Pong is a dolphin, and as we all know dolphins are smart! Pingpong is fluent in all dialects of Astrofrench and is considered a world expert!</p>
+				<p><a href="#pingpong">View Profile<span class="sr-only"> for Dr Ping Pong</span></a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<style>
+.card.card-backed-primary {
+	background-color:#fff;
+}
+.front {
+	/*margin-left:5px;
+	margin-bottom:5px;*/
+}
+
+
+
+h3.card-title {
+	font-size: 1em !important;
+	/*background-color: #05345C;
+opacity: 0.8;*/
+padding: 1em 1em 1em 1em;
+margin: 0;
+/*font-family: ArialLight, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;*/
+}
+
+.card-panel-profiles.card-panel-flush .card-double .card-title, .card-panel-profiles .card-double .card-title {
+	color:#CE9716;
+	font-family: CenturySchoolbookStdRegular, Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.card .card-img-overlay-bottom-shaded {
+	/*background: none;*/
+	padding: 0 50px 0 0 !important;
+}
+
+.card-img-overlay-bottom-shaded p {
+color: #fff;
+font-size: 1em !important;
+/*background-color: #05345C;*/
+/*opacity: 0.8;*/
+padding: 1em 1em 1em 1em;
+margin: 0;
+}
+</style>
+
+
+
 
 <h2 class="sr-only">Alumni quote</h2>
 <blockquote class="m-b-5 m-t-2">
