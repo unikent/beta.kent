@@ -175,13 +175,35 @@ KentThemeHelper::breadcrumb(array(
 					</div>
 
 					<div class="form-group">
-						<label class="custom-control custom-checkbox">
-							<input type="checkbox" class="custom-control-input">
-							<span class="custom-control-indicator"></span>
-							<span class="custom-control-description">Check this custom checkbox</span>
-						</label>
-
+						<strong>Stacked Checkbox</strong>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" value="">
+								Option one is this and that&mdash;be sure to include why it's great
+							</label>
+						</div>
+						<div class="form-check disabled">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" value="" disabled>
+								Option two is disabled
+							</label>
+						</div>
 					</div>
+
+					<div class="form-group">
+						<strong>Inline Checkbox </strong><br />
+						<label class="form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 1
+						</label>
+						<label class="form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 2
+						</label>
+						<label class="form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 3
+						</label>
+					</div>
+
+
 
 					<div class="form-group ">
 						<label for="email" class="form-control-label">Your email address</label>
@@ -195,16 +217,52 @@ KentThemeHelper::breadcrumb(array(
 
 					</div>
 
+
+					<div class='form-group'>
+						<strong>Stacked radio buttons</strong>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+								Option one is this and that&mdash;be sure to include why it's great
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+								Option two can be something else and selecting it will deselect option one
+							</label>
+						</div>
+						<div class="form-check disabled">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+								Option three is disabled
+							</label>
+						</div>
+					</div>
+
 					<div class="form-group">
-						<label for="campus" class="form-control-label">Campus? <small>This is some small help text</small></em></label><br>
-						<select id="campus" name="campus" class="c-select form-control" required="" aria-required="true">
-							<option value="" disabled="" selected="">Campus</option>
-							<option value="Canterbury">Canterbury</option>
-							<option value="Medway">Medway</option>
-							<option value="Partner College">Partner College</option>
-							<option value="Campus outside the UK">Campus outside the UK</option>
-							<option value="Other">Other</option>
-						</select>
+						<strong>Inline radio buttons</strong><br />
+						<label class="form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+						</label>
+						<label class="form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+						</label>
+						<label class="form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+						</label>
+
+						<div class="form-group">
+							<label for="campus" class="form-control-label">Campus? <small>This is some small help text</small></em></label><br>
+							<select id="campus" name="campus" class="c-select form-control" required="" aria-required="true">
+								<option value="" disabled="" selected="">Campus</option>
+								<option value="Canterbury">Canterbury</option>
+								<option value="Medway">Medway</option>
+								<option value="Partner College">Partner College</option>
+								<option value="Campus outside the UK">Campus outside the UK</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
 					</div>
 
 					<div class="form-group ">
