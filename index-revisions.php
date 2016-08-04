@@ -24,6 +24,8 @@ KentThemeHelper::header(
 				<div class="card-body">
 					
 					<div class="kent-slider kent-slider-dark">
+						
+
 						<div class="kent-slide">
 							<div class="card-media-wrap">
 								<img class="card-img" src="/media/images/graduates-16x9.jpg">
@@ -34,9 +36,38 @@ KentThemeHelper::header(
 							</div>
 						</div>
 
+
+
+						<div class="kent-slide">
+							
+							<div class="card-media-wrap video-launcher" data-mode="fullscreen" >
+							<div class="video-player">
+								<video poster="/media/images/students.jpg" controls>
+									<!-- Video files -->
+									<source src="/media/video/video-research-student.mp4" type="video/mp4">
+									<!-- Text track file -->
+									<!--track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default-->
+
+									<!-- Fallback for browsers that don't support the <video> element -->
+									<a href="/media/video/video-research-student.mp4">Download</a>
+								</video>
+							</div>
+
+								<img class="card-img" src="/media/images/student-filming-3-16x9.jpg">
+							</div>
+
+
+							<div class="card-title-wrap">
+								<h3 class="card-title">A place to inspire, an approach to challenge</h3>
+							</div>
+						</div>
+
+
+
+
 						<div class="kent-slide">
 							<div class="card-media-wrap ">
-								<img class="card-img" src="/media/images/matchstick-16x9.jpg">
+								<img class="card-img" src="/media/images/campfire-16x9.jpg">
 							</div>
 							<div class="card-title-wrap">
 								<h3 class="card-title">Research on firesetting treatment wins award</h3>
@@ -58,9 +89,8 @@ KentThemeHelper::header(
 							</div>
 							<div class="card-title-wrap">
 								<h3 class="card-title">Clearing and adjustments 2016 now open</h3>
-								<p class="card-text">Apply online or call our hotline 0845 2000 166 or +44 1227 768896</p>
-									
-									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
+						
+								<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
 							</div>
 						</div>
 
@@ -85,14 +115,33 @@ KentThemeHelper::header(
 
 						<div class="kent-slide">
 							<div class="card-media-wrap">
-									<img class="card-img" src="/media/images/story-swimmers.jpg">
+									<img class="card-img" src="/media/images/kent-placeholder-16x9.jpg">
 							</div>
 							<div class="card-img-overlay-centered card-img-overlay-tinted">
 								<div class="text-xs-center">
 									<h2 class="card-subtitle">Clearing and adjustments 2016 now open</h2>
 									
 									<br>
-									<p><a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
+									<p><a href="#dostuff" class="btn btn-primary">View vacancies</a> &nbsp;&nbsp;&nbsp; <a href="#dostuff" class="btn btn-primary">Apply online now</a></p>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="kent-slide">
+							<div class="card-media-wrap">
+									<img class="card-img" src="/media/images/selfie-16x9.jpg">
+							</div>
+							<div class="card-img-overlay-centered card-img-overlay-tinted">
+								<div class="text-xs-center">
+									<h2 class="card-subtitle">Welcome to our new students</h2>
+									
+
+									<!-- <p class="card-text">Get settled in</p> -->
+									<br>
+									<p><a href="#dostuff" class="btn btn-primary">Getting started</a> &nbsp;&nbsp;&nbsp; <a href="#dostuff" class="btn btn-primary">Fresher events</a></p>
 								</div>
 							</div>
 						</div>
@@ -106,11 +155,26 @@ KentThemeHelper::header(
 
 <style type="text/css">
 .card .card-img-overlay-tinted {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .card-img-overlay-tinted .card-subtitle {
 	margin-bottom: 1rem !important;
+}
+
+
+
+
+.global-header-transparent .header-card-overlay .card-media-wrap.video-launcher::after{
+
+       left: calc(50% - 3.5rem);
+    top: calc(50% - 3.5rem);
+    font-size: 7rem;
+    line-height: 7rem;
+    line-height: calc(7rem);
+    width: 7rem;
+    height: 7rem;
+
 }
 </style>
 

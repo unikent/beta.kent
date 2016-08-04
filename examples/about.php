@@ -51,20 +51,43 @@ KentThemeHelper::header(
 
 
 
-<div class="card card-overlay header-card-overlay m-b-0 p-b-0 m-t-0">
-		<div class="card-body">
-			<div class="card-media-wrap">
-				<img src="/media/images/infographics.jpg" alt="Student filming useing a television camera" class="card-img-bottom">
-			</div>
-
+<div class="card-panel cards-backed cards-linked">
+	<div class="card-panel-body">
+		<div class="card card-backed-primary">
+			<h3 class="card-title card-title-figure">16<sup>th</sup></h3>
+			<p class="card-text">Kent rises to 16th in The Guardian University Guide 2016.</p>
+		</div>
+		<div class="card card-backed-primary-light">
+			<h3 class="card-title card-title-figure">20<sup>th</sup></h3>
+			<p class="card-text">The University is ranked 20th, its highest ever position, in the Times Higher Education (THE)‘Table of Tables’ 2016</p>
+		</div>
+		<div class="card card-backed-energy">
+			<h3 class="card-title card-title-figure">37%</h3>
+			<p class="card-text">37% of our academic staff are from overseas and we have students representing 148 nationalities.</p>
+		</div>
+		<div class="card card-backed-primary">
+			<h3 class="card-title card-title-figure">97%</h3>
+			<p class="card-text">of research at Kent was found to be of international quality in the Research Excellence Framework 2014 (an independent national survey of UK universities).</p>
 		</div>
 	</div>
+</div>
 
 
 
-	<aside class="container m-t-0 m-b-5 p-t-0 p-b-5">
+
+
+
+
+
+
+
+
+
+	<aside class="container m-t-5 m-b-5 p-t-0 p-b-5">
 		<p class="impact-statement">We're a leading academic institution producing world-class research, rated internationally excellent and leading in many fields of study. </p>
 	</aside>
+
+
 
 
 
@@ -101,6 +124,9 @@ KentThemeHelper::header(
  -->
 
 
+
+
+
 <div class="card card-overlay">
 	<div class="card-title-wrap pull-left">
 		<h2 class="card-title">Local thinking, global impact</h2>
@@ -124,16 +150,7 @@ KentThemeHelper::header(
 
 
 
-
-	<aside class="container m-t-5 m-b-5 p-t-2 p-b-5">
-		<p class="impact-statement">We're committed to the transformative power of education and research
- and to the development and support of our students and staff. </p>
-	</aside>
-
-
-
-
-
+<!--
 <div class="card card-overlay">
 	<div class="card-body">
 		<div class="card-title-wrap pull-right">
@@ -156,6 +173,49 @@ KentThemeHelper::header(
 	</div>
 </div>
 
+-->
+
+
+
+
+
+	<aside class="container m-t-5 m-b-5 p-t-2 p-b-5">
+		<p class="impact-statement">We're committed to the transformative power of education and research
+ and to the development and support of our students and staff. </p>
+	</aside>
+
+
+
+
+
+	<div class="card card-overlay editorial editorial-seondary m-t-0 p-t-0">
+		<div class="card-body">
+			<div class="card-title-wrap">
+				<h2 class="card-title">Supporting the Kent community</h2>
+				<p class="card-text">We are proud to be making a real impact to people’s lives.</p>
+
+
+				<h3><a href="/examples/student_experience.php" class="chevron-link">Local economy</a></h3>
+				<p class="card-text">We generated £780m for the south-east region during the financial year 2014/15.</p>
+
+
+				<h3><a href="//www.kent.ac.uk/locations" class="chevron-link">Kent in the community</a></h3>
+				<p class="card-text">Supporting local schools and colleges, volunteering, servicing the business community and more.</p>
+
+				<h3><a href="//www.kent.ac.uk/accommodation" class="chevron-link">Sports and culture</a></h3>
+				<p class="card-text">The University makes a key contribution to the region's sporting and cultural activities.</p>
+
+			</div>
+			<div class="card-media-wrap">
+				<img class="card-img-bottom" src="/media/images/kent-community-16x9.jpg" alt="Staff forming the number 50 in celebration of the 50th anniversary">
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
 
 
 
@@ -165,23 +225,23 @@ KentThemeHelper::header(
 		
 		<div class="card-panel-body">
 			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/extra/index.html" class="card-title-link "><h3 class="card-title  chevron-link">Kent Extra</h3></a>
-				<p class="card-text">A new range of extra-curricular and co-curricular activities taht will enhance your employability.</p>
+				<a href="//www.kent.ac.uk/extra/index.html" class="card-title-link "><h3 class="card-title  chevron-link">Visit us</h3></a>
+				<p class="card-text">Come to an Open Day or come wander around our beautiful parklands.</p>
 				<a href="//www.kent.ac.uk/extra/index.html" class="faux-link-overlay" aria-hidden="true">Kent Extra</a>
 			</div>
 			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="card-title-link"><h3 class="card-title  chevron-link">What our students say</h3></a>
-				<p class="card-text">Read interviews with some of our undergraduates to find out why they chose Kent and their experiences with us.</p>
+				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="card-title-link"><h3 class="card-title  chevron-link">What's on?</h3></a>
+				<p class="card-text">Theatre, cinema, music, arts, lectures and more.</p>
 				<a href="//www.kent.ac.uk/courses/undergraduate/profiles/index.html" class="faux-link-overlay" aria-hidden="true">What our students say</a>
 			</div>
 			<div class="card card-linked">
-				<a href="//blogs.kent.ac.uk/kentstudents/" class="card-title-link"><h3 class="card-title  chevron-link">The Kent Students blog</h3></a>
-				<p class="card-text">A blog written by current students about life and study at the University of Kent.</p>
-				<a href="//blogs.kent.ac.uk/kentstudents/" class="faux-link-overlay" aria-hidden="true">The Kent Students blog</a>
+				<a href="//blogs.kent.ac.uk/kentstudents/" class="card-title-link"><h3 class="card-title  chevron-link">Plans and strategies</h3></a>
+				<p class="card-text">We are investing in our campus to carry us forward as a leading international reserach institution.</p>
+				<a href="//blogs.kent.ac.uk/kentstudents/" class="faux-link-overlay" aria-hidden="true">Plans and strategies</a>
 			</div>
 			<div class="card card-linked">
-				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="card-title-link"><h3 class="card-title  chevron-link">International students</h3></a>
-				<p class="card-text">Kent is a favourite destination for international students, with 148 nationalities represented in our student community..</p>
+				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="card-title-link"><h3 class="card-title  chevron-link">Partnerships and networks</h3></a>
+				<p class="card-text">Find out more about our well-established  partnerships across the world.</p>
 				<a href="//www.kent.ac.uk/internationalstudent/study-in-kent/index.html" class="faux-link-overlay" aria-hidden="true">International students</a>
 			</div>
 		</div>
@@ -198,9 +258,9 @@ KentThemeHelper::header(
 	<div class="card card-overlay  m-t-0">
 		<div class="card-body">
 			<div class="card-title-wrap card-title-wrap-link pull-right">
-				<a href="https://www.kent.ac.uk/research/" class="card-title-link"><h2 class="card-title">Why study at Kent?</h2></a>
+				<a href="undergraduate.php" class="card-title-link"><h2 class="card-title">Why study at Kent?</h2></a>
 				<p class="card-text">Our first-class study facilities, academic strengths and a wide selection of undergraduate programmes will create the best university experience for you and help you to fulfil your potential.</p>
-				<a href="https://www.kent.ac.uk/research/" class="faux-link-overlay" aria-hidden="true">World-Leading research</a>
+				<a href="undergraduate.php" class="faux-link-overlay" aria-hidden="true">World-Leading research</a>
 			</div>
 
 			<div class="card-media-wrap video-launcher" data-toggle="modal" data-src="https://youtu.be/H4tcJUQ1USw">

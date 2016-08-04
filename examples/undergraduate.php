@@ -46,7 +46,7 @@ $("body").addClass("brand-header");
 	}
 
 </style>
-	<!--
+
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
 			<div class="card-media-wrap">
@@ -74,7 +74,10 @@ $("body").addClass("brand-header");
 			</div>
 		</div>
 	</div>
--->
+
+
+
+<!--
 
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
@@ -98,6 +101,8 @@ $("body").addClass("brand-header");
 			</div>
 		</div>
 	</div>
+
+-->
 
 	<div class="card-panel  card-panel-tertiary nav-links-panel p-t-3 p-b-2 m-b-0">
 		<div class="card-panel-body">
