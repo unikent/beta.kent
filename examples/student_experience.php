@@ -5,6 +5,7 @@ use \unikent\kent_theme\kentThemeHelper;
 KentThemeHelper::header(
 	array(
 		'title' => "Superb student experience",
+		'title_link' => HOME_URL . '/examples',
 		'menu' => array(
 			'Home' => '#',
 			),
