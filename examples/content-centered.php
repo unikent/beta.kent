@@ -5,6 +5,7 @@
 	KentThemeHelper::header(
 		array(
 			'title' => "Kent Theme Demo - Content Page",
+			'title_link' => HOME_URL . '/examples',
 			'menu' => array(
 				'Home' => '#',
 				'Culture' => '#',

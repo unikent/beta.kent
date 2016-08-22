@@ -5,6 +5,7 @@ use \unikent\kent_theme\kentThemeHelper;
 KentThemeHelper::header(
 	array(
 		'title'=>"Postgraduate Courses",
+		'title_link' => HOME_URL . '/examples',
 		'menu' => array(
 			'Home' => 'postgraduate.php',
 			'Find a supervisor' => 'https://www.kent.ac.uk/courses/postgraduate/supervisor/index.html',
