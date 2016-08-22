@@ -19,7 +19,7 @@ KentThemeHelper::header(
 		<div class="card-media-wrap">
 			<div class="card-embed-wrap embed-responsive embed-responsive-16by9">
 				<video autoplay="" loop="" class="embed-responsive-item">
-					<source src="/media/video/compass.mp4">
+					<source src="../media/video/compass.mp4">
 				</video>
 			</div>
 		</div>
