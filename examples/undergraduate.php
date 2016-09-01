@@ -5,6 +5,7 @@ use \unikent\kent_theme\kentThemeHelper;
 KentThemeHelper::header(
 	array(
 		'title'=>"Undergraduate Courses",
+		'title_link' => HOME_URL . '/examples',
 		'menu' => array(
 			'Home' => 'undergraduate.php',
 			'Courses A-Z' => 'https://www.kent.ac.uk/courses/undergraduate/search',

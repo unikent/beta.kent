@@ -5,6 +5,7 @@
 		KentThemeHelper::header(
 			array(
 				'title' => "Accommodation",
+				'title_link' => HOME_URL . '/examples',
 				'menu' => array(
 					'Home' => '#',
 					'Canterbury campus' => '#',
