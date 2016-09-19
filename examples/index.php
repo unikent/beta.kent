@@ -26,15 +26,11 @@
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
 						<img data-stellar-ratio="0.5" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
-					<div class="container relative">
-						<div class="card-title-overlap">
-							<h1>A leading research institution</h1>
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							<a href="#overlay" class="faux-link-overlay" aria-hidden="true">A leading research institution</a>
-						</div>
+					<div class="card-title-overlap overlay-container">
+						<h1>A leading research institution</h1>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">A leading research institution</a>
 					</div>
-
-
 				</div>
 			</div>
 
