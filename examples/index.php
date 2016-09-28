@@ -14,7 +14,9 @@
 					'Society' => '#',
 					'Kent Life' => '#'
 				),
-				'meta' => array('title'=>'Demo Page - Kent Theme Beta')
+				'meta' => array('title'=>'Demo Page - Kent Theme Beta'),
+				'slim'=>true,
+				'brand_header'=>true
 			)
 		);
 ?>
@@ -22,18 +24,15 @@
 			<div class="card card-overlay header-card-overlay">
 				<div class="card-body">
 					<div class="media-wrap-parallax" data-stellar-offset-parent="true">
-						<img data-stellar-ratio="0.7" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
+						<img data-stellar-ratio="0.5" class="card-img-bottom" src="../media/images/sea-turtle.jpg">
 					</div>
-
-					<div class="card-title-wrap card-title-wrap-link">
-						<a href="#feature-title-link" class="card-title-link"><h2 class="card-title">A leading research institution</h2></a>
+					<div class="card-title-overlap overlap-container">
+						<h1>A leading research institution</h1>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 						<a href="#overlay" class="faux-link-overlay" aria-hidden="true">A leading research institution</a>
 					</div>
-
 				</div>
 			</div>
-
 
 			<section class="container">
 				<h1>Heading 1</h1>
