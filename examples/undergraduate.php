@@ -25,6 +25,29 @@ KentThemeHelper::header(
 		)
 	);
 	?>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$(function() {
+$("body").addClass("brand-header");
+
+});
+</script>
+
+<style type="text/css">
+
+	.card.header-card-overlay {
+		margin-top: -7rem;
+	}
+
+	.global-nav .global-nav-links .global-nav-link {
+		font-size: 1.4rem;
+	}
+
+</style>
+
 	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
 		<div class="card-body">
 			<div class="card-media-wrap">
@@ -53,7 +76,36 @@ KentThemeHelper::header(
 		</div>
 	</div>
 
-	<div class="card-panel  card-panel-tertiary nav-links-panel p-t-5 p-b-5 m-b-0">
+
+
+<!--
+
+	<div class="card card-overlay header-card-overlay m-b-0 p-b-0">
+		<div class="card-body">
+			<div class="card-media-wrap">
+				<img src="/media/images/undergrad-discussion-16x9.jpg" alt="Undergraduates having a discussion" class="card-img-bottom">
+			</div>
+
+			<div class="card-img-overlay-bottom card-img-overlay-link card-overlay-inline-sm card-overlay-inline-nopad">
+				<form>
+					<div class="form-group quickspot-container">
+						<label for="course-search" class="sr-only">Search</label>
+						<div class="input-group input-group-lg">
+							<input type="search" class="form-control" id="course-search" autocomplete="off" data-quickspot-config="pg_courses" data-quickspot-target="quickspot-results-container" placeholder="Search our postgraduate programmes and supervisors">
+							<span class="input-group-btn">
+								<button type="submit" class="btn btn-accent btn-icon"><span class='kf-fw kf-search'></span></button>
+							</span>
+						</div>
+						<div id="quickspot-results-container"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+-->
+
+	<div class="card-panel  card-panel-tertiary nav-links-panel p-t-3 p-b-2 m-b-0">
 		<div class="card-panel-body">
 			<nav role="menu">
 				<div class="nav-link">
@@ -87,10 +139,6 @@ KentThemeHelper::header(
 			<div class="card-title-wrap">
 				<h2 class="card-title">Campus life</h2>
 				<p class="card-text">A great place to work and a great place to live. Find out why so many undergraduates choose to study at Kent.</p>
-				
-
-				<h3><a href="//www.kent.ac.uk/accommodation" class="chevron-link">Accommodation</a></h3>
-				<p class="card-text">Take a look around our range of undergraduate accommodation.</p>
 
 
 				<h3><a href="/examples/student_experience.php" class="chevron-link">Superb student experience</a></h3>
@@ -100,7 +148,8 @@ KentThemeHelper::header(
 				<h3><a href="//www.kent.ac.uk/locations" class="chevron-link">Stunning locations</a></h3>
 				<p class="card-text">We have two stunning campuses and a part-time study centre in Kent, plus four study centres acrsoss Europe.</p>
 
-
+				<h3><a href="//www.kent.ac.uk/accommodation" class="chevron-link">Accommodation</a></h3>
+				<p class="card-text">Take a look around our range of undergraduate accommodation.</p>
 
 			</div>
 			<div class="card-media-wrap">
